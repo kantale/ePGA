@@ -23,7 +23,7 @@ Make sure that the following packages are installed in R: ```shiny```, ```shinyB
 
 Also the followig biocLite packages are necessary: [VariantAnnotation](https://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html)
 
-Edit: [Translation/translation.r](Translation/translation.r) file and set the desiref IP and port values:
+Edit: [Translation/translation.r](Translation/translation.r) file and set the desired IP and port values:
 
 ```
 runApp(host="0.0.0.0",port = 8080)
