@@ -1,4 +1,11 @@
 # ePGA
+Use ePGA’s explore service to:
+* Receive personalized recommendations based on gene-drug-phenotype associations.
+* Browse the state of the art pharmacogenomics knowledge on gene-drug-phenotype associations.
+
+Use ePGA’s translate service to:
+* Upload individual genotypes and receive a report on their phenotypes for all known pharmacogenes.
+* Browse pharmacogenomics summary data on a set of genotypes.
 
 ## INSTALLATION
 The ePGA explore is a django app. This repo includes an example project called 'main'. To test the installatio run:
@@ -26,4 +33,14 @@ Start with:
 ```bash
 /usr/bin/R CMD BATCH ./translation.r
 ```
+
+## Contact
+Development
+* [Alexandros Kanterakis](mailto:kantale@ics.forth.gr)
+* [Evgenia Kartsaki](mailto:ekartsak@ics.forth.gr)
+
+Supervision
+* [Patrinos George](mailto:gpatrinos@upatras.gr)
+* [Potamias George](mailto:potamias@ics.forth.gr)
+
 
