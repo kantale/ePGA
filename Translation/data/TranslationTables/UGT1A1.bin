@@ -1,0 +1,15 @@
+UGT1A1	Source	flag	Ref	VarA	VarB	VarC	*1a	*6a	*6d	*28b	*28c	*60a	*36b	*37b	*364L IA	*1b IB	*II	*III	*V	*VI	*VII	*VIII	*IX	*X	*1B	*1C	*1D	*1E	*1F	*28d	*60b	*60c
+rs1042640	PharmGKB	y	C	G	ND	ND	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+rs10929302	PharmGKB	y	G	A	ND	ND	0	0	0	1	1	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0
+rs10929303	PharmGKB	y	C	T	ND	ND	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	1	0	0	0
+rs11568317	PharmGKB	y	A	G	ND	ND	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+rs11568318	PharmGKB	y	C	A	ND	ND	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rs13404099	PharmGKB	y	C	G	ND	ND	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+rs34946978	PharmGKB	y	C	T	ND	ND	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rs35350960	PharmGKB	y	C	A	ND	ND	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rs4124874	PharmGKB	y	T	G	ND	ND	0	0	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	1	0	0	0	0	0	0	1	1
+rs4148323	PharmGKB	y	G	A	ND	ND	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rs8175347	PharmGKB	y	(TA)6	(TA)7	(TA)5	(TA)8	0	0	0	1	1	0	3	5	0	0	0	0	0	1	1	1	5	3	0	0	0	0	0	1	0	0
+rs8330	PharmGKB	y	C	G	ND	ND	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	0
+rs873478	PharmGKB	y	G	C	ND	ND	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+rs887829	PharmGKB	y	C	T	ND	ND	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0

@@ -1,0 +1,8 @@
+CYP2F1	Source	flag	Ref	VarA	VarB	VarC	*1	*2	*3	*4	*5	*6
+rs117958555	PharmGKB	y	G	C	ND	ND	0	0	1	0	0	0
+rs144315434	PharmGKB	y	T	C	ND	ND	0	0	0	0	1	0
+rs305974	PharmGKB	y	G	A	ND	ND	0	0	1	1	0	0
+rs3833221	PharmGKB	y	-	C	ND	ND	0	1	0	0	0	0
+rs57670668	PharmGKB	y	G	C	ND	ND	0	0	0	0	0	1
+rs58285195	PharmGKB	y	T	C	ND	ND	0	0	0	1	0	0
+rs7246981	PharmGKB	y	C	T	ND	ND	0	0	1	0	0	0

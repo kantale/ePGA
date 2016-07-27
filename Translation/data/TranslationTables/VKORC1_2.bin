@@ -1,0 +1,6 @@
+VKORC1_2	Source	flag	Ref	VarA	VarB	VarC	*1	*2	*3	*4
+rs17708472	PharmGKB	y	G	A	ND	ND	0	0	0	1
+rs2359612	PharmGKB	y	G	A	ND	ND	0	1	0	0
+rs7294	PharmGKB	y	C	T	ND	ND	0	0	1	0
+rs9923231	PharmGKB	y	C	T	ND	ND	0	1	0	0
+rs9934438	PharmGKB	y	G	A	ND	ND	0	1	0	0

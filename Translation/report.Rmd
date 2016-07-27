@@ -1,0 +1,35 @@
+---
+title: "ePGA report"
+output:  pdf_document
+---
+
+
+This is the eMoDiA report for the phase `r if(input$gen == 0){"3 sample HG0096"}else{ input$gen } ` of 1000 Genomes Project `r  if(!is.null(input$file$datapath)){"based on the actionable file"}`
+
+*  *  *  *
+
+# ePGA: Purpose and Use
+
+ePGA TRANSLATION SERVICE IS SOLELY FOR RESEARCH, DEMONSTRATIONAL & EDUCATIONAL PURPOSES    
+
+ePGA Translation Service is meant to DEMONSTRATE the **potential** of translating validated PGx knowledge into clinical practice  
+
+In its current implementation ePGA Translation Service use just public-domain and completely anonymous   
+genotype profiles from the 1000 Genomes project (Phase I/1092 sample cases, Phase III / 2504 sample cases)   
+in order to **demonstrate** its functionality    
+
+* The ePGA Translation Service adheres to the emerging trend of pre-emptive high-throughput genotyping as a vital clinical (diagnostic and prognostic) decision making component aiming to offer respective genotype-to-phenotype inference services as a mean to translate PGx knowledge from bench-to-bedside.
+
+* The ePGA Translation Service is based on 'matching' individual genotype (SNP) profiles with PGx gene haplotypes, and the subsequent inference of the corresponding metabolizer phenotypes. Currently ePGA/Translation component employs harmonized haplotypes-tables as registered and curated by [PharmGKB](http://www.pharmgkb.org) (the most advanced PGx knowledge base).
+The developers of ePGA are planning to expand the system in order to capture and cover PGx knowledge from other sources as well.
+
+* ePGA developers reserve the right at any time, to make changes to the whole or any part of the services offered on this Web-site as it deems appropriate.
+
+*  *  *  *
+
+        
+```{r echo=FALSE,  warning=FALSE, error=FALSE}
+
+knitr::kable(df, row.names=FALSE)
+
+```

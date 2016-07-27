@@ -1,0 +1,11 @@
+#install miktext for latex (windows)
+install.packages("doSNOW")
+install.packages("gdata")
+install.packages("shiny")
+install.packages("shinyBS")
+install.packages("rmarkdown")
+install.packages("knitr")
+source("http://bioconductor.org/biocLite.R")
+biocLite("VariantAnnotation")
+10.1.6.14 port 3819 
+runApp(host="10.1.6.14",port = 3819)

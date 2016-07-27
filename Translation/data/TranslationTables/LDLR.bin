@@ -1,0 +1,6 @@
+LDLR	Source	flag	Ref	VarA	VarB	VarC	L5	L1	L2	L3	L4	L6
+rs14158	PharmGKB	y	G	A	ND	ND	0	0	1	0	0	0
+rs1433099	PharmGKB	y	C	T	ND	ND	0	0	0	1	1	0
+rs2738467	PharmGKB	y	C	T	ND	ND	0	1	0	0	0	1
+rs5742911	PharmGKB	y	A	G	ND	ND	0	0	1	0	0	1
+rs7254521	PharmGKB	y	C	T	ND	ND	0	0	0	0	1	0

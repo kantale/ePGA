@@ -1,0 +1,5 @@
+COMT	Source	flag	Ref	VarA	VarB	VarC	Haplotype high activity	Haplotype intermediate activity	Haplotype low activity
+rs4633	PharmGKB	y	C	T	ND	ND	0	1	0
+rs4680	PharmGKB	y	G	A	ND	ND	0	1	0
+rs4818	PharmGKB	y	G	C	ND	ND	0	1	1
+rs6269	PharmGKB	y	G	A	ND	ND	0	1	1

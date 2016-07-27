@@ -1,0 +1,9 @@
+BRCA1	Source	flag	Ref	VarA	VarB	VarC	Ancestral Sequence	#5	#4	#3	#2	#1
+rs1060915	PharmGKB	y	A	G	ND	ND	0	1	1	1	1	1
+rs12516	PharmGKB	y	G	A	ND	ND	0	1	0	0	0	0
+rs17599948	PharmGKB	y	A	G	ND	ND	0	1	1	0	1	0
+rs3092995	PharmGKB	y	C	ND	ND	ND	0	0	0	0	0	0
+rs799912	PharmGKB	y	C	T	ND	ND	0	1	0	0	0	0
+rs8176318	PharmGKB	y	C	A	ND	ND	0	1	1	1	0	0
+rs9908805	PharmGKB	y	T	ND	ND	ND	0	0	0	0	0	0
+rs9911630	PharmGKB	y	G	ND	ND	ND	0	0	0	0	0	0

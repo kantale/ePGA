@@ -1,0 +1,841 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20150218
+##reference=ftp://ftp.1000genomes.ebi.ac.uk//vol1/ftp/technical/reference/phase2_reference_assembly_sequence/hs37d5.fa.gz
+##source=1000GenomesPhase3Pipeline
+##contig=<ID=1,assembly=b37,length=249250621>
+##contig=<ID=2,assembly=b37,length=243199373>
+##contig=<ID=3,assembly=b37,length=198022430>
+##contig=<ID=4,assembly=b37,length=191154276>
+##contig=<ID=5,assembly=b37,length=180915260>
+##contig=<ID=6,assembly=b37,length=171115067>
+##contig=<ID=7,assembly=b37,length=159138663>
+##contig=<ID=8,assembly=b37,length=146364022>
+##contig=<ID=9,assembly=b37,length=141213431>
+##contig=<ID=10,assembly=b37,length=135534747>
+##contig=<ID=11,assembly=b37,length=135006516>
+##contig=<ID=12,assembly=b37,length=133851895>
+##contig=<ID=13,assembly=b37,length=115169878>
+##contig=<ID=14,assembly=b37,length=107349540>
+##contig=<ID=15,assembly=b37,length=102531392>
+##contig=<ID=16,assembly=b37,length=90354753>
+##contig=<ID=17,assembly=b37,length=81195210>
+##contig=<ID=18,assembly=b37,length=78077248>
+##contig=<ID=19,assembly=b37,length=59128983>
+##contig=<ID=20,assembly=b37,length=63025520>
+##contig=<ID=21,assembly=b37,length=48129895>
+##contig=<ID=22,assembly=b37,length=51304566>
+##contig=<ID=GL000191.1,assembly=b37,length=106433>
+##contig=<ID=GL000192.1,assembly=b37,length=547496>
+##contig=<ID=GL000193.1,assembly=b37,length=189789>
+##contig=<ID=GL000194.1,assembly=b37,length=191469>
+##contig=<ID=GL000195.1,assembly=b37,length=182896>
+##contig=<ID=GL000196.1,assembly=b37,length=38914>
+##contig=<ID=GL000197.1,assembly=b37,length=37175>
+##contig=<ID=GL000198.1,assembly=b37,length=90085>
+##contig=<ID=GL000199.1,assembly=b37,length=169874>
+##contig=<ID=GL000200.1,assembly=b37,length=187035>
+##contig=<ID=GL000201.1,assembly=b37,length=36148>
+##contig=<ID=GL000202.1,assembly=b37,length=40103>
+##contig=<ID=GL000203.1,assembly=b37,length=37498>
+##contig=<ID=GL000204.1,assembly=b37,length=81310>
+##contig=<ID=GL000205.1,assembly=b37,length=174588>
+##contig=<ID=GL000206.1,assembly=b37,length=41001>
+##contig=<ID=GL000207.1,assembly=b37,length=4262>
+##contig=<ID=GL000208.1,assembly=b37,length=92689>
+##contig=<ID=GL000209.1,assembly=b37,length=159169>
+##contig=<ID=GL000210.1,assembly=b37,length=27682>
+##contig=<ID=GL000211.1,assembly=b37,length=166566>
+##contig=<ID=GL000212.1,assembly=b37,length=186858>
+##contig=<ID=GL000213.1,assembly=b37,length=164239>
+##contig=<ID=GL000214.1,assembly=b37,length=137718>
+##contig=<ID=GL000215.1,assembly=b37,length=172545>
+##contig=<ID=GL000216.1,assembly=b37,length=172294>
+##contig=<ID=GL000217.1,assembly=b37,length=172149>
+##contig=<ID=GL000218.1,assembly=b37,length=161147>
+##contig=<ID=GL000219.1,assembly=b37,length=179198>
+##contig=<ID=GL000220.1,assembly=b37,length=161802>
+##contig=<ID=GL000221.1,assembly=b37,length=155397>
+##contig=<ID=GL000222.1,assembly=b37,length=186861>
+##contig=<ID=GL000223.1,assembly=b37,length=180455>
+##contig=<ID=GL000224.1,assembly=b37,length=179693>
+##contig=<ID=GL000225.1,assembly=b37,length=211173>
+##contig=<ID=GL000226.1,assembly=b37,length=15008>
+##contig=<ID=GL000227.1,assembly=b37,length=128374>
+##contig=<ID=GL000228.1,assembly=b37,length=129120>
+##contig=<ID=GL000229.1,assembly=b37,length=19913>
+##contig=<ID=GL000230.1,assembly=b37,length=43691>
+##contig=<ID=GL000231.1,assembly=b37,length=27386>
+##contig=<ID=GL000232.1,assembly=b37,length=40652>
+##contig=<ID=GL000233.1,assembly=b37,length=45941>
+##contig=<ID=GL000234.1,assembly=b37,length=40531>
+##contig=<ID=GL000235.1,assembly=b37,length=34474>
+##contig=<ID=GL000236.1,assembly=b37,length=41934>
+##contig=<ID=GL000237.1,assembly=b37,length=45867>
+##contig=<ID=GL000238.1,assembly=b37,length=39939>
+##contig=<ID=GL000239.1,assembly=b37,length=33824>
+##contig=<ID=GL000240.1,assembly=b37,length=41933>
+##contig=<ID=GL000241.1,assembly=b37,length=42152>
+##contig=<ID=GL000242.1,assembly=b37,length=43523>
+##contig=<ID=GL000243.1,assembly=b37,length=43341>
+##contig=<ID=GL000244.1,assembly=b37,length=39929>
+##contig=<ID=GL000245.1,assembly=b37,length=36651>
+##contig=<ID=GL000246.1,assembly=b37,length=38154>
+##contig=<ID=GL000247.1,assembly=b37,length=36422>
+##contig=<ID=GL000248.1,assembly=b37,length=39786>
+##contig=<ID=GL000249.1,assembly=b37,length=38502>
+##contig=<ID=MT,assembly=b37,length=16569>
+##contig=<ID=NC_007605,assembly=b37,length=171823>
+##contig=<ID=X,assembly=b37,length=155270560>
+##contig=<ID=Y,assembly=b37,length=59373566>
+##contig=<ID=hs37d5,assembly=b37,length=35477943>
+##ALT=<ID=CNV,Description="Copy Number Polymorphism">
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=DUP,Description="Duplication">
+##ALT=<ID=INS:ME:ALU,Description="Insertion of ALU element">
+##ALT=<ID=INS:ME:LINE1,Description="Insertion of LINE1 element">
+##ALT=<ID=INS:ME:SVA,Description="Insertion of SVA element">
+##ALT=<ID=INS:MT,Description="Nuclear Mitochondrial Insertion">
+##ALT=<ID=INV,Description="Inversion">
+##ALT=<ID=CN0,Description="Copy number allele: 0 copies">
+##ALT=<ID=CN1,Description="Copy number allele: 1 copy">
+##ALT=<ID=CN2,Description="Copy number allele: 2 copies">
+##ALT=<ID=CN3,Description="Copy number allele: 3 copies">
+##ALT=<ID=CN4,Description="Copy number allele: 4 copies">
+##ALT=<ID=CN5,Description="Copy number allele: 5 copies">
+##ALT=<ID=CN6,Description="Copy number allele: 6 copies">
+##ALT=<ID=CN7,Description="Copy number allele: 7 copies">
+##ALT=<ID=CN8,Description="Copy number allele: 8 copies">
+##ALT=<ID=CN9,Description="Copy number allele: 9 copies">
+##ALT=<ID=CN10,Description="Copy number allele: 10 copies">
+##ALT=<ID=CN11,Description="Copy number allele: 11 copies">
+##ALT=<ID=CN12,Description="Copy number allele: 12 copies">
+##ALT=<ID=CN13,Description="Copy number allele: 13 copies">
+##ALT=<ID=CN14,Description="Copy number allele: 14 copies">
+##ALT=<ID=CN15,Description="Copy number allele: 15 copies">
+##ALT=<ID=CN16,Description="Copy number allele: 16 copies">
+##ALT=<ID=CN17,Description="Copy number allele: 17 copies">
+##ALT=<ID=CN18,Description="Copy number allele: 18 copies">
+##ALT=<ID=CN19,Description="Copy number allele: 19 copies">
+##ALT=<ID=CN20,Description="Copy number allele: 20 copies">
+##ALT=<ID=CN21,Description="Copy number allele: 21 copies">
+##ALT=<ID=CN22,Description="Copy number allele: 22 copies">
+##ALT=<ID=CN23,Description="Copy number allele: 23 copies">
+##ALT=<ID=CN24,Description="Copy number allele: 24 copies">
+##ALT=<ID=CN25,Description="Copy number allele: 25 copies">
+##ALT=<ID=CN26,Description="Copy number allele: 26 copies">
+##ALT=<ID=CN27,Description="Copy number allele: 27 copies">
+##ALT=<ID=CN28,Description="Copy number allele: 28 copies">
+##ALT=<ID=CN29,Description="Copy number allele: 29 copies">
+##ALT=<ID=CN30,Description="Copy number allele: 30 copies">
+##ALT=<ID=CN31,Description="Copy number allele: 31 copies">
+##ALT=<ID=CN32,Description="Copy number allele: 32 copies">
+##ALT=<ID=CN33,Description="Copy number allele: 33 copies">
+##ALT=<ID=CN34,Description="Copy number allele: 34 copies">
+##ALT=<ID=CN35,Description="Copy number allele: 35 copies">
+##ALT=<ID=CN36,Description="Copy number allele: 36 copies">
+##ALT=<ID=CN37,Description="Copy number allele: 37 copies">
+##ALT=<ID=CN38,Description="Copy number allele: 38 copies">
+##ALT=<ID=CN39,Description="Copy number allele: 39 copies">
+##ALT=<ID=CN40,Description="Copy number allele: 40 copies">
+##ALT=<ID=CN41,Description="Copy number allele: 41 copies">
+##ALT=<ID=CN42,Description="Copy number allele: 42 copies">
+##ALT=<ID=CN43,Description="Copy number allele: 43 copies">
+##ALT=<ID=CN44,Description="Copy number allele: 44 copies">
+##ALT=<ID=CN45,Description="Copy number allele: 45 copies">
+##ALT=<ID=CN46,Description="Copy number allele: 46 copies">
+##ALT=<ID=CN47,Description="Copy number allele: 47 copies">
+##ALT=<ID=CN48,Description="Copy number allele: 48 copies">
+##ALT=<ID=CN49,Description="Copy number allele: 49 copies">
+##ALT=<ID=CN50,Description="Copy number allele: 50 copies">
+##ALT=<ID=CN51,Description="Copy number allele: 51 copies">
+##ALT=<ID=CN52,Description="Copy number allele: 52 copies">
+##ALT=<ID=CN53,Description="Copy number allele: 53 copies">
+##ALT=<ID=CN54,Description="Copy number allele: 54 copies">
+##ALT=<ID=CN55,Description="Copy number allele: 55 copies">
+##ALT=<ID=CN56,Description="Copy number allele: 56 copies">
+##ALT=<ID=CN57,Description="Copy number allele: 57 copies">
+##ALT=<ID=CN58,Description="Copy number allele: 58 copies">
+##ALT=<ID=CN59,Description="Copy number allele: 59 copies">
+##ALT=<ID=CN60,Description="Copy number allele: 60 copies">
+##ALT=<ID=CN61,Description="Copy number allele: 61 copies">
+##ALT=<ID=CN62,Description="Copy number allele: 62 copies">
+##ALT=<ID=CN63,Description="Copy number allele: 63 copies">
+##ALT=<ID=CN64,Description="Copy number allele: 64 copies">
+##ALT=<ID=CN65,Description="Copy number allele: 65 copies">
+##ALT=<ID=CN66,Description="Copy number allele: 66 copies">
+##ALT=<ID=CN67,Description="Copy number allele: 67 copies">
+##ALT=<ID=CN68,Description="Copy number allele: 68 copies">
+##ALT=<ID=CN69,Description="Copy number allele: 69 copies">
+##ALT=<ID=CN70,Description="Copy number allele: 70 copies">
+##ALT=<ID=CN71,Description="Copy number allele: 71 copies">
+##ALT=<ID=CN72,Description="Copy number allele: 72 copies">
+##ALT=<ID=CN73,Description="Copy number allele: 73 copies">
+##ALT=<ID=CN74,Description="Copy number allele: 74 copies">
+##ALT=<ID=CN75,Description="Copy number allele: 75 copies">
+##ALT=<ID=CN76,Description="Copy number allele: 76 copies">
+##ALT=<ID=CN77,Description="Copy number allele: 77 copies">
+##ALT=<ID=CN78,Description="Copy number allele: 78 copies">
+##ALT=<ID=CN79,Description="Copy number allele: 79 copies">
+##ALT=<ID=CN80,Description="Copy number allele: 80 copies">
+##ALT=<ID=CN81,Description="Copy number allele: 81 copies">
+##ALT=<ID=CN82,Description="Copy number allele: 82 copies">
+##ALT=<ID=CN83,Description="Copy number allele: 83 copies">
+##ALT=<ID=CN84,Description="Copy number allele: 84 copies">
+##ALT=<ID=CN85,Description="Copy number allele: 85 copies">
+##ALT=<ID=CN86,Description="Copy number allele: 86 copies">
+##ALT=<ID=CN87,Description="Copy number allele: 87 copies">
+##ALT=<ID=CN88,Description="Copy number allele: 88 copies">
+##ALT=<ID=CN89,Description="Copy number allele: 89 copies">
+##ALT=<ID=CN90,Description="Copy number allele: 90 copies">
+##ALT=<ID=CN91,Description="Copy number allele: 91 copies">
+##ALT=<ID=CN92,Description="Copy number allele: 92 copies">
+##ALT=<ID=CN93,Description="Copy number allele: 93 copies">
+##ALT=<ID=CN94,Description="Copy number allele: 94 copies">
+##ALT=<ID=CN95,Description="Copy number allele: 95 copies">
+##ALT=<ID=CN96,Description="Copy number allele: 96 copies">
+##ALT=<ID=CN97,Description="Copy number allele: 97 copies">
+##ALT=<ID=CN98,Description="Copy number allele: 98 copies">
+##ALT=<ID=CN99,Description="Copy number allele: 99 copies">
+##ALT=<ID=CN100,Description="Copy number allele: 100 copies">
+##ALT=<ID=CN101,Description="Copy number allele: 101 copies">
+##ALT=<ID=CN102,Description="Copy number allele: 102 copies">
+##ALT=<ID=CN103,Description="Copy number allele: 103 copies">
+##ALT=<ID=CN104,Description="Copy number allele: 104 copies">
+##ALT=<ID=CN105,Description="Copy number allele: 105 copies">
+##ALT=<ID=CN106,Description="Copy number allele: 106 copies">
+##ALT=<ID=CN107,Description="Copy number allele: 107 copies">
+##ALT=<ID=CN108,Description="Copy number allele: 108 copies">
+##ALT=<ID=CN109,Description="Copy number allele: 109 copies">
+##ALT=<ID=CN110,Description="Copy number allele: 110 copies">
+##ALT=<ID=CN111,Description="Copy number allele: 111 copies">
+##ALT=<ID=CN112,Description="Copy number allele: 112 copies">
+##ALT=<ID=CN113,Description="Copy number allele: 113 copies">
+##ALT=<ID=CN114,Description="Copy number allele: 114 copies">
+##ALT=<ID=CN115,Description="Copy number allele: 115 copies">
+##ALT=<ID=CN116,Description="Copy number allele: 116 copies">
+##ALT=<ID=CN117,Description="Copy number allele: 117 copies">
+##ALT=<ID=CN118,Description="Copy number allele: 118 copies">
+##ALT=<ID=CN119,Description="Copy number allele: 119 copies">
+##ALT=<ID=CN120,Description="Copy number allele: 120 copies">
+##ALT=<ID=CN121,Description="Copy number allele: 121 copies">
+##ALT=<ID=CN122,Description="Copy number allele: 122 copies">
+##ALT=<ID=CN123,Description="Copy number allele: 123 copies">
+##ALT=<ID=CN124,Description="Copy number allele: 124 copies">
+##INFO=<ID=CIEND,Number=2,Type=Integer,Description="Confidence interval around END for imprecise variants">
+##INFO=<ID=CIPOS,Number=2,Type=Integer,Description="Confidence interval around POS for imprecise variants">
+##INFO=<ID=CS,Number=1,Type=String,Description="Source call set.">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End coordinate of this variant">
+##INFO=<ID=IMPRECISE,Number=0,Type=Flag,Description="Imprecise structural variation">
+##INFO=<ID=MC,Number=.,Type=String,Description="Merged calls.">
+##INFO=<ID=MEINFO,Number=4,Type=String,Description="Mobile element info of the form NAME,START,END<POLARITY; If there is only 5' OR 3' support for this call, will be NULL NULL for START and END">
+##INFO=<ID=MEND,Number=1,Type=Integer,Description="Mitochondrial end coordinate of inserted sequence">
+##INFO=<ID=MLEN,Number=1,Type=Integer,Description="Estimated length of mitochondrial insert">
+##INFO=<ID=MSTART,Number=1,Type=Integer,Description="Mitochondrial start coordinate of inserted sequence">
+##INFO=<ID=SVLEN,Number=.,Type=Integer,Description="SV length. It is only calculated for structural variation MEIs. For other types of SVs; one may calculate the SV length by INFO:END-START+1, or by finding the difference between lengthes of REF and ALT alleles">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=TSD,Number=1,Type=String,Description="Precise Target Site Duplication for bases, if unknown, value will be NULL">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1)">
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of samples with data">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=EAS_AF,Number=A,Type=Float,Description="Allele frequency in the EAS populations calculated from AC and AN, in the range (0,1)">
+##INFO=<ID=EUR_AF,Number=A,Type=Float,Description="Allele frequency in the EUR populations calculated from AC and AN, in the range (0,1)">
+##INFO=<ID=AFR_AF,Number=A,Type=Float,Description="Allele frequency in the AFR populations calculated from AC and AN, in the range (0,1)">
+##INFO=<ID=AMR_AF,Number=A,Type=Float,Description="Allele frequency in the AMR populations calculated from AC and AN, in the range (0,1)">
+##INFO=<ID=SAS_AF,Number=A,Type=Float,Description="Allele frequency in the SAS populations calculated from AC and AN, in the range (0,1)">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth; only low coverage data were counted towards the DP, exome data were not used">
+##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral Allele. Format: AA|REF|ALT|IndelType. AA: Ancestral allele, REF:Reference Allele, ALT:Alternate Allele, IndelType:Type of Indel (REF, ALT and IndelType are only defined for indels)">
+##INFO=<ID=VT,Number=.,Type=String,Description="indicates what type of variant the line represents">
+##INFO=<ID=EX_TARGET,Number=0,Type=Flag,Description="indicates whether a variant is within the exon pull down target boundaries">
+##INFO=<ID=MULTI_ALLELIC,Number=0,Type=Flag,Description="indicates whether a site is multi-allelic">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	HG00096	HG00097	HG00099	HG00100	HG00101	HG00102	HG00103	HG00105	HG00106	HG00107
+1	20915172	rs532545	C	T	100	PASS	AC=932;AF=0.186102;AN=5008;NS=2504;DP=21056;EAS_AF=0.1171;AMR_AF=0.3084;AFR_AF=0.059;EUR_AF=0.3032;SAS_AF=0.2219;AA=C|||;VT=SNP	GT	0|0	0|0	0|0	0|1	1|0	0|0	0|0	1|0	0|0	0|0
+1	20915531	rs602950	A	G	100	PASS	AC=945;AF=0.188698;AN=5008;NS=2504;DP=17846;EAS_AF=0.122;AMR_AF=0.3084;AFR_AF=0.0651;EUR_AF=0.3032;SAS_AF=0.2219;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|1	1|0	0|0	0|0	1|0	0|0	0|0
+1	20915589	rs3215400	TC	T	100	PASS	AC=2707;AF=0.540535;AN=5008;NS=2504;DP=17476;EAS_AF=0.4335;AMR_AF=0.4712;AFR_AF=0.6467;EUR_AF=0.5527;SAS_AF=0.544;AA=CC|CCC|CC|insertion;VT=INDEL;EX_TARGET	GT	0|0	1|0	1|1	0|1	1|1	1|0	0|1	1|1	1|0	0|0
+1	20915701	rs2072671	A	C	100	PASS	AC=965;AF=0.192692;AN=5008;NS=2504;DP=18529;EAS_AF=0.122;AMR_AF=0.3055;AFR_AF=0.0673;EUR_AF=0.3141;SAS_AF=0.2301;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|1	1|0	0|0	0|0	1|0	0|0	0|0
+1	20945055	rs1048977	C	T	100	PASS	AC=1558;AF=0.311102;AN=5008;NS=2504;DP=18751;EAS_AF=0.244;AMR_AF=0.317;AFR_AF=0.379;EUR_AF=0.3231;SAS_AF=0.272;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|1	0|0	0|1	1|0	0|1	0|1	1|0	0|0
+1	47196468	esv3585938	T	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-150,150;CIPOS=-150,150;CS=DUP_delly;END=47454785;NS=2504;SVTYPE=DUP;IMPRECISE;DP=18160;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	47264437	esv3585939	G	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_gs;END=47303186;MC=DUP_uwash_chr1_47256985_47308438;NS=2504;SVTYPE=DUP;DP=23340;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	47279175	rs4646487	C	T	100	PASS	AC=924;AF=0.184505;AN=5008;NS=2504;DP=21766;EAS_AF=0.2123;AMR_AF=0.1138;AFR_AF=0.2027;EUR_AF=0.1372;SAS_AF=0.2301;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|1	0|1	0|0	0|0	0|0
+1	47280746	rs3215983	GAT	G	100	PASS	AC=678;AF=0.135383;AN=5008;NS=2504;DP=24735;EAS_AF=0.255;AMR_AF=0.1816;AFR_AF=0.0386;EUR_AF=0.1302;SAS_AF=0.1155;VT=INDEL;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0	0|0
+1	47280830	rs45467195	A	G	100	PASS	AC=18;AF=0.00359425;AN=5008;NS=2504;DP=21520;EAS_AF=0;AMR_AF=0.0101;AFR_AF=0;EUR_AF=0.0109;SAS_AF=0;AA=a|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0
+1	47280859	rs2297810	G	A	100	PASS	AC=1356;AF=0.270767;AN=5008;NS=2504;DP=20608;EAS_AF=0.2808;AMR_AF=0.2334;AFR_AF=0.4614;EUR_AF=0.1312;SAS_AF=0.1728;AA=g|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0	0|0
+1	47280884	rs4646491	C	T	100	PASS	AC=676;AF=0.134984;AN=5008;NS=2504;DP=20496;EAS_AF=0.255;AMR_AF=0.1816;AFR_AF=0.0386;EUR_AF=0.1302;SAS_AF=0.1135;AA=c|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0	0|0
+1	47282772	rs2297809	C	T	100	PASS	AC=793;AF=0.158347;AN=5008;NS=2504;DP=18901;EAS_AF=0.254;AMR_AF=0.1859;AFR_AF=0.1256;EUR_AF=0.1302;SAS_AF=0.1135;AA=C|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0	0|0
+1	47603188	rs76011927	C	T	100	PASS	AC=60;AF=0.0119808;AN=5008;NS=2504;DP=20736;EAS_AF=0.0466;AMR_AF=0;AFR_AF=0;EUR_AF=0.006;SAS_AF=0.0072;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	47607281	rs12564525	C	T	100	PASS	AC=1859;AF=0.371206;AN=5008;NS=2504;DP=23221;EAS_AF=0.6141;AMR_AF=0.2867;AFR_AF=0.2254;EUR_AF=0.2058;SAS_AF=0.5481;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	1|0	0|0	0|1	0|1	0|0	1|0	0|0
+1	47607785	rs2056900	G	A	100	PASS	AC=1684;AF=0.336262;AN=5008;NS=2504;DP=22904;EAS_AF=0.5546;AMR_AF=0.232;AFR_AF=0.2073;EUR_AF=0.1928;SAS_AF=0.5072;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	1|0	0|0	0|1	0|1	0|0	1|0	0|0
+1	47607851	rs2056899	A	T	100	PASS	AC=3660;AF=0.730831;AN=5008;NS=2504;DP=20966;EAS_AF=0.9802;AMR_AF=0.5072;AFR_AF=0.944;EUR_AF=0.4036;SAS_AF=0.681;AA=T|||;VT=SNP;EX_TARGET	GT	1|0	1|1	0|0	1|0	0|0	0|1	0|1	0|0	1|1	0|0
+1	47608983	rs113777592	G	T	100	PASS	AC=1681;AF=0.335663;AN=5008;NS=2504;DP=19651;EAS_AF=0.5536;AMR_AF=0.232;AFR_AF=0.2057;EUR_AF=0.1928;SAS_AF=0.5072;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	1|0	0|0	0|1	0|1	0|0	1|0	0|0
+1	47609489	rs10789501	T	C	100	PASS	AC=2908;AF=0.580671;AN=5008;NS=2504;DP=20346;EAS_AF=0.9335;AMR_AF=0.464;AFR_AF=0.5015;EUR_AF=0.3489;SAS_AF=0.6452;AA=C|||;VT=SNP;EX_TARGET	GT	1|0	0|1	0|0	1|0	0|0	0|1	0|1	0|0	1|1	0|0
+1	47610065	rs149718343	A	C	100	PASS	AC=710;AF=0.141773;AN=5008;NS=2504;DP=21439;EAS_AF=0.3075;AMR_AF=0.1009;AFR_AF=0.0121;EUR_AF=0.0775;SAS_AF=0.2413;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	1|0	0|0
+1	47611598	rs2405599	T	C	100	PASS	AC=1882;AF=0.375799;AN=5008;NS=2504;DP=21691;EAS_AF=0.6141;AMR_AF=0.2896;AFR_AF=0.2239;EUR_AF=0.2237;SAS_AF=0.5532;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	1|0	0|0	0|1	0|1	0|0	1|0	0|0
+1	47614434	rs4926600	C	T	100	PASS	AC=764;AF=0.152556;AN=5008;NS=2504;DP=19061;EAS_AF=0.3065;AMR_AF=0.1023;AFR_AF=0.0401;EUR_AF=0.0805;SAS_AF=0.2556;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	1|0	0|0
+1	97547947	rs67376798	T	A	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=18701;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0008;EUR_AF=0.007;SAS_AF=0.001;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	97564154	rs1801267	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=16414;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	97770920	rs1801160	C	T	100	PASS	AC=220;AF=0.0439297;AN=5008;NS=2504;DP=18214;EAS_AF=0.0149;AMR_AF=0.0548;AFR_AF=0.0242;EUR_AF=0.0497;SAS_AF=0.0869;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	97915614	rs3918290	C	T	100	PASS	AC=15;AF=0.00299521;AN=5008;NS=2504;DP=17850;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0008;EUR_AF=0.005;SAS_AF=0.0082;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	97981343	rs55886062	A	C	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=15304;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	97981395	rs1801159	T	C	100	PASS	AC=926;AF=0.184904;AN=5008;NS=2504;DP=14548;EAS_AF=0.2659;AMR_AF=0.2666;AFR_AF=0.1536;EUR_AF=0.1879;SAS_AF=0.0828;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|1	1|0	0|0	0|0	0|0	0|0	0|0
+1	98037828	esv3586882	A	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-4,5;CIPOS=-4,5;CS=DEL_union;END=98042715;NS=2504;SVTYPE=DEL;DP=14205;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	98038851	esv3586883;esv3586884	A	<CN0>,<CN2>	100	PASS	AC=2,3;AF=0.000399361,0.000599042;AN=5008;CS=DUP_gs;END=98042400;NS=2504;SVTYPE=CNV;DP=18031;EAS_AF=0,0;AMR_AF=0,0.0014;AFR_AF=0.0008,0.0008;EUR_AF=0.001,0;SAS_AF=0,0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	98200339	esv3586891	C	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-29,30;CIPOS=-29,30;CS=DEL_union;END=98214191;NS=2504;SVTYPE=DEL;DP=15912;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+1	98348885	rs1801265	G	A	100	PASS	AC=3705;AF=0.739816;AN=5008;NS=2504;DP=13638;EAS_AF=0.9137;AMR_AF=0.7752;AFR_AF=0.5582;EUR_AF=0.7853;SAS_AF=0.7342;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	1|1	1|1	1|1	1|1	1|1	1|1	0|1
+2	38298139	rs1800440	T	C	100	PASS	AC=499;AF=0.0996406;AN=5008;NS=2504;DP=20848;EAS_AF=0.005;AMR_AF=0.1311;AFR_AF=0.0068;EUR_AF=0.1958;SAS_AF=0.2014;AA=T|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|1	0|1	0|0	0|0	1|0	0|1	0|0	0|0
+2	38298169	rs4986888	G	C	100	PASS	AC=79;AF=0.0157748;AN=5008;NS=2504;DP=19896;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0.0552;EUR_AF=0.003;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	38298187	rs56175199	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=19502;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	38298203	rs1056836	C	G	100	PASS	AC=3079;AF=0.614816;AN=5008;NS=2504;DP=19209;EAS_AF=0.9087;AMR_AF=0.7233;AFR_AF=0.1831;EUR_AF=0.6024;SAS_AF=0.8313;AA=C|||;VT=SNP;EX_TARGET	GT	1|1	1|0	1|1	1|1	0|0	1|1	1|0	1|1	0|0	0|1
+2	38302177	rs1056827	C	A	100	PASS	AC=1815;AF=0.36242;AN=5008;NS=2504;DP=15107;EAS_AF=0.1796;AMR_AF=0.3112;AFR_AF=0.5234;EUR_AF=0.2893;SAS_AF=0.4448;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	0|0	0|0	0|1	0|0	1|0	0|0	0|1
+2	38302390	rs10012	G	C	100	PASS	AC=1877;AF=0.3748;AN=5008;NS=2504;DP=14067;EAS_AF=0.1815;AMR_AF=0.3012;AFR_AF=0.5741;EUR_AF=0.2903;SAS_AF=0.4438;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	0|0	0|0	0|1	0|0	1|0	0|0	0|1
+2	108504538	esv3591913	T	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-150,150;CIPOS=-150,150;CS=DUP_delly;END=109121423;NS=2504;SVTYPE=DUP;IMPRECISE;DP=18559;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	108903256	esv3591924	C	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_uwash;END=109007041;NS=2504;SVTYPE=DUP;DP=20667;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	108910712	rs72549391	A	C	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=20432;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0.002;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	108910751	rs17036058	G	A	100	PASS	AC=52;AF=0.0103834;AN=5008;NS=2504;DP=18596;EAS_AF=0.001;AMR_AF=0.0086;AFR_AF=0.0106;EUR_AF=0.0129;SAS_AF=0.0184;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0
+2	108922036	rs17036104	T	G	100	PASS	AC=276;AF=0.0551118;AN=5008;NS=2504;DP=19945;EAS_AF=0.1151;AMR_AF=0.0317;AFR_AF=0.0265;EUR_AF=0.0586;SAS_AF=0.045;AA=T|||;VT=SNP;EX_TARGET	GT	0|1	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	166892788	rs2298771	C	T	100	PASS	AC=3949;AF=0.788538;AN=5008;NS=2504;DP=19363;EAS_AF=0.8899;AMR_AF=0.7608;AFR_AF=0.8457;EUR_AF=0.6918;SAS_AF=0.726;AA=T|||;VT=SNP;EX_TARGET	GT	1|1	1|1	0|1	1|1	1|1	1|0	1|1	0|1	1|1	1|1
+2	166909544	rs3812718	C	T	100	PASS	AC=2471;AF=0.493411;AN=5008;NS=2504;DP=19021;EAS_AF=0.5962;AMR_AF=0.4452;AFR_AF=0.3396;EUR_AF=0.5408;SAS_AF=0.5808;AA=C|||;VT=SNP	GT	0|1	1|0	0|1	1|1	1|1	1|0	1|1	0|1	1|1	1|1
+2	234526871	rs1042597	C	G	100	PASS	AC=1282;AF=0.25599;AN=5008;NS=2504;DP=17737;EAS_AF=0.506;AMR_AF=0.2954;AFR_AF=0.0325;EUR_AF=0.2495;SAS_AF=0.2791;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|1	1|1	1|1	0|1	0|0	0|0	0|0	0|0
+2	234527118	rs1042605	A	G	100	PASS	AC=655;AF=0.130791;AN=5008;NS=2504;DP=19448;EAS_AF=0.1081;AMR_AF=0.0692;AFR_AF=0.2163;EUR_AF=0.16;SAS_AF=0.0521;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0
+2	234527183	rs17863762	G	A	100	PASS	AC=29;AF=0.00579073;AN=5008;NS=2504;DP=19530;EAS_AF=0;AMR_AF=0.013;AFR_AF=0;EUR_AF=0.0199;SAS_AF=0;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234545294	rs11683356	G	A	100	PASS	AC=52;AF=0.0103834;AN=5008;NS=2504;DP=18641;EAS_AF=0.001;AMR_AF=0.0173;AFR_AF=0.003;EUR_AF=0.0308;SAS_AF=0.0041;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234545345	rs56935833	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18564;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234545583	rs10187694	G	A	100	PASS	AC=40;AF=0.00798722;AN=5008;NS=2504;DP=20434;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0287;EUR_AF=0;SAS_AF=0;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234545765	rs45523834	T	C	100	PASS	AC=58;AF=0.0115815;AN=5008;NS=2504;DP=19916;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0431;EUR_AF=0;SAS_AF=0;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234545773	rs58704432	C	T	100	PASS	AC=10;AF=0.00199681;AN=5008;NS=2504;DP=20018;EAS_AF=0.0099;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234545861	rs17854828	C	T	100	PASS	AC=557;AF=0.111222;AN=5008;NS=2504;DP=20270;EAS_AF=0.1071;AMR_AF=0.0663;AFR_AF=0.1467;EUR_AF=0.1571;SAS_AF=0.0521;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0
+2	234545898	rs28969685	C	A	100	PASS	AC=57;AF=0.0113818;AN=5008;NS=2504;DP=20122;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0424;EUR_AF=0;SAS_AF=0;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234580453	rs3832043	AT	ATT,A	100	PASS	AC=8,2769;AF=0.00159744,0.552915;AN=5008;NS=2504;DP=20350;EAS_AF=0.002,0.4315;AMR_AF=0,0.4957;AFR_AF=0.003,0.5363;EUR_AF=0.001,0.6034;SAS_AF=0.001,0.6892;VT=INDEL;MULTI_ALLELIC	GT	0|2	2|2	2|2	0|0	2|0	2|0	2|2	0|2	2|2	0|2
+2	234580494	rs17868322	G	A	100	PASS	AC=51;AF=0.0101837;AN=5008;NS=2504;DP=20179;EAS_AF=0.001;AMR_AF=0.0173;AFR_AF=0.003;EUR_AF=0.0298;SAS_AF=0.0041;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234580678	rs72551330	T	C	100	PASS	AC=24;AF=0.00479233;AN=5008;NS=2504;DP=18049;EAS_AF=0;AMR_AF=0.0072;AFR_AF=0;EUR_AF=0.0169;SAS_AF=0.002;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234581306	rs66915469	T	G	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=19232;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234581346	rs58597806	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18538;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234581578	rs45554333	C	T	100	PASS	AC=164;AF=0.0327476;AN=5008;NS=2504;DP=17783;EAS_AF=0.0278;AMR_AF=0.0677;AFR_AF=0.028;EUR_AF=0.0109;SAS_AF=0.0419;AA=c|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234581587	rs4663871	G	A	100	PASS	AC=916;AF=0.182907;AN=5008;NS=2504;DP=17650;EAS_AF=0.2133;AMR_AF=0.1571;AFR_AF=0.1188;EUR_AF=0.2207;SAS_AF=0.2178;AA=g|||;VT=SNP	GT	0|0	1|0	0|1	0|0	1|0	0|0	0|0	0|0	0|1	0|0
+2	234581654	rs2741047	A	T	100	PASS	AC=2891;AF=0.577276;AN=5008;NS=2504;DP=16269;EAS_AF=0.4385;AMR_AF=0.5058;AFR_AF=0.6165;EUR_AF=0.6044;SAS_AF=0.6902;AA=T|||;VT=SNP	GT	0|1	1|1	1|1	0|0	1|0	1|0	1|1	0|1	1|1	0|1
+2	234581748	rs2741048	C	A	100	PASS	AC=2892;AF=0.577476;AN=5008;NS=2504;DP=15753;EAS_AF=0.4385;AMR_AF=0.5058;AFR_AF=0.6172;EUR_AF=0.6044;SAS_AF=0.6902;AA=A|||;VT=SNP	GT	0|1	1|1	1|1	0|0	1|0	1|0	1|1	0|1	1|1	0|1
+2	234581834	rs2741049	T	C	100	PASS	AC=2892;AF=0.577476;AN=5008;NS=2504;DP=15960;EAS_AF=0.4385;AMR_AF=0.5058;AFR_AF=0.6165;EUR_AF=0.6044;SAS_AF=0.6912;AA=T|||;VT=SNP	GT	0|1	1|1	1|1	0|0	1|0	1|0	1|1	0|1	1|1	0|1
+2	234590527	rs7586110	T	G	100	PASS	AC=1491;AF=0.297724;AN=5008;NS=2504;DP=18928;EAS_AF=0.1964;AMR_AF=0.2637;AFR_AF=0.2496;EUR_AF=0.3598;SAS_AF=0.4274;AA=N|||;VT=SNP	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234590926	rs61261057	G	A	100	PASS	AC=27;AF=0.00539137;AN=5008;NS=2504;DP=20877;EAS_AF=0;AMR_AF=0;AFR_AF=0.0204;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234590969	rs56385016	A	G	100	PASS	AC=14;AF=0.00279553;AN=5008;NS=2504;DP=19293;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0;EUR_AF=0.006;SAS_AF=0.0051;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234590970	rs17868323	T	G	100	PASS	AC=2886;AF=0.576278;AN=5008;NS=2504;DP=19279;EAS_AF=0.4385;AMR_AF=0.5072;AFR_AF=0.6097;EUR_AF=0.6034;SAS_AF=0.6943;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|1	0|0	1|0	1|0	1|1	0|1	1|1	0|1
+2	234590974	rs17863778	C	A	100	PASS	AC=2886;AF=0.576278;AN=5008;NS=2504;DP=18899;EAS_AF=0.4385;AMR_AF=0.5072;AFR_AF=0.6097;EUR_AF=0.6034;SAS_AF=0.6943;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|1	0|0	1|0	1|0	1|1	0|1	1|1	0|1
+2	234590975	rs17868324	G	A	100	PASS	AC=2886;AF=0.576278;AN=5008;NS=2504;DP=19096;EAS_AF=0.4385;AMR_AF=0.5072;AFR_AF=0.6097;EUR_AF=0.6034;SAS_AF=0.6943;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|1	0|0	1|0	1|0	1|1	0|1	1|1	0|1
+2	234591005	rs72551332	G	C	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=18930;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0015;EUR_AF=0.001;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234591205	rs11692021	T	C	100	PASS	AC=1491;AF=0.297724;AN=5008;NS=2504;DP=19491;EAS_AF=0.1964;AMR_AF=0.2637;AFR_AF=0.2496;EUR_AF=0.3598;SAS_AF=0.4274;AA=T|||;VT=SNP;EX_TARGET	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234599941	rs12623271	C	G	100	PASS	AC=1814;AF=0.36222;AN=5008;NS=2504;DP=22046;EAS_AF=0.2242;AMR_AF=0.3444;AFR_AF=0.3767;EUR_AF=0.3827;SAS_AF=0.4765;AA=G|||;VT=SNP	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234600116	rs12474980	G	A	100	PASS	AC=869;AF=0.173522;AN=5008;NS=2504;DP=21136;EAS_AF=0.2173;AMR_AF=0.1542;AFR_AF=0.0825;EUR_AF=0.2197;SAS_AF=0.2178;AA=g|||;VT=SNP	GT	0|0	1|0	0|1	0|0	1|0	0|0	0|0	0|0	0|1	0|0
+2	234600274	rs10445704	G	A	100	PASS	AC=1814;AF=0.36222;AN=5008;NS=2504;DP=18991;EAS_AF=0.2242;AMR_AF=0.3444;AFR_AF=0.3767;EUR_AF=0.3827;SAS_AF=0.4765;AA=A|||;VT=SNP	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234600999	rs13015720	G	A	100	PASS	AC=1814;AF=0.36222;AN=5008;NS=2504;DP=22240;EAS_AF=0.2242;AMR_AF=0.3444;AFR_AF=0.3767;EUR_AF=0.3827;SAS_AF=0.4765;AA=A|||;VT=SNP	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234601224	rs12476197	G	C	100	PASS	AC=866;AF=0.172923;AN=5008;NS=2504;DP=19380;EAS_AF=0.2143;AMR_AF=0.1542;AFR_AF=0.0825;EUR_AF=0.2197;SAS_AF=0.2178;AA=G|||;VT=SNP	GT	0|0	1|0	0|1	0|0	1|0	0|0	0|0	0|0	0|1	0|0
+2	234601669	rs6759892	T	G	100	PASS	AC=1814;AF=0.36222;AN=5008;NS=2504;DP=17751;EAS_AF=0.2242;AMR_AF=0.3444;AFR_AF=0.3767;EUR_AF=0.3827;SAS_AF=0.4765;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234601755	rs45535938	C	T	100	PASS	AC=65;AF=0.0129792;AN=5008;NS=2504;DP=16515;EAS_AF=0.0585;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.001;SAS_AF=0.0041;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234601965	rs1105880	A	G	100	PASS	AC=1716;AF=0.342652;AN=5008;NS=2504;DP=21918;EAS_AF=0.2242;AMR_AF=0.304;AFR_AF=0.3684;EUR_AF=0.333;SAS_AF=0.4673;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	0|1	1|0	0|0	0|0	0|0	1|1	0|1	1|0	0|1
+2	234602191	rs2070959	A	G	100	PASS	AC=1390;AF=0.277556;AN=5008;NS=2504;DP=19575;EAS_AF=0.1964;AMR_AF=0.2233;AFR_AF=0.239;EUR_AF=0.3101;SAS_AF=0.4182;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	0|1	1|0	0|0	0|0	0|0	1|1	0|1	1|0	0|1
+2	234602202	rs1105879	A	C	100	PASS	AC=1626;AF=0.324681;AN=5008;NS=2504;DP=19814;EAS_AF=0.2242;AMR_AF=0.3012;AFR_AF=0.3018;EUR_AF=0.333;SAS_AF=0.4673;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	0|1	1|0	0|0	0|0	0|0	1|1	0|1	1|0	0|1
+2	234602277	rs17863783	G	T	100	PASS	AC=326;AF=0.0650958;AN=5008;NS=2504;DP=21645;EAS_AF=0.0278;AMR_AF=0.0807;AFR_AF=0.1293;EUR_AF=0.0229;SAS_AF=0.0491;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234602641	rs7592281	G	T	100	PASS	AC=469;AF=0.0936502;AN=5008;NS=2504;DP=19147;EAS_AF=0.1687;AMR_AF=0.0418;AFR_AF=0.1263;EUR_AF=0.0338;SAS_AF=0.0706;AA=g|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234622110	rs12475068	C	G	100	PASS	AC=726;AF=0.144968;AN=5008;NS=2504;DP=20421;EAS_AF=0.2331;AMR_AF=0.1009;AFR_AF=0.0809;EUR_AF=0.0964;SAS_AF=0.2219;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0
+2	234622379	rs2012736	C	A	100	PASS	AC=722;AF=0.144169;AN=5008;NS=2504;DP=19790;EAS_AF=0.2331;AMR_AF=0.1009;AFR_AF=0.0809;EUR_AF=0.0964;SAS_AF=0.2178;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0
+2	234622382	rs17862868	G	C	100	PASS	AC=722;AF=0.144169;AN=5008;NS=2504;DP=19708;EAS_AF=0.2331;AMR_AF=0.1009;AFR_AF=0.0809;EUR_AF=0.0964;SAS_AF=0.2178;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0
+2	234627248	rs3732219	C	T	100	PASS	AC=719;AF=0.14357;AN=5008;NS=2504;DP=21033;EAS_AF=0.2331;AMR_AF=0.1009;AFR_AF=0.0802;EUR_AF=0.0944;SAS_AF=0.2178;AA=T|||;VT=SNP	GT	0|0	1|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0
+2	234627304	rs3732218	G	A	100	PASS	AC=720;AF=0.14377;AN=5008;NS=2504;DP=22547;EAS_AF=0.2331;AMR_AF=0.1009;AFR_AF=0.0802;EUR_AF=0.0954;SAS_AF=0.2178;AA=A|||;VT=SNP	GT	0|0	1|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0
+2	234627497	rs3892221	C	T	100	PASS	AC=70;AF=0.0139776;AN=5008;NS=2504;DP=17663;EAS_AF=0.0109;AMR_AF=0;AFR_AF=0.0431;EUR_AF=0.002;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234627536	rs6755571	C	A	100	PASS	AC=92;AF=0.0183706;AN=5008;NS=2504;DP=16905;EAS_AF=0;AMR_AF=0.0375;AFR_AF=0.0068;EUR_AF=0.0477;SAS_AF=0.0092;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+2	234627608	rs2011425	T	G	100	PASS	AC=693;AF=0.138379;AN=5008;NS=2504;DP=19041;EAS_AF=0.2083;AMR_AF=0.1009;AFR_AF=0.0772;EUR_AF=0.0944;SAS_AF=0.2209;AA=t|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0
+2	234627914	rs12468274	T	C	100	PASS	AC=656;AF=0.13099;AN=5008;NS=2504;DP=20870;EAS_AF=0.2292;AMR_AF=0.0908;AFR_AF=0.0741;EUR_AF=0.0656;SAS_AF=0.2025;AA=t|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234627937	rs2011404	T	C	100	PASS	AC=4547;AF=0.907947;AN=5008;NS=2504;DP=20625;EAS_AF=0.9742;AMR_AF=0.889;AFR_AF=0.9773;EUR_AF=0.8141;SAS_AF=0.8558;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|1	0|1	1|1	1|1	1|1	0|1	1|1	0|1
+2	234628270	rs3732217	G	A	100	PASS	AC=639;AF=0.127596;AN=5008;NS=2504;DP=18628;EAS_AF=0.2242;AMR_AF=0.0908;AFR_AF=0.0734;EUR_AF=0.0666;SAS_AF=0.1902;AA=g|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234628376	rs2011219	C	T	100	PASS	AC=618;AF=0.123403;AN=5008;NS=2504;DP=22424;EAS_AF=0.2292;AMR_AF=0.0922;AFR_AF=0.0431;EUR_AF=0.0676;SAS_AF=0.2025;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234629395	esv3594679	A	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-30,31;CIPOS=-30,31;CS=DEL_union;END=234644040;NS=2504;SVTYPE=DEL;DP=12568;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234637015	rs2008584	A	G	100	PASS	AC=2798;AF=0.558706;AN=5008;NS=2504;DP=18301;EAS_AF=0.3562;AMR_AF=0.5144;AFR_AF=0.7844;EUR_AF=0.4145;SAS_AF=0.6421;AA=G|||;VT=SNP	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234637022	rs1983023	T	C	100	PASS	AC=2172;AF=0.433706;AN=5008;NS=2504;DP=18134;EAS_AF=0.126;AMR_AF=0.4265;AFR_AF=0.7315;EUR_AF=0.3479;SAS_AF=0.4417;AA=C|||;VT=SNP	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234637192	rs2008595	C	T	100	PASS	AC=2945;AF=0.588059;AN=5008;NS=2504;DP=21519;EAS_AF=0.3571;AMR_AF=0.5231;AFR_AF=0.8888;EUR_AF=0.4155;SAS_AF=0.6431;AA=T|||;VT=SNP	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234637220	rs45507691	G	A	100	PASS	AC=87;AF=0.0173722;AN=5008;NS=2504;DP=22263;EAS_AF=0;AMR_AF=0.0346;AFR_AF=0.0038;EUR_AF=0.0487;SAS_AF=0.0092;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+2	234637569	rs3806597	A	G	100	PASS	AC=2927;AF=0.584465;AN=5008;NS=2504;DP=21477;EAS_AF=0.3571;AMR_AF=0.5173;AFR_AF=0.8797;EUR_AF=0.4145;SAS_AF=0.6421;AA=G|||;VT=SNP	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234637625	rs55781538	T	C	100	PASS	AC=36;AF=0.0071885;AN=5008;NS=2504;DP=23043;EAS_AF=0;AMR_AF=0.013;AFR_AF=0.0008;EUR_AF=0.0169;SAS_AF=0.0092;AA=T|||;VT=SNP	GT	0|0	0|1	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234637707	rs3806596	T	C	100	PASS	AC=2960;AF=0.591054;AN=5008;NS=2504;DP=23536;EAS_AF=0.3571;AMR_AF=0.5245;AFR_AF=0.9002;EUR_AF=0.4155;SAS_AF=0.6421;AA=t|||;VT=SNP	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234637789	rs28898617	A	G	100	PASS	AC=49;AF=0.00978435;AN=5008;NS=2504;DP=18783;EAS_AF=0.0486;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234637803	rs3821242	T	C	100	PASS	AC=2679;AF=0.534944;AN=5008;NS=2504;DP=18298;EAS_AF=0.3552;AMR_AF=0.5101;AFR_AF=0.6974;EUR_AF=0.4145;SAS_AF=0.6421;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234637853	rs6706232	G	A	100	PASS	AC=2867;AF=0.572484;AN=5008;NS=2504;DP=17738;EAS_AF=0.3571;AMR_AF=0.5187;AFR_AF=0.8336;EUR_AF=0.4145;SAS_AF=0.6421;AA=g|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234637905	rs45625338	C	T	100	PASS	AC=46;AF=0.0091853;AN=5008;NS=2504;DP=20365;EAS_AF=0.0446;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234637912	rs6431625	T	C	100	PASS	AC=2174;AF=0.434105;AN=5008;NS=2504;DP=20161;EAS_AF=0.126;AMR_AF=0.4294;AFR_AF=0.7322;EUR_AF=0.3469;SAS_AF=0.4417;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	0|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234638006	rs17868336	A	G	100	PASS	AC=51;AF=0.0101837;AN=5008;NS=2504;DP=22774;EAS_AF=0;AMR_AF=0.0231;AFR_AF=0.0008;EUR_AF=0.0308;SAS_AF=0.0031;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+2	234638114	rs28898619	G	A	100	PASS	AC=37;AF=0.00738818;AN=5008;NS=2504;DP=22181;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0272;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234638245	rs61764030	C	T	100	PASS	AC=9;AF=0.00179712;AN=5008;NS=2504;DP=21353;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0;EUR_AF=0.006;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234638249	rs7574296	A	G	100	PASS	AC=2870;AF=0.573083;AN=5008;NS=2504;DP=21211;EAS_AF=0.3571;AMR_AF=0.5216;AFR_AF=0.8336;EUR_AF=0.4155;SAS_AF=0.6421;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234638580	rs45449995	A	G	100	PASS	AC=121;AF=0.0241613;AN=5008;NS=2504;DP=17408;EAS_AF=0.003;AMR_AF=0.013;AFR_AF=0.0522;EUR_AF=0.0239;SAS_AF=0.0164;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234665498	rs11568318	C	A	100	PASS	AC=168;AF=0.0335463;AN=5008;NS=2504;DP=19198;EAS_AF=0;AMR_AF=0.0403;AFR_AF=0.062;EUR_AF=0.0487;SAS_AF=0.0092;AA=c|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+2	234665590	rs34531096	AC	A	100	PASS	AC=18;AF=0.00359425;AN=5008;NS=2504;DP=17659;EAS_AF=0.0179;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=CCC|CCC|CC|deletion;VT=INDEL	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234665659	rs4124874	T	G	100	PASS	AC=2945;AF=0.588059;AN=5008;NS=2504;DP=15764;EAS_AF=0.3562;AMR_AF=0.5274;AFR_AF=0.8986;EUR_AF=0.4155;SAS_AF=0.6278;AA=G|||;VT=SNP	GT	0|1	1|1	1|0	0|0	0|0	1|0	1|1	0|1	1|0	0|1
+2	234665763	rs11568317	A	G	100	PASS	AC=35;AF=0.00698882;AN=5008;NS=2504;DP=12545;EAS_AF=0.0347;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234665782	rs10929302	G	A	100	PASS	AC=1513;AF=0.302117;AN=5008;NS=2504;DP=12216;EAS_AF=0.127;AMR_AF=0.3617;AFR_AF=0.3381;EUR_AF=0.2744;SAS_AF=0.4202;AA=G|||;VT=SNP	GT	0|0	0|1	1|0	0|0	0|0	0|0	1|1	0|1	1|0	0|1
+2	234668570	rs887829	C	T	100	PASS	AC=1773;AF=0.354034;AN=5008;NS=2504;DP=13898;EAS_AF=0.13;AMR_AF=0.379;AFR_AF=0.4932;EUR_AF=0.2982;SAS_AF=0.4366;AA=C|||;VT=SNP	GT	0|1	0|1	1|0	0|0	0|0	0|0	1|1	0|1	1|0	0|1
+2	234668870	rs873478	G	C	100	PASS	AC=55;AF=0.0109824;AN=5008;NS=2504;DP=18135;EAS_AF=0.0536;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234669144	rs4148323	G	A	100	PASS	AC=172;AF=0.034345;AN=5008;NS=2504;DP=21348;EAS_AF=0.1379;AMR_AF=0.0115;AFR_AF=0.0008;EUR_AF=0.007;SAS_AF=0.0174;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234669619	rs35350960	C	A	100	PASS	AC=14;AF=0.00279553;AN=5008;NS=2504;DP=22327;EAS_AF=0.0139;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234675826	rs4148327	T	C	100	PASS	AC=31;AF=0.0061901;AN=5008;NS=2504;DP=15563;EAS_AF=0.0288;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.002;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234676413	rs2302538	T	C	100	PASS	AC=964;AF=0.192492;AN=5008;NS=2504;DP=19007;EAS_AF=0.0516;AMR_AF=0.0965;AFR_AF=0.4251;EUR_AF=0.1282;SAS_AF=0.1575;AA=C|||;VT=SNP	GT	0|1	1|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+2	234676872	rs34946978	C	T	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=20477;EAS_AF=0.0109;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234681059	rs34993780	T	G	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=17167;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+2	234681416	rs10929303	T	C	100	PASS	AC=3768;AF=0.752396;AN=5008;NS=2504;DP=17938;EAS_AF=0.8671;AMR_AF=0.7824;AFR_AF=0.5772;EUR_AF=0.7714;SAS_AF=0.8303;AA=C|||;VT=SNP	GT	1|0	0|1	1|0	0|1	1|1	1|1	1|1	0|1	1|1	0|1
+2	234681544	rs1042640	G	C	100	PASS	AC=4112;AF=0.821086;AN=5008;NS=2504;DP=17187;EAS_AF=0.8671;AMR_AF=0.8055;AFR_AF=0.8041;EUR_AF=0.7992;SAS_AF=0.8303;AA=c|||;VT=SNP	GT	1|0	1|1	1|0	0|1	1|1	1|1	1|1	0|1	1|1	0|1
+2	234681645	rs8330	G	C	100	PASS	AC=3731;AF=0.745008;AN=5008;NS=2504;DP=17604;EAS_AF=0.869;AMR_AF=0.7752;AFR_AF=0.562;EUR_AF=0.7634;SAS_AF=0.8241;AA=C|||;VT=SNP	GT	1|0	0|1	1|0	0|1	1|1	1|1	1|1	0|1	1|1	0|1
+3	38692256	rs9825294	A	G	100	PASS	AC=789;AF=0.157548;AN=5008;NS=2504;DP=17492;EAS_AF=0.2907;AMR_AF=0.085;AFR_AF=0.3018;EUR_AF=0.0109;SAS_AF=0.0276;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+3	151056598	rs6809699	A	C	100	PASS	AC=4565;AF=0.911542;AN=5008;NS=2504;DP=17244;EAS_AF=0.8988;AMR_AF=0.915;AFR_AF=0.9932;EUR_AF=0.829;SAS_AF=0.8967;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	1|1	0|1	1|0	1|1	1|1	1|1	1|1	1|1	0|0
+3	151057584	rs5853517	CT	C	100	PASS	AC=4347;AF=0.868011;AN=5008;NS=2504;DP=14490;EAS_AF=0.8482;AMR_AF=0.8991;AFR_AF=0.8744;EUR_AF=0.827;SAS_AF=0.8998;AA=T|TT|T|insertion;VT=INDEL	GT	0|1	1|1	0|1	1|0	1|1	1|1	1|1	1|1	1|1	0|0
+3	151057642	rs2046934	G	A	100	PASS	AC=4345;AF=0.867612;AN=5008;NS=2504;DP=15385;EAS_AF=0.8482;AMR_AF=0.8991;AFR_AF=0.8729;EUR_AF=0.827;SAS_AF=0.8998;AA=G|||;VT=SNP	GT	0|1	1|1	0|1	1|0	1|1	1|1	1|1	1|1	1|1	0|0
+3	151058247	rs10935838	A	G	100	PASS	AC=4348;AF=0.868211;AN=5008;NS=2504;DP=17261;EAS_AF=0.8492;AMR_AF=0.8991;AFR_AF=0.8744;EUR_AF=0.827;SAS_AF=0.8998;AA=G|||;VT=SNP	GT	0|1	1|1	0|1	1|0	1|1	1|1	1|1	1|1	1|1	0|0
+3	151062830	rs6801273	T	C	100	PASS	AC=2087;AF=0.416733;AN=5008;NS=2504;DP=19297;EAS_AF=0.3403;AMR_AF=0.3487;AFR_AF=0.587;EUR_AF=0.3648;SAS_AF=0.3671;AA=C|||;VT=SNP	GT	0|1	1|1	0|1	1|0	1|1	1|1	0|0	1|0	0|1	0|0
+3	151090996	rs9859552	G	T	100	PASS	AC=312;AF=0.0623003;AN=5008;NS=2504;DP=16825;EAS_AF=0.002;AMR_AF=0.1167;AFR_AF=0.0113;EUR_AF=0.174;SAS_AF=0.0399;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0
+3	151099741	rs6787801	A	G	100	PASS	AC=2368;AF=0.472843;AN=5008;NS=2504;DP=21152;EAS_AF=0.4077;AMR_AF=0.4424;AFR_AF=0.4985;EUR_AF=0.498;SAS_AF=0.501;AA=G|||;VT=SNP	GT	1|1	1|1	0|0	0|1	0|1	0|1	0|1	1|0	1|0	0|1
+3	151106158	rs6798347	G	A	100	PASS	AC=1448;AF=0.289137;AN=5008;NS=2504;DP=15428;EAS_AF=0.2788;AMR_AF=0.2205;AFR_AF=0.3351;EUR_AF=0.2018;SAS_AF=0.3763;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	1|0	1|0	1|0	0|0	0|0	0|1	0|0
+3	178862866	rs9831234	A	G	100	PASS	AC=1346;AF=0.26877;AN=5008;NS=2504;DP=17079;EAS_AF=0.1052;AMR_AF=0.2435;AFR_AF=0.475;EUR_AF=0.1869;SAS_AF=0.2607;AA=G|||;VT=SNP	GT	1|0	1|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|1
+3	178884337	rs2699905	C	T	100	PASS	AC=639;AF=0.127596;AN=5008;NS=2504;DP=19707;EAS_AF=0.0575;AMR_AF=0.1513;AFR_AF=0.0681;EUR_AF=0.2286;SAS_AF=0.1595;AA=C|||;VT=SNP	GT	0|0	0|0	0|1	1|0	0|1	1|0	0|0	0|0	0|0	0|0
+3	178897674	rs6443624	C	A	100	PASS	AC=1498;AF=0.299121;AN=5008;NS=2504;DP=19431;EAS_AF=0.1081;AMR_AF=0.2781;AFR_AF=0.5197;EUR_AF=0.2396;SAS_AF=0.274;AA=A|||;VT=SNP	GT	1|0	1|0	1|0	0|0	0|0	0|0	1|0	1|0	0|1	0|1
+3	178903264	rs2677760	C	T	100	PASS	AC=2576;AF=0.514377;AN=5008;NS=2504;DP=19228;EAS_AF=0.2073;AMR_AF=0.5144;AFR_AF=0.7852;EUR_AF=0.5099;SAS_AF=0.4693;AA=T|||;VT=SNP	GT	1|0	1|0	1|1	1|0	0|1	1|0	1|0	1|0	0|1	1|1
+3	178933363	rs2459693	C	T	100	PASS	AC=2921;AF=0.583267;AN=5008;NS=2504;DP=14942;EAS_AF=0.247;AMR_AF=0.5504;AFR_AF=0.9017;EUR_AF=0.5577;SAS_AF=0.5491;AA=T|||;VT=SNP	GT	1|0	1|0	1|1	1|0	0|1	1|0	1|0	1|0	0|1	1|1
+4	69491562	esv3600876;esv3600877	T	<CN0>,<CN2>	100	PASS	AC=6,25;AF=0.00119808,0.00499201;AN=5008;CS=DUP_gs;END=69535052;NS=2504;SVTYPE=CNV;DP=16281;EAS_AF=0,0;AMR_AF=0.0014,0.0029;AFR_AF=0.0038,0.0008;EUR_AF=0,0.001;SAS_AF=0,0.0215;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+4	69512847	rs4148269	T	G	100	PASS	AC=1841;AF=0.367612;AN=5008;NS=2504;DP=18726;EAS_AF=0.1895;AMR_AF=0.5029;AFR_AF=0.1263;EUR_AF=0.6362;SAS_AF=0.5051;AA=g|||;VT=SNP;EX_TARGET	GT	1|1	1|1	1|1	1|1	1|0	1|0	1|0	0|1	0|1	1|0
+4	69520851	rs148583958	G	A	100	PASS	AC=16;AF=0.00319489;AN=5008;NS=2504;DP=16298;EAS_AF=0.001;AMR_AF=0.0072;AFR_AF=0.0008;EUR_AF=0.002;SAS_AF=0.0072;AA=g|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+4	69536084	rs1902023	A	C	100	PASS	AC=2737;AF=0.546526;AN=5008;NS=2504;DP=19778;EAS_AF=0.5774;AMR_AF=0.6052;AFR_AF=0.6021;EUR_AF=0.4871;SAS_AF=0.4591;AA=c|||;VT=SNP;EX_TARGET	GT	1|0	1|1	1|0	1|0	0|0	0|0	1|0	0|0	0|0	1|0
+4	70723299	rs11569705	C	A	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=17678;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+5	74631139	rs3761738	C	T	100	PASS	AC=362;AF=0.0722843;AN=5008;NS=2504;DP=17494;EAS_AF=0.0278;AMR_AF=0.0994;AFR_AF=0.0272;EUR_AF=0.1004;SAS_AF=0.1309;AA=C|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+5	74631501	rs3761739	C	T	100	PASS	AC=792;AF=0.158147;AN=5008;NS=2504;DP=17812;EAS_AF=0.1815;AMR_AF=0.2104;AFR_AF=0.1195;EUR_AF=0.1521;SAS_AF=0.1554;AA=C|||;VT=SNP	GT	0|0	1|0	1|0	0|0	0|0	1|0	0|0	0|1	0|0	0|0
+5	74634473	rs4704209	A	G	100	PASS	AC=341;AF=0.0680911;AN=5008;NS=2504;DP=20898;EAS_AF=0.1538;AMR_AF=0.1081;AFR_AF=0.0272;EUR_AF=0.0507;SAS_AF=0.0245;AA=A|||;VT=SNP	GT	0|0	1|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+5	74637711	rs10038095	A	T	100	PASS	AC=2183;AF=0.435903;AN=5008;NS=2504;DP=18021;EAS_AF=0.5099;AMR_AF=0.4035;AFR_AF=0.3185;EUR_AF=0.3897;SAS_AF=0.589;AA=T|||;VT=SNP	GT	1|0	1|0	1|0	1|1	0|0	1|0	0|1	1|0	1|1	0|0
+5	74642855	rs17244841	A	T	100	PASS	AC=185;AF=0.0369409;AN=5008;NS=2504;DP=16577;EAS_AF=0.006;AMR_AF=0.0259;AFR_AF=0.1074;EUR_AF=0.0179;SAS_AF=0.001;AA=T|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+5	74644706	rs6453131	T	G	100	PASS	AC=2149;AF=0.429113;AN=5008;NS=2504;DP=17866;EAS_AF=0.4732;AMR_AF=0.4078;AFR_AF=0.3464;EUR_AF=0.3887;SAS_AF=0.5521;AA=T|||;VT=SNP	GT	1|0	1|0	1|0	1|1	0|0	1|0	0|1	1|0	1|1	0|0
+5	74648496	rs17238484	G	T	100	PASS	AC=1341;AF=0.267772;AN=5008;NS=2504;DP=18449;EAS_AF=0.2927;AMR_AF=0.1888;AFR_AF=0.1921;EUR_AF=0.2366;SAS_AF=0.4325;AA=G|||;VT=SNP	GT	1|0	0|0	0|0	1|1	0|0	0|0	0|1	1|0	1|1	0|0
+5	74651084	rs3846662	A	G	100	PASS	AC=3130;AF=0.625;AN=5008;NS=2504;DP=21045;EAS_AF=0.5099;AMR_AF=0.5072;AFR_AF=0.9433;EUR_AF=0.4324;SAS_AF=0.5951;AA=G|||;VT=SNP	GT	1|0	1|0	1|0	1|1	0|0	1|0	0|1	1|0	1|1	0|0
+5	74655498	rs17238540	T	G	100	PASS	AC=178;AF=0.0355431;AN=5008;NS=2504;DP=21519;EAS_AF=0;AMR_AF=0.0245;AFR_AF=0.1082;EUR_AF=0.0169;SAS_AF=0.001;AA=T|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+5	74655726	rs3846663	C	T	100	PASS	AC=2032;AF=0.405751;AN=5008;NS=2504;DP=20487;EAS_AF=0.5099;AMR_AF=0.4049;AFR_AF=0.23;EUR_AF=0.3897;SAS_AF=0.5532;AA=T|||;VT=SNP	GT	1|0	1|0	1|0	1|1	0|0	1|0	0|1	1|0	1|1	0|0
+5	74658304	rs4629571	A	G	100	PASS	AC=457;AF=0.091254;AN=5008;NS=2504;DP=21485;EAS_AF=0.0595;AMR_AF=0.0793;AFR_AF=0.0552;EUR_AF=0.1113;SAS_AF=0.1605;AA=A|||;VT=SNP	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0	1|0	0|0
+5	148206440	rs1042713	G	A	100	PASS	AC=2382;AF=0.475639;AN=5008;NS=2504;DP=16385;EAS_AF=0.5486;AMR_AF=0.4568;AFR_AF=0.5204;EUR_AF=0.3857;SAS_AF=0.4458;AA=G|||;VT=SNP;EX_TARGET	GT	1|1	0|1	0|0	1|1	0|0	1|0	1|0	0|0	1|1	0|1
+5	148206473	rs1042714	G	C	100	PASS	AC=3985;AF=0.795727;AN=5008;NS=2504;DP=17308;EAS_AF=0.9266;AMR_AF=0.7579;AFR_AF=0.8638;EUR_AF=0.5905;SAS_AF=0.8067;AA=G|||;VT=SNP;EX_TARGET	GT	1|1	0|1	0|1	1|1	1|1	1|0	1|0	0|1	1|1	1|1
+6	18130918	rs1142345	T	C	100	PASS	AC=196;AF=0.0391374;AN=5008;NS=2504;DP=17798;EAS_AF=0.0218;AMR_AF=0.0576;AFR_AF=0.0666;EUR_AF=0.0288;SAS_AF=0.0174;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18130993	rs56161402	C	T	100	PASS	AC=28;AF=0.00559105;AN=5008;NS=2504;DP=20466;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0197;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18134076	rs75543815	T	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=17455;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18134078	rs6921269	C	A	100	PASS	AC=37;AF=0.00738818;AN=5008;NS=2504;DP=17510;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0265;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18139200	rs144041067	C	T	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=18641;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18139201	rs112339338	G	A	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=18611;EAS_AF=0;AMR_AF=0;AFR_AF=0.0015;EUR_AF=0.001;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18139214	rs2842934	G	A	100	PASS	AC=3771;AF=0.752995;AN=5008;NS=2504;DP=19152;EAS_AF=0.7619;AMR_AF=0.7767;AFR_AF=0.8101;EUR_AF=0.7763;SAS_AF=0.6258;AA=A|||;VT=SNP;EX_TARGET	GT	1|1	1|0	1|1	1|1	1|1	1|1	1|1	1|1	0|1	0|0
+6	18139228	rs1800460	C	T	100	PASS	AC=64;AF=0.0127796;AN=5008;NS=2504;DP=19715;EAS_AF=0;AMR_AF=0.0403;AFR_AF=0.003;EUR_AF=0.0278;SAS_AF=0.0041;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18143769	rs2518463	A	G	100	PASS	AC=2691;AF=0.53734;AN=5008;NS=2504;DP=16983;EAS_AF=0.3909;AMR_AF=0.5591;AFR_AF=0.7239;EUR_AF=0.5378;SAS_AF=0.4202;AA=G|||;VT=SNP	GT	0|0	1|0	0|1	1|1	0|1	1|1	0|1	0|0	1|0	0|0
+6	18143853	rs115106679	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=15206;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18143955	rs1800462	C	G	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=15608;EAS_AF=0;AMR_AF=0.0058;AFR_AF=0.0008;EUR_AF=0.006;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18148082	rs200591577	G	C	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=16525;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	18148247	rs12529220	T	A	100	PASS	AC=2676;AF=0.534345;AN=5008;NS=2504;DP=14488;EAS_AF=0.377;AMR_AF=0.5591;AFR_AF=0.7224;EUR_AF=0.5378;SAS_AF=0.4213;AA=A|||;VT=SNP	GT	0|0	1|0	0|1	1|1	0|1	1|1	0|1	0|0	1|0	0|0
+6	18149105	rs3931660	A	T	100	PASS	AC=287;AF=0.0573083;AN=5008;NS=2504;DP=21018;EAS_AF=0.0238;AMR_AF=0.0692;AFR_AF=0.1278;EUR_AF=0.0288;SAS_AF=0.0174;AA=A|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	43404511	rs9349256	G	A	100	PASS	AC=1826;AF=0.364617;AN=5008;NS=2504;DP=20733;EAS_AF=0.5863;AMR_AF=0.4409;AFR_AF=0.0303;EUR_AF=0.4602;SAS_AF=0.4356;AA=G|||;VT=SNP	GT	1|1	1|1	1|1	0|1	1|1	1|1	0|0	0|0	0|0	1|0
+6	43409418	rs2487663	A	G	100	PASS	AC=3189;AF=0.636781;AN=5008;NS=2504;DP=22550;EAS_AF=0.6518;AMR_AF=0.6657;AFR_AF=0.5053;EUR_AF=0.7744;SAS_AF=0.637;AA=G|||;VT=SNP	GT	1|1	1|1	1|1	0|1	1|1	1|1	1|1	1|1	1|1	1|0
+6	43412865	rs2125739	T	C	100	PASS	AC=1002;AF=0.20008;AN=5008;NS=2504;DP=16579;EAS_AF=0.0804;AMR_AF=0.1859;AFR_AF=0.3079;EUR_AF=0.2316;SAS_AF=0.1554;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	1|0	0|0	0|0	1|1	1|1	0|0
+6	46623698	rs3757241	T	C	100	PASS	AC=4434;AF=0.885383;AN=5008;NS=2504;DP=14769;EAS_AF=0.9097;AMR_AF=0.8631;AFR_AF=0.9705;EUR_AF=0.7575;SAS_AF=0.8926;AA=C|||;VT=SNP;EX_TARGET	GT	1|1	1|1	1|1	1|1	0|1	0|1	1|1	1|1	1|0	1|1
+6	46625635	rs10807344	C	T	100	PASS	AC=721;AF=0.14397;AN=5008;NS=2504;DP=16796;EAS_AF=0.131;AMR_AF=0.1455;AFR_AF=0.0174;EUR_AF=0.2127;SAS_AF=0.2566;AA=C|||;VT=SNP	GT	1|0	1|0	0|0	0|1	0|0	0|0	0|1	0|0	1|0	0|0
+6	46638422	rs9395206	T	A	100	PASS	AC=4413;AF=0.88119;AN=5008;NS=2504;DP=16103;EAS_AF=0.9097;AMR_AF=0.8588;AFR_AF=0.9584;EUR_AF=0.7584;SAS_AF=0.8896;AA=A|||;VT=SNP	GT	1|1	1|1	1|1	1|1	0|1	0|1	1|1	1|1	1|0	1|1
+6	46644875	rs2270450	C	T	100	PASS	AC=1592;AF=0.317891;AN=5008;NS=2504;DP=18871;EAS_AF=0.2202;AMR_AF=0.3905;AFR_AF=0.2345;EUR_AF=0.2763;SAS_AF=0.5225;AA=C|||;VT=SNP	GT	1|0	1|0	0|0	0|1	0|1	0|0	0|1	0|0	1|0	0|0
+6	160432890	esv3611425	T	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_uwash;END=160564713;NS=2504;SVTYPE=DUP;DP=17538;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	160543148	rs12208357	C	T	100	PASS	AC=102;AF=0.0203674;AN=5008;NS=2504;DP=18506;EAS_AF=0;AMR_AF=0.0202;AFR_AF=0.0038;EUR_AF=0.0626;SAS_AF=0.0204;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	160543229	rs55918055	T	C	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=16219;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.003;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	160560824	rs34130495	G	A	100	PASS	AC=31;AF=0.0061901;AN=5008;NS=2504;DP=13707;EAS_AF=0;AMR_AF=0.0072;AFR_AF=0.003;EUR_AF=0.0209;SAS_AF=0.001;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+6	160560880	rs202220802	CATG	C	100	PASS	AC=592;AF=0.118211;AN=5008;NS=2504;DP=14486;EAS_AF=0.005;AMR_AF=0.2882;AFR_AF=0.0454;EUR_AF=0.1839;SAS_AF=0.1452;VT=INDEL;EX_TARGET	GT	0|0	0|0	0|0	0|1	0|0	0|0	0|0	0|1	0|1	0|0
+6	160575837	rs34059508	G	A	100	PASS	AC=33;AF=0.00658946;AN=5008;NS=2504;DP=22706;EAS_AF=0;AMR_AF=0.0187;AFR_AF=0;EUR_AF=0.0199;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0
+7	1024855	rs3735684	G	A	100	PASS	AC=302;AF=0.0603035;AN=5008;NS=2504;DP=14229;EAS_AF=0.0238;AMR_AF=0.134;AFR_AF=0.0711;EUR_AF=0.0527;SAS_AF=0.0389;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	1028279	rs78873069	G	A	100	PASS	AC=66;AF=0.0131789;AN=5008;NS=2504;DP=10055;EAS_AF=0.0456;AMR_AF=0.0259;AFR_AF=0;EUR_AF=0;SAS_AF=0.002;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	1028448	rs3808348	C	T	100	PASS	AC=914;AF=0.182508;AN=5008;NS=2504;DP=8861;EAS_AF=0.3006;AMR_AF=0.245;AFR_AF=0.0756;EUR_AF=0.2147;SAS_AF=0.1278;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|1	0|0	0|1	0|1	0|0	0|0
+7	45955029	rs3110697	A	G	100	PASS	AC=2922;AF=0.583466;AN=5008;NS=2504;DP=20410;EAS_AF=0.751;AMR_AF=0.3804;AFR_AF=0.6331;EUR_AF=0.5706;SAS_AF=0.501;AA=A|||;VT=SNP	GT	0|1	0|1	1|1	1|1	0|0	0|1	1|1	0|1	0|1	1|1
+7	45960645	rs2854746	G	C	100	PASS	AC=2129;AF=0.42512;AN=5008;NS=2504;DP=7314;EAS_AF=0.7589;AMR_AF=0.2738;AFR_AF=0.3253;EUR_AF=0.4016;SAS_AF=0.3476;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	0|0	1|1	1|1	0|0	0|0	1|0	0|0	0|0	1|1
+7	45961075	rs2854744	G	T	100	PASS	AC=2669;AF=0.532947;AN=5008;NS=2504;DP=9989;EAS_AF=0.7629;AMR_AF=0.3329;AFR_AF=0.5734;EUR_AF=0.4573;SAS_AF=0.4611;AA=G|||;VT=SNP	GT	0|1	0|0	1|1	1|1	0|0	0|0	1|0	0|0	0|1	1|1
+7	45977282	rs2960436	G	A	100	PASS	AC=2711;AF=0.541334;AN=5008;NS=2504;DP=17909;EAS_AF=0.7639;AMR_AF=0.3329;AFR_AF=0.6097;EUR_AF=0.4573;SAS_AF=0.454;AA=G|||;VT=SNP	GT	0|1	0|0	1|1	1|1	0|0	0|0	1|0	0|0	0|1	1|1
+7	50537983	rs3757472	A	C	100	PASS	AC=3147;AF=0.628395;AN=5008;NS=2504;DP=14704;EAS_AF=0.5357;AMR_AF=0.7781;AFR_AF=0.5726;EUR_AF=0.6988;SAS_AF=0.6207;AA=C|||;VT=SNP	GT	1|1	1|1	1|0	1|1	1|1	1|1	0|1	0|1	1|0	1|0
+7	50550144	rs12718541	A	G	100	PASS	AC=2640;AF=0.527157;AN=5008;NS=2504;DP=17665;EAS_AF=0.4583;AMR_AF=0.6182;AFR_AF=0.5159;EUR_AF=0.5606;SAS_AF=0.5143;AA=G|||;VT=SNP	GT	1|1	0|0	0|0	1|1	1|0	1|0	0|0	0|1	1|0	1|0
+7	50553051	rs1451371	T	C	100	PASS	AC=1954;AF=0.390176;AN=5008;NS=2504;DP=16175;EAS_AF=0.4514;AMR_AF=0.5259;AFR_AF=0.2897;EUR_AF=0.4056;SAS_AF=0.3507;AA=T|||;VT=SNP	GT	0|1	0|0	0|0	1|1	1|0	1|0	0|0	0|1	1|0	1|0
+7	50553091	esv3613126	C	<CN2>	100	PASS	AC=4;AF=0.000798722;AN=5008;CS=DUP_uwash;END=50653502;NS=2504;SVTYPE=DUP;DP=16349;EAS_AF=0;AMR_AF=0;AFR_AF=0.0023;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	50553578	esv3613128	T	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-150,150;CIPOS=-150,150;CS=DUP_delly;END=50642867;NS=2504;SVTYPE=DUP;IMPRECISE;DP=18762;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	50596864	rs3735273	C	T	100	PASS	AC=1540;AF=0.307508;AN=5008;NS=2504;DP=19774;EAS_AF=0.3919;AMR_AF=0.147;AFR_AF=0.3752;EUR_AF=0.2276;SAS_AF=0.3252;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|1	0|0	0|0	0|0	1|0	1|0	0|0	0|1
+7	50623285	rs921451	T	C	100	PASS	AC=1736;AF=0.346645;AN=5008;NS=2504;DP=21769;EAS_AF=0.4673;AMR_AF=0.2464;AFR_AF=0.2035;EUR_AF=0.3588;SAS_AF=0.4744;AA=C|||;VT=SNP	GT	0|0	1|1	1|1	0|0	0|0	0|1	1|1	1|0	1|0	0|1
+7	87138645	rs1045642	A	G	100	PASS	AC=3029;AF=0.604832;AN=5008;NS=2504;DP=20497;EAS_AF=0.6022;AMR_AF=0.572;AFR_AF=0.8502;EUR_AF=0.4821;SAS_AF=0.4254;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|1	1|1	1|1	0|0	0|0	1|1	0|1	0|0	0|0
+7	87160618	rs2032582	A	C,T	100	PASS	AC=3090,244;AF=0.617013,0.048722;AN=5008;NS=2504;DP=18212;EAS_AF=0.4683,0.1339;AMR_AF=0.572,0.0591;AFR_AF=0.9796,0.0008;EUR_AF=0.5726,0.0179;SAS_AF=0.3579,0.0501;AA=C|||;VT=SNP;MULTI_ALLELIC;EX_TARGET	GT	1|1	0|1	1|1	1|1	0|0	0|0	1|1	1|1	0|0	1|0
+7	87178626	rs2235013	C	T	100	PASS	AC=2329;AF=0.465056;AN=5008;NS=2504;DP=17280;EAS_AF=0.375;AMR_AF=0.5461;AFR_AF=0.5151;EUR_AF=0.493;SAS_AF=0.4039;AA=C|||;VT=SNP	GT	1|1	0|1	0|1	1|1	0|0	0|0	1|0	1|0	0|0	1|0
+7	87179143	rs2235033	A	G	100	PASS	AC=2329;AF=0.465056;AN=5008;NS=2504;DP=20447;EAS_AF=0.375;AMR_AF=0.5461;AFR_AF=0.5151;EUR_AF=0.493;SAS_AF=0.4039;AA=A|||;VT=SNP	GT	1|1	0|1	0|1	1|1	0|0	0|0	1|0	1|0	0|0	1|0
+7	87180198	rs10276036	C	T	100	PASS	AC=2843;AF=0.567692;AN=5008;NS=2504;DP=16755;EAS_AF=0.373;AMR_AF=0.5893;AFR_AF=0.8064;EUR_AF=0.5845;SAS_AF=0.4131;AA=T|||;VT=SNP	GT	1|1	0|1	1|1	1|1	0|0	0|0	1|1	1|1	0|0	1|0
+7	99245974	rs28365085	A	G	100	PASS	AC=8;AF=0.00159744;AN=5008;NS=2504;DP=19669;EAS_AF=0.0079;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99247772	rs41279854	A	G	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18307;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99250236	rs28365083	G	T	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=18927;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.004;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99250393	rs41303343	T	TA	100	PASS	AC=158;AF=0.0315495;AN=5008;NS=2504;DP=22516;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.118;EUR_AF=0;SAS_AF=0;AA=A|A|AA|insertion;VT=INDEL;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99262835	rs10264272	C	T	100	PASS	AC=223;AF=0.0445288;AN=5008;NS=2504;DP=18786;EAS_AF=0;AMR_AF=0.0231;AFR_AF=0.1543;EUR_AF=0.003;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99262860	rs56411402	T	C	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=19083;EAS_AF=0.004;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99270539	rs776746	C	T	100	PASS	AC=1896;AF=0.378594;AN=5008;NS=2504;DP=19483;EAS_AF=0.2867;AMR_AF=0.2032;AFR_AF=0.82;EUR_AF=0.0567;SAS_AF=0.3323;AA=T|||;VT=SNP	GT	0|1	0|0	0|1	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99273815	rs28383468	G	A	100	PASS	AC=17;AF=0.00339457;AN=5008;NS=2504;DP=20808;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.0119;SAS_AF=0.0041;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99306685	rs2257401	C	G	100	PASS	AC=3353;AF=0.669529;AN=5008;NS=2504;DP=18828;EAS_AF=0.7123;AMR_AF=0.8069;AFR_AF=0.3835;EUR_AF=0.9274;SAS_AF=0.6493;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	1|1	1|0	1|1	1|1	1|1	1|1	1|1	1|1	1|1
+7	99355975	rs3735451	T	C	100	PASS	AC=2020;AF=0.403355;AN=5008;NS=2504;DP=19973;EAS_AF=0.3185;AMR_AF=0.2277;AFR_AF=0.8139;EUR_AF=0.0994;SAS_AF=0.3732;AA=C|||;VT=SNP	GT	1|1	0|0	0|1	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99358459	rs4986913	G	A	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=18820;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.002;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99358524	rs4986910	A	G	100	PASS	AC=13;AF=0.00259585;AN=5008;NS=2504;DP=18772;EAS_AF=0;AMR_AF=0.0072;AFR_AF=0.0008;EUR_AF=0.007;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99359800	rs12721629	G	A	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=19308;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0038;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99359829	rs67784355	G	A	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=20480;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0.001;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99361466	rs2242480	C	T	100	PASS	AC=2112;AF=0.421725;AN=5008;NS=2504;DP=19260;EAS_AF=0.2679;AMR_AF=0.3934;AFR_AF=0.8502;EUR_AF=0.0815;SAS_AF=0.3712;AA=T|||;VT=SNP;EX_TARGET	GT	1|1	0|0	0|1	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99361626	rs28371759	A	G	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=20912;EAS_AF=0.0109;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99365943	rs2687116	C	A	100	PASS	AC=3905;AF=0.779752;AN=5008;NS=2504;DP=18846;EAS_AF=0.995;AMR_AF=0.8977;AFR_AF=0.2791;EUR_AF=0.9702;SAS_AF=0.955;AA=C|||;VT=SNP;EX_TARGET	GT	1|0	1|1	1|0	1|1	1|1	1|1	1|1	1|1	1|1	1|1
+7	99365983	rs55785340	A	G	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=19101;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99365994	rs55901263	G	C	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=18963;EAS_AF=0.002;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99366047	rs113667357	T	C	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=19229;EAS_AF=0.002;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99366093	rs12721627	G	C	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=19673;EAS_AF=0.004;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99366316	rs35599367	G	A	100	PASS	AC=75;AF=0.014976;AN=5008;NS=2504;DP=20744;EAS_AF=0;AMR_AF=0.0259;AFR_AF=0.0008;EUR_AF=0.0497;SAS_AF=0.0061;AA=G|||;VT=SNP	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99367392	rs4986908	C	G	100	PASS	AC=9;AF=0.00179712;AN=5008;NS=2504;DP=18965;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.005;SAS_AF=0.0031;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99367404	rs72552798	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18683;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99367427	rs4986907	C	T	100	PASS	AC=26;AF=0.00519169;AN=5008;NS=2504;DP=18992;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0174;EUR_AF=0.001;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99367428	rs57409622	G	A	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=18896;EAS_AF=0;AMR_AF=0;AFR_AF=0.0045;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99367788	rs72552799	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18623;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99367825	rs55951658	T	C	100	PASS	AC=5;AF=0.000998403;AN=5008;NS=2504;DP=18093;EAS_AF=0.005;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99375702	rs56324128	C	T	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=17882;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99382096	rs2740574	C	T	100	PASS	AC=3852;AF=0.769169;AN=5008;NS=2504;DP=20013;EAS_AF=0.996;AMR_AF=0.8948;AFR_AF=0.2345;EUR_AF=0.9722;SAS_AF=0.9601;AA=C|||;VT=SNP	GT	1|0	1|1	1|0	1|1	1|1	1|1	1|1	1|1	1|1	1|1
+7	99451648	esv3614284	T	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=0,500;CIPOS=-500,0;CS=DEL_union;END=99462596;NS=2504;SVTYPE=DEL;DP=16774;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	99457605	rs680055	C	G	100	PASS	AC=624;AF=0.124601;AN=5008;NS=2504;DP=19594;EAS_AF=0.002;AMR_AF=0.0519;AFR_AF=0.3782;EUR_AF=0.0557;SAS_AF=0.0307;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	117153917	esv3614715	T	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_uwash;END=117202561;NS=2504;SVTYPE=DEL;DP=18449;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+7	117199644	rs199826652	ATCT	A	100	PASS	AC=20;AF=0.00399361;AN=5008;NS=2504;DP=18625;EAS_AF=0;AMR_AF=0.0101;AFR_AF=0;EUR_AF=0.0089;SAS_AF=0.0041;VT=INDEL;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	17979330	esv3616514	C	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_uwash;END=18145257;NS=2504;SVTYPE=DUP;DP=19246;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18079213	rs4986988	C	T	100	PASS	AC=84;AF=0.0167732;AN=5008;NS=2504;DP=17547;EAS_AF=0.006;AMR_AF=0.013;AFR_AF=0.003;EUR_AF=0.0249;SAS_AF=0.0409;AA=T|||;VT=SNP	GT	0|0	0|0	0|1	0|0	0|1	0|0	0|0	0|0	0|1	0|0
+8	18079517	rs4986989	A	T	100	PASS	AC=84;AF=0.0167732;AN=5008;NS=2504;DP=20107;EAS_AF=0.006;AMR_AF=0.013;AFR_AF=0.003;EUR_AF=0.0249;SAS_AF=0.0409;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|1	0|0	0|1	0|0	0|0	0|0	0|1	0|0
+8	18079577	rs4986992	T	G	100	PASS	AC=23;AF=0.00459265;AN=5008;NS=2504;DP=19689;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0166;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18079746	rs56379106	C	T	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=19652;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0.005;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18079958	rs146727732	T	C	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=19586;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0.001;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18080001	rs4987076	G	A	100	PASS	AC=85;AF=0.0169728;AN=5008;NS=2504;DP=19565;EAS_AF=0.006;AMR_AF=0.013;AFR_AF=0.003;EUR_AF=0.0258;SAS_AF=0.0409;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|1	0|0	0|1	0|0	0|0	0|0	0|1	0|0
+8	18080015	rs4986990	G	A	100	PASS	AC=85;AF=0.0169728;AN=5008;NS=2504;DP=19637;EAS_AF=0.0069;AMR_AF=0.013;AFR_AF=0.003;EUR_AF=0.0249;SAS_AF=0.0409;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|1	0|0	0|1	0|0	0|0	0|0	0|1	0|0
+8	18080115	rs5030839	C	T	100	PASS	AC=14;AF=0.00279553;AN=5008;NS=2504;DP=19455;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0.0015;EUR_AF=0.0089;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18080116	rs4986782	G	A	100	PASS	AC=28;AF=0.00559105;AN=5008;NS=2504;DP=19371;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0.0015;EUR_AF=0.0199;SAS_AF=0.0031;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18080196	rs4986783	T	G	100	PASS	AC=85;AF=0.0169728;AN=5008;NS=2504;DP=17892;EAS_AF=0.006;AMR_AF=0.0144;AFR_AF=0.003;EUR_AF=0.0249;SAS_AF=0.0409;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|1	0|0	0|1	0|0	0|0	0|0	0|1	0|0
+8	18080308	rs56172717	A	T	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=16012;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.005;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18080333	rs4986991	T	C	100	PASS	AC=20;AF=0.00399361;AN=5008;NS=2504;DP=15615;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0144;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18080635	rs367921464	TAATAATAAA	T	100	PASS	AC=85;AF=0.0169728;AN=5008;NS=2504;DP=9672;EAS_AF=0.006;AMR_AF=0.013;AFR_AF=0.003;EUR_AF=0.0258;SAS_AF=0.0409;VT=INDEL	GT	0|0	0|0	0|1	0|0	0|1	0|0	0|0	0|0	1|1	0|0
+8	18080644	rs1057126	A	T	100	PASS	AC=3002;AF=0.599441;AN=5008;NS=2504;DP=8999;EAS_AF=0.4722;AMR_AF=0.6427;AFR_AF=0.5008;EUR_AF=0.7644;SAS_AF=0.6636;AA=-|||;VT=SNP	GT	1|0	1|0	1|1	1|1	1|1	1|0	1|1	0|1	1|1	0|1
+8	18080651	rs15561	A	C	100	PASS	AC=2818;AF=0.5627;AN=5008;NS=2504;DP=9186;EAS_AF=0.4484;AMR_AF=0.6182;AFR_AF=0.4788;EUR_AF=0.7197;SAS_AF=0.593;AA=A|||;VT=SNP	GT	1|0	1|0	1|0	1|1	1|0	1|0	1|1	0|1	1|0	0|1
+8	18257542	rs72466456	T	C	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=18620;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18257583	rs45477599	T	A	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=18056;EAS_AF=0;AMR_AF=0;AFR_AF=0.0023;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18257704	rs1801279	G	A	100	PASS	AC=139;AF=0.0277556;AN=5008;NS=2504;DP=17267;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.1029;EUR_AF=0.001;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18257795	rs1041983	C	T	100	PASS	AC=1990;AF=0.397364;AN=5008;NS=2504;DP=18016;EAS_AF=0.4395;AMR_AF=0.2911;AFR_AF=0.4682;EUR_AF=0.3052;SAS_AF=0.4284;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	1|1	1|1	0|0	1|0	1|0	0|0	0|0
+8	18257854	rs1801280	T	C	100	PASS	AC=1466;AF=0.292732;AN=5008;NS=2504;DP=18553;EAS_AF=0.0377;AMR_AF=0.3617;AFR_AF=0.292;EUR_AF=0.4493;SAS_AF=0.3466;AA=T|||;VT=SNP;EX_TARGET	GT	1|1	0|0	0|1	0|0	0|0	1|0	0|1	0|1	1|0	1|1
+8	18257858	rs45532639	C	T	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=18500;EAS_AF=0;AMR_AF=0;AFR_AF=0.0023;EUR_AF=0.001;SAS_AF=0;AA=t|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18257916	rs12720065	C	G	100	PASS	AC=32;AF=0.00638978;AN=5008;NS=2504;DP=15940;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0234;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18257985	rs139351995	A	C	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=17178;EAS_AF=0;AMR_AF=0;AFR_AF=0.003;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18257994	rs1799929	C	T	100	PASS	AC=1342;AF=0.267971;AN=5008;NS=2504;DP=17491;EAS_AF=0.0367;AMR_AF=0.3444;AFR_AF=0.2375;EUR_AF=0.4354;SAS_AF=0.3211;AA=C|||;VT=SNP;EX_TARGET	GT	1|1	0|0	0|1	0|0	0|0	1|0	0|1	0|1	1|0	1|0
+8	18258012	rs72554617	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=17585;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258091	rs79050330	C	T	100	PASS	AC=9;AF=0.00179712;AN=5008;NS=2504;DP=18724;EAS_AF=0;AMR_AF=0;AFR_AF=0.0045;EUR_AF=0;SAS_AF=0.0031;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258103	rs1799930	G	A	100	PASS	AC=1327;AF=0.264976;AN=5008;NS=2504;DP=18802;EAS_AF=0.256;AMR_AF=0.1715;AFR_AF=0.2375;EUR_AF=0.2823;SAS_AF=0.3599;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	1|1	1|1	0|0	0|0	1|0	0|0	0|0
+8	18258122	rs45618543	G	T	100	PASS	AC=14;AF=0.00279553;AN=5008;NS=2504;DP=18351;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0098;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258135	rs56387565	T	C	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18154;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258151	rs138707146	C	T	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=17848;EAS_AF=0;AMR_AF=0;AFR_AF=0.0023;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258196	rs45518335	C	T	100	PASS	AC=9;AF=0.00179712;AN=5008;NS=2504;DP=16730;EAS_AF=0;AMR_AF=0;AFR_AF=0.0068;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258279	rs55700793	A	G	100	PASS	AC=8;AF=0.00159744;AN=5008;NS=2504;DP=15849;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0053;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258316	rs1208	G	A	100	PASS	AC=3391;AF=0.677117;AN=5008;NS=2504;DP=15994;EAS_AF=0.9603;AMR_AF=0.6268;AFR_AF=0.6051;EUR_AF=0.5616;SAS_AF=0.637;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	1|1	1|0	1|1	1|1	0|1	1|0	1|0	0|1	0|0
+8	18258351	rs56393504	G	A	100	PASS	AC=47;AF=0.00938498;AN=5008;NS=2504;DP=15716;EAS_AF=0;AMR_AF=0;AFR_AF=0.034;EUR_AF=0.001;SAS_AF=0.001;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+8	18258370	rs1799931	G	A	100	PASS	AC=387;AF=0.0772764;AN=5008;NS=2504;DP=15535;EAS_AF=0.1796;AMR_AF=0.1124;AFR_AF=0.0287;EUR_AF=0.0229;SAS_AF=0.0685;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0
+10	96403418	esv3624253	G	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-8,9;CIPOS=-8,9;CS=DEL_union;END=96521567;NS=2504;SVTYPE=DEL;DP=18112;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96484141	esv3624256	A	<CN0>	100	PASS	AC=2;AF=0.000399361;AN=5008;CIEND=0,500;CIPOS=-500,0;CS=DEL_union;END=96528363;NS=2504;SVTYPE=DEL;DP=19228;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96495219	esv3624257;esv3624258	G	<CN0>,<CN2>	100	PASS	AC=1,1;AF=0.000199681,0.000199681;AN=5008;CS=DUP_uwash;END=96575369;NS=2504;SVTYPE=CNV;DP=21020;EAS_AF=0,0;AMR_AF=0,0;AFR_AF=0,0.0008;EUR_AF=0.001,0;SAS_AF=0,0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96497316	esv3624259	A	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-2,2;CIPOS=-2,2;CS=DEL_union;END=96559107;NS=2504;SVTYPE=DEL;DP=19042;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96519061	rs11188072	C	T	100	PASS	AC=781;AF=0.15595;AN=5008;NS=2504;DP=16773;EAS_AF=0.0149;AMR_AF=0.1196;AFR_AF=0.2458;EUR_AF=0.2237;SAS_AF=0.136;AA=C|||;VT=SNP	GT	0|0	0|0	1|0	0|0	0|0	0|1	1|0	1|1	1|1	0|0
+10	96520433	rs113164681	C	T	100	PASS	AC=21;AF=0.00419329;AN=5008;NS=2504;DP=16700;EAS_AF=0;AMR_AF=0;AFR_AF=0.0159;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96520443	rs111490789	C	A	100	PASS	AC=22;AF=0.00439297;AN=5008;NS=2504;DP=16692;EAS_AF=0;AMR_AF=0;AFR_AF=0.0159;EUR_AF=0.001;SAS_AF=0;AA=A|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96521024	rs17878739	T	C	100	PASS	AC=21;AF=0.00419329;AN=5008;NS=2504;DP=22017;EAS_AF=0;AMR_AF=0;AFR_AF=0.0159;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96521422	rs7902257	A	G	100	PASS	AC=4895;AF=0.977436;AN=5008;NS=2504;DP=18837;EAS_AF=0.999;AMR_AF=0.9971;AFR_AF=0.9175;EUR_AF=0.999;SAS_AF=1;AA=G|||;VT=SNP	GT	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1
+10	96521574	rs11568732	T	G	100	PASS	AC=401;AF=0.0800719;AN=5008;NS=2504;DP=18984;EAS_AF=0.0952;AMR_AF=0.036;AFR_AF=0.0696;EUR_AF=0.0686;SAS_AF=0.1217;AA=T|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96521657	rs12248560	C	T	100	PASS	AC=767;AF=0.153155;AN=5008;NS=2504;DP=17112;EAS_AF=0.0149;AMR_AF=0.1196;AFR_AF=0.2352;EUR_AF=0.2237;SAS_AF=0.136;AA=C|||;VT=SNP	GT	0|0	0|0	1|0	0|0	0|0	0|1	1|0	1|1	1|1	0|0
+10	96522365	rs4986894	T	C	100	PASS	AC=1097;AF=0.21905;AN=5008;NS=2504;DP=20507;EAS_AF=0.3125;AMR_AF=0.1023;AFR_AF=0.1626;EUR_AF=0.1451;SAS_AF=0.3579;AA=T|||;VT=SNP	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96522450	rs367543001	G	A	100	PASS	AC=13;AF=0.00259585;AN=5008;NS=2504;DP=18884;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0133;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96522463	rs28399504	A	G	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=18806;EAS_AF=0.001;AMR_AF=0.0029;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96522469	rs367543002	C	T	100	PASS	AC=13;AF=0.00259585;AN=5008;NS=2504;DP=18788;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0133;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96522472	rs367543003	T	C	100	PASS	AC=13;AF=0.00259585;AN=5008;NS=2504;DP=18742;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0133;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96522517	rs17882687	A	C	100	PASS	AC=23;AF=0.00459265;AN=5008;NS=2504;DP=18724;EAS_AF=0;AMR_AF=0;AFR_AF=0.0166;EUR_AF=0;SAS_AF=0.001;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96522561	rs17885098	T	C	100	PASS	AC=460;AF=0.091853;AN=5008;NS=2504;DP=18492;EAS_AF=0.0962;AMR_AF=0.0389;AFR_AF=0.1089;EUR_AF=0.0716;SAS_AF=0.1227;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96527914	esv3624260	T	<CN0>	100	PASS	AC=2;AF=0.000399361;AN=5008;CIEND=-11,12;CIPOS=-11,12;CS=DEL_union;END=96567591;NS=2504;SVTYPE=DEL;DP=21330;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96534475	rs17884832	T	G	100	PASS	AC=430;AF=0.0858626;AN=5008;NS=2504;DP=19215;EAS_AF=0.0952;AMR_AF=0.0389;AFR_AF=0.0893;EUR_AF=0.0696;SAS_AF=0.1217;AA=T|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96534584	rs7916649	G	A	100	PASS	AC=2548;AF=0.508786;AN=5008;NS=2504;DP=12535;EAS_AF=0.4236;AMR_AF=0.2767;AFR_AF=0.6619;EUR_AF=0.4443;SAS_AF=0.6207;AA=A|||;VT=SNP	GT	1|0	0|0	1|0	0|0	0|0	0|1	1|1	1|1	1|1	1|0
+10	96534768	rs17878649	G	A	100	PASS	AC=108;AF=0.0215655;AN=5008;NS=2504;DP=21918;EAS_AF=0.0556;AMR_AF=0.0029;AFR_AF=0.0287;EUR_AF=0;SAS_AF=0.0123;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96534863	rs145328984	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=20166;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96534922	rs17878459	G	C	100	PASS	AC=45;AF=0.00898562;AN=5008;NS=2504;DP=19874;EAS_AF=0;AMR_AF=0.0058;AFR_AF=0.0038;EUR_AF=0.0358;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96535124	rs12769205	A	G	100	PASS	AC=1144;AF=0.228435;AN=5008;NS=2504;DP=21269;EAS_AF=0.3125;AMR_AF=0.1052;AFR_AF=0.1967;EUR_AF=0.1451;SAS_AF=0.3579;AA=A|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96535173	rs41291556	T	C	100	PASS	AC=5;AF=0.000998403;AN=5008;NS=2504;DP=21414;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0.003;SAS_AF=0.001;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96535246	rs17884712	G	A	100	PASS	AC=14;AF=0.00279553;AN=5008;NS=2504;DP=20491;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0098;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96535264	rs58973490	G	A	100	PASS	AC=5;AF=0.000998403;AN=5008;NS=2504;DP=19836;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0.004;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96535296	rs181297724	G	C	100	PASS	AC=13;AF=0.00259585;AN=5008;NS=2504;DP=19171;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0.0099;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96535628	rs17879992	T	C	100	PASS	AC=441;AF=0.0880591;AN=5008;NS=2504;DP=19447;EAS_AF=0.0952;AMR_AF=0.0389;AFR_AF=0.0976;EUR_AF=0.0696;SAS_AF=0.1217;AA=C|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96540331	rs140278421	G	C	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=16191;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96540410	rs4986893	G	A	100	PASS	AC=71;AF=0.0141773;AN=5008;NS=2504;DP=16821;EAS_AF=0.0556;AMR_AF=0;AFR_AF=0.0023;EUR_AF=0;SAS_AF=0.0123;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96541373	rs7088784	A	G	100	PASS	AC=447;AF=0.0892572;AN=5008;NS=2504;DP=13529;EAS_AF=0.0962;AMR_AF=0.0389;AFR_AF=0.0983;EUR_AF=0.0726;SAS_AF=0.1227;AA=A|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96541615	rs6413438	C	T	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=13917;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0015;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96541616	rs4244285	G	A	100	PASS	AC=1109;AF=0.221446;AN=5008;NS=2504;DP=13926;EAS_AF=0.3125;AMR_AF=0.1052;AFR_AF=0.1702;EUR_AF=0.1451;SAS_AF=0.3579;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96541982	rs12571421	A	G	100	PASS	AC=1096;AF=0.21885;AN=5008;NS=2504;DP=17180;EAS_AF=0.3125;AMR_AF=0.1023;AFR_AF=0.1619;EUR_AF=0.1451;SAS_AF=0.3579;AA=A|||;VT=SNP	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96580202	rs4417205	C	G	100	PASS	AC=1145;AF=0.228634;AN=5008;NS=2504;DP=20610;EAS_AF=0.3125;AMR_AF=0.1066;AFR_AF=0.1967;EUR_AF=0.1451;SAS_AF=0.3579;AA=C|||;VT=SNP	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96602398	rs28399513	T	A	100	PASS	AC=1108;AF=0.221246;AN=5008;NS=2504;DP=19216;EAS_AF=0.3125;AMR_AF=0.1037;AFR_AF=0.1702;EUR_AF=0.1451;SAS_AF=0.3579;AA=T|||;VT=SNP	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96602622	rs3758580	C	T	100	PASS	AC=1108;AF=0.221246;AN=5008;NS=2504;DP=19622;EAS_AF=0.3125;AMR_AF=0.1037;AFR_AF=0.1702;EUR_AF=0.1451;SAS_AF=0.3579;AA=c|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96602623	rs3758581	G	A	100	PASS	AC=243;AF=0.0485224;AN=5008;NS=2504;DP=19550;EAS_AF=0.0397;AMR_AF=0.0346;AFR_AF=0.0023;EUR_AF=0.0686;SAS_AF=0.1094;AA=g|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96602636	rs118203757	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=19327;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96602710	rs144036596	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=19381;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96609568	rs4917623	T	C	100	PASS	AC=2156;AF=0.430511;AN=5008;NS=2504;DP=19044;EAS_AF=0.5546;AMR_AF=0.6744;AFR_AF=0.1982;EUR_AF=0.508;SAS_AF=0.364;AA=T|||;VT=SNP	GT	0|1	1|1	0|1	1|1	1|1	1|0	0|0	0|0	0|0	0|1
+10	96609752	rs17879685	C	T	100	PASS	AC=28;AF=0.00559105;AN=5008;NS=2504;DP=19957;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0197;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96609775	rs17886522	A	C	100	PASS	AC=108;AF=0.0215655;AN=5008;NS=2504;DP=19963;EAS_AF=0.0556;AMR_AF=0.0014;AFR_AF=0.0295;EUR_AF=0;SAS_AF=0.0123;AA=a|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96612522	rs192154563	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=22172;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96683725	esv3624264	C	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_uwash;END=96859143;NS=2504;SVTYPE=DUP;DP=19478;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96691647	esv3624265	T	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_gs;END=96764236;NS=2504;SVTYPE=DUP;DP=17795;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96698440	rs114071557	A	G	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=15217;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96698494	rs67807361	C	A	100	PASS	AC=7;AF=0.00139776;AN=5008;NS=2504;DP=19674;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0072;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96701715	rs72558187	T	C	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=20129;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96701988	rs12414460	G	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=21723;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96701991	rs72558189	G	A	100	PASS	AC=21;AF=0.00419329;AN=5008;NS=2504;DP=21842;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0204;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96702006	rs200965026	C	T	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=21824;EAS_AF=0.001;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96702011	rs199523631	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=21557;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96702047	rs1799853	C	T	100	PASS	AC=240;AF=0.0479233;AN=5008;NS=2504;DP=20423;EAS_AF=0.001;AMR_AF=0.0994;AFR_AF=0.0083;EUR_AF=0.1243;SAS_AF=0.0348;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96702066	rs7900194	G	A	100	PASS	AC=74;AF=0.0147764;AN=5008;NS=2504;DP=19946;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.053;EUR_AF=0.002;SAS_AF=0.001;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96708974	rs2256871	A	G	100	PASS	AC=110;AF=0.0219649;AN=5008;NS=2504;DP=15422;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0817;EUR_AF=0.001;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96709038	rs9332131	GA	G	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=15685;EAS_AF=0;AMR_AF=0;AFR_AF=0.0083;EUR_AF=0;SAS_AF=0;AA=AA|AA|A|deletion;VT=INDEL;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96731876	rs182132442	C	A	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=18712;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96731936	rs72558192	A	G	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18781;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96740958	rs57505750	T	C	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=18660;EAS_AF=0;AMR_AF=0;AFR_AF=0.0015;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96740981	rs28371685	C	T	100	PASS	AC=36;AF=0.0071885;AN=5008;NS=2504;DP=17934;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0242;EUR_AF=0.002;SAS_AF=0.001;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96741053	rs1057910	A	C	100	PASS	AC=243;AF=0.0485224;AN=5008;NS=2504;DP=17557;EAS_AF=0.0337;AMR_AF=0.0375;AFR_AF=0.0023;EUR_AF=0.0726;SAS_AF=0.1094;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96741058	rs28371686	C	G	100	PASS	AC=23;AF=0.00459265;AN=5008;NS=2504;DP=17509;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0166;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96748737	rs1057911	A	T	100	PASS	AC=245;AF=0.0489217;AN=5008;NS=2504;DP=19802;EAS_AF=0.0327;AMR_AF=0.0375;AFR_AF=0.0045;EUR_AF=0.0726;SAS_AF=0.1094;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	1|0
+10	96748777	rs9332239	C	T	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=19734;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.003;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96798749	rs10509681	T	C	100	PASS	AC=229;AF=0.0457268;AN=5008;NS=2504;DP=22146;EAS_AF=0.001;AMR_AF=0.0994;AFR_AF=0.0083;EUR_AF=0.1183;SAS_AF=0.0297;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96818106	rs11572103	T	A	100	PASS	AC=274;AF=0.0547125;AN=5008;NS=2504;DP=17668;EAS_AF=0;AMR_AF=0.0115;AFR_AF=0.1891;EUR_AF=0.004;SAS_AF=0.0123;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96818119	rs1058930	G	C	100	PASS	AC=83;AF=0.0165735;AN=5008;NS=2504;DP=17620;EAS_AF=0;AMR_AF=0.0187;AFR_AF=0.0038;EUR_AF=0.0577;SAS_AF=0.0072;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	96827030	rs11572080	C	T	100	PASS	AC=229;AF=0.0457268;AN=5008;NS=2504;DP=20114;EAS_AF=0.001;AMR_AF=0.0994;AFR_AF=0.0083;EUR_AF=0.1183;SAS_AF=0.0297;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	101541053	rs1885301	A	G	100	PASS	AC=3102;AF=0.619409;AN=5008;NS=2504;DP=18450;EAS_AF=0.752;AMR_AF=0.5793;AFR_AF=0.5726;EUR_AF=0.5586;SAS_AF=0.637;AA=A|||;VT=SNP	GT	1|0	0|1	1|0	1|1	0|1	1|1	0|0	1|0	1|1	1|1
+10	101541583	rs2804402	A	G	100	PASS	AC=1748;AF=0.349042;AN=5008;NS=2504;DP=18991;EAS_AF=0.248;AMR_AF=0.4035;AFR_AF=0.3185;EUR_AF=0.4394;SAS_AF=0.363;AA=G|||;VT=SNP	GT	0|1	1|0	0|1	0|0	1|0	0|0	1|1	0|1	0|0	0|0
+10	101542578	rs717620	C	T	100	PASS	AC=676;AF=0.134984;AN=5008;NS=2504;DP=22164;EAS_AF=0.2173;AMR_AF=0.1657;AFR_AF=0.031;EUR_AF=0.2068;SAS_AF=0.0951;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|0	1|0	0|0	1|1	0|0	0|0	0|0
+10	101563815	rs2273697	G	A	100	PASS	AC=934;AF=0.186502;AN=5008;NS=2504;DP=23541;EAS_AF=0.0962;AMR_AF=0.1585;AFR_AF=0.1891;EUR_AF=0.2038;SAS_AF=0.2781;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|0	1|0	0|0	0|1	0|1	0|0	0|0	0|0	1|0
+10	101595996	rs17222723	T	A	100	PASS	AC=187;AF=0.0373403;AN=5008;NS=2504;DP=21625;EAS_AF=0;AMR_AF=0.0375;AFR_AF=0.056;EUR_AF=0.0696;SAS_AF=0.0174;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	101604207	rs3740066	C	T	100	PASS	AC=1443;AF=0.288139;AN=5008;NS=2504;DP=20904;EAS_AF=0.247;AMR_AF=0.3415;AFR_AF=0.2163;EUR_AF=0.3708;SAS_AF=0.3047;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	1|0	0|1	0|0	1|0	0|0	1|1	0|1	0|0	0|0
+10	115804036	rs1801252	A	G	100	PASS	AC=890;AF=0.177716;AN=5008;NS=2504;DP=9569;EAS_AF=0.1409;AMR_AF=0.2507;AFR_AF=0.239;EUR_AF=0.1272;SAS_AF=0.1329;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|1	0|0	0|0	0|0	1|0	0|0	1|1	0|0	1|0
+10	115805056	rs1801253	G	C	100	PASS	AC=3514;AF=0.701677;AN=5008;NS=2504;DP=5873;EAS_AF=0.7877;AMR_AF=0.8055;AFR_AF=0.5703;EUR_AF=0.6849;SAS_AF=0.7342;AA=C|||;VT=SNP;EX_TARGET	GT	1|1	1|1	0|1	1|1	1|1	1|1	0|0	1|1	1|1	1|1
+10	135256278	esv3625046;esv3625047;esv3625048	G	<CN0>,<CN2>,<CN3>	100	PASS	AC=1,77,6;AF=0.000199681,0.0153754,0.00119808;AN=5008;CS=DUP_uwash;END=135368497;NS=2504;SVTYPE=CNV;DP=19705;EAS_AF=0,0.0119,0;AMR_AF=0,0.0115,0.0014;AFR_AF=0.0008,0.0272,0.003;EUR_AF=0,0.0139,0;SAS_AF=0,0.0072,0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	135339605	rs3813867	G	C	100	PASS	AC=427;AF=0.0852636;AN=5008;NS=2504;DP=17882;EAS_AF=0.2024;AMR_AF=0.1225;AFR_AF=0.0666;EUR_AF=0.0408;SAS_AF=0.0092;AA=g|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	135339845	rs2031920	C	T	100	PASS	AC=336;AF=0.0670927;AN=5008;NS=2504;DP=16496;EAS_AF=0.2024;AMR_AF=0.1153;AFR_AF=0.0015;EUR_AF=0.0408;SAS_AF=0.0092;AA=c|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	135342034	rs72559710	G	A	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=15203;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=g|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	135345675	rs6413419	G	A	100	PASS	AC=388;AF=0.077476;AN=5008;NS=2504;DP=20295;EAS_AF=0;AMR_AF=0.0447;AFR_AF=0.2383;EUR_AF=0.0308;SAS_AF=0.0112;AA=g|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	135348035	esv3625052;esv3625053;esv3625054	C	<CN0>,<CN2>,<CN3>	100	PASS	AC=3,162,11;AF=0.000599042,0.0323482,0.00219649;AN=5008;CS=DUP_gs;END=135378260;NS=2504;SVTYPE=CNV;DP=18024;EAS_AF=0.001,0.0129,0.003;AMR_AF=0,0.0231,0.0014;AFR_AF=0.0008,0.0855,0.0038;EUR_AF=0,0.0139,0;SAS_AF=0.001,0.0061,0.002;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+10	135351137	rs2070676	G	C	100	PASS	AC=3469;AF=0.692692;AN=5008;NS=2504;DP=20511;EAS_AF=0.7946;AMR_AF=0.8184;AFR_AF=0.3094;EUR_AF=0.8718;SAS_AF=0.8323;AA=.|||;VT=SNP	GT	1|1	1|1	1|0	1|1	1|1	1|1	1|1	1|1	1|1	1|1
+10	135351264	rs55897648	G	A	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=21603;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+11	14873676	esv3625429	C	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_gs;END=14919955;MC=DUP_uwash_chr11_14865673_14907254;NS=2504;SVTYPE=DUP;DP=19565;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+11	14907393	rs61495246	A	G	100	PASS	AC=7;AF=0.00139776;AN=5008;NS=2504;DP=19707;EAS_AF=0;AMR_AF=0;AFR_AF=0.0053;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21069193	esv3628799	T	<CN0>	100	PASS	AC=2;AF=0.000399361;AN=5008;CS=DUP_uwash;END=21486864;NS=2504;SVTYPE=DEL;DP=18282;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21283322	rs4149015	G	A	100	PASS	AC=274;AF=0.0547125;AN=5008;NS=2504;DP=19132;EAS_AF=0.131;AMR_AF=0.0375;AFR_AF=0.0068;EUR_AF=0.0646;SAS_AF=0.0429;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|1	1|0	0|0	0|0	0|0	0|0
+12	21329738	rs2306283	A	G	100	PASS	AC=3117;AF=0.622404;AN=5008;NS=2504;DP=17062;EAS_AF=0.7619;AMR_AF=0.4726;AFR_AF=0.8177;EUR_AF=0.4026;SAS_AF=0.547;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|1	1|0	0|0	0|1	1|1	0|0	0|0	0|0	0|0
+12	21329761	rs11045818	G	A	100	PASS	AC=259;AF=0.0517173;AN=5008;NS=2504;DP=17217;EAS_AF=0.003;AMR_AF=0.0893;AFR_AF=0.0136;EUR_AF=0.1441;SAS_AF=0.0317;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	0|0	0|0	0|1	0|0	0|0	0|0	0|0
+12	21329802	rs2306282	A	G	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=17435;EAS_AF=0.004;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21329813	rs11045819	C	A	100	PASS	AC=325;AF=0.0648962;AN=5008;NS=2504;DP=17499;EAS_AF=0.003;AMR_AF=0.0994;AFR_AF=0.0598;EUR_AF=0.1441;SAS_AF=0.0297;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	0|0	0|0	0|1	0|0	0|0	0|0	0|0
+12	21331549	rs4149056	T	C	100	PASS	AC=439;AF=0.0876597;AN=5008;NS=2504;DP=15111;EAS_AF=0.123;AMR_AF=0.134;AFR_AF=0.0136;EUR_AF=0.161;SAS_AF=0.0429;AA=T|||;VT=SNP;EX_TARGET	GT	1|0	1|0	0|0	0|0	0|1	0|0	0|0	0|0	0|0	0|0
+12	21331599	rs4149057	T	C	100	PASS	AC=1840;AF=0.367412;AN=5008;NS=2504;DP=15151;EAS_AF=0.2431;AMR_AF=0.5043;AFR_AF=0.1445;EUR_AF=0.6074;SAS_AF=0.453;AA=T|||;VT=SNP;EX_TARGET	GT	0|1	0|0	1|1	0|1	1|0	0|1	1|0	1|1	1|1	1|1
+12	21331625	rs2291075	C	T	100	PASS	AC=2081;AF=0.415535;AN=5008;NS=2504;DP=15258;EAS_AF=0.5109;AMR_AF=0.3314;AFR_AF=0.5598;EUR_AF=0.3966;SAS_AF=0.2014;AA=T|||;VT=SNP;EX_TARGET	GT	1|0	1|0	1|0	0|0	0|1	1|1	0|0	0|0	0|0	0|0
+12	21331891	rs79135870	A	G	100	PASS	AC=20;AF=0.00399361;AN=5008;NS=2504;DP=16045;EAS_AF=0;AMR_AF=0;AFR_AF=0.0151;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21349885	rs11045852	A	G	100	PASS	AC=80;AF=0.0159744;AN=5008;NS=2504;DP=17079;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0272;EUR_AF=0;SAS_AF=0.044;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21349910	rs11045853	G	A	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=17250;EAS_AF=0;AMR_AF=0;AFR_AF=0.0023;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21355489	rs59113707	C	G	100	PASS	AC=85;AF=0.0169728;AN=5008;NS=2504;DP=15142;EAS_AF=0;AMR_AF=0.0058;AFR_AF=0.0613;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21358933	rs59502379	G	C	100	PASS	AC=56;AF=0.0111821;AN=5008;NS=2504;DP=17184;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0408;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+12	21391976	rs34671512	A	C	100	PASS	AC=222;AF=0.0443291;AN=5008;NS=2504;DP=13062;EAS_AF=0.005;AMR_AF=0.0447;AFR_AF=0.0651;EUR_AF=0.0517;SAS_AF=0.0491;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+12	21392092	rs140790673	C	T	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=14589;EAS_AF=0.002;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75011641	rs4646903	A	G	100	PASS	AC=1468;AF=0.293131;AN=5008;NS=2504;DP=15944;EAS_AF=0.4296;AMR_AF=0.4107;AFR_AF=0.2345;EUR_AF=0.1074;SAS_AF=0.3395;AA=A|||;VT=SNP	GT	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75012894	rs28399430	G	C	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=21940;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75012940	rs56240201	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=22252;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75012979	rs41279188	G	T	100	PASS	AC=5;AF=0.000998403;AN=5008;NS=2504;DP=22587;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.005;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75012985	rs1048943	T	C	100	PASS	AC=668;AF=0.133387;AN=5008;NS=2504;DP=22713;EAS_AF=0.252;AMR_AF=0.3545;AFR_AF=0.0068;EUR_AF=0.0348;SAS_AF=0.1268;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75012987	rs1799814	G	T	100	PASS	AC=69;AF=0.013778;AN=5008;NS=2504;DP=22650;EAS_AF=0;AMR_AF=0.0317;AFR_AF=0.003;EUR_AF=0.0338;SAS_AF=0.0092;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+15	75013026	rs72547509	A	G	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=23336;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75038220	rs2069514	G	A	100	PASS	AC=1046;AF=0.208866;AN=5008;NS=2504;DP=17236;EAS_AF=0.2808;AMR_AF=0.3617;AFR_AF=0.3132;EUR_AF=0.0199;SAS_AF=0.0798;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75039612	rs35694136	AT	A	100	PASS	AC=1928;AF=0.384984;AN=5008;NS=2504;DP=15048;EAS_AF=0.5099;AMR_AF=0.4265;AFR_AF=0.5045;EUR_AF=0.0805;SAS_AF=0.3783;AA=-|T|-|insertion;VT=INDEL	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75041341	rs2069526	T	G	100	PASS	AC=356;AF=0.0710863;AN=5008;NS=2504;DP=19156;EAS_AF=0.0843;AMR_AF=0.0245;AFR_AF=0.1233;EUR_AF=0.0239;SAS_AF=0.0685;AA=g|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75041351	rs12720461	C	T	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=19379;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.003;SAS_AF=0;AA=c|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75041917	rs762551	C	A	100	PASS	AC=3154;AF=0.629792;AN=5008;NS=2504;DP=20230;EAS_AF=0.6726;AMR_AF=0.7579;AFR_AF=0.562;EUR_AF=0.6799;SAS_AF=0.5348;AA=a|||;VT=SNP	GT	1|1	0|0	1|1	1|1	1|0	1|1	1|1	0|1	1|1	1|0
+15	75042327	rs138652540	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18734;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75043592	rs17861157	C	A	100	PASS	AC=120;AF=0.0239617;AN=5008;NS=2504;DP=21893;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0893;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75043593	rs35796837	G	A	100	PASS	AC=10;AF=0.00199681;AN=5008;NS=2504;DP=21807;EAS_AF=0.004;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0.0051;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75044238	rs2472304	G	A	100	PASS	AC=1192;AF=0.238019;AN=5008;NS=2504;DP=19007;EAS_AF=0.1637;AMR_AF=0.3271;AFR_AF=0.0333;EUR_AF=0.5994;SAS_AF=0.1564;AA=g|||;VT=SNP	GT	1|1	0|0	1|1	1|1	1|0	1|1	1|1	0|1	1|1	1|0
+15	75044578	rs72547516	A	G	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=16050;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0.001;AA=a|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75045542	rs149928755	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=18465;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75047169	rs28399424	C	T	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=14832;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.003;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75047184	rs144148965	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=16072;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75047191	rs45486893	C	T	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=16826;EAS_AF=0.002;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75047363	rs143193369	C	A	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=16936;EAS_AF=0;AMR_AF=0;AFR_AF=0.0015;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+15	75047426	rs2470890	C	T	100	PASS	AC=1183;AF=0.236222;AN=5008;NS=2504;DP=14798;EAS_AF=0.1637;AMR_AF=0.3271;AFR_AF=0.028;EUR_AF=0.5964;SAS_AF=0.1575;AA=C|||;VT=SNP;EX_TARGET	GT	1|1	0|0	1|1	1|1	1|0	1|1	1|1	0|1	1|1	1|0
+15	78871288	rs680244	T	C	100	PASS	AC=3360;AF=0.670927;AN=5008;NS=2504;DP=17485;EAS_AF=0.7698;AMR_AF=0.7839;AFR_AF=0.6036;EUR_AF=0.6103;SAS_AF=0.6421;AA=C|||;VT=SNP	GT	1|1	0|1	1|1	1|1	0|1	1|0	0|0	1|1	0|1	1|1
+15	78882925	rs16969968	G	A	100	PASS	AC=749;AF=0.149561;AN=5008;NS=2504;DP=20833;EAS_AF=0.0268;AMR_AF=0.2089;AFR_AF=0.0234;EUR_AF=0.3658;SAS_AF=0.182;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	0|1	0|1	1|1	0|0	1|0	0|0	1|0	0|1	0|0
+16	23314851	rs1004749	A	C	100	PASS	AC=1044;AF=0.208466;AN=5008;NS=2504;DP=19044;EAS_AF=0.2331;AMR_AF=0.183;AFR_AF=0.1566;EUR_AF=0.2465;SAS_AF=0.2321;AA=C|||;VT=SNP	GT	0|1	0|0	1|0	0|0	0|1	0|0	0|0	1|0	0|0	0|0
+16	23320456	rs9931588	A	T	100	PASS	AC=1757;AF=0.350839;AN=5008;NS=2504;DP=18754;EAS_AF=0.248;AMR_AF=0.2248;AFR_AF=0.6581;EUR_AF=0.2545;SAS_AF=0.2301;AA=T|||;VT=SNP	GT	0|1	0|0	1|0	0|0	0|1	0|0	0|0	1|0	0|0	0|0
+16	23330707	rs886113	G	A	100	PASS	AC=2833;AF=0.565695;AN=5008;NS=2504;DP=19203;EAS_AF=0.501;AMR_AF=0.3631;AFR_AF=0.9448;EUR_AF=0.3598;SAS_AF=0.4755;AA=A|||;VT=SNP	GT	0|1	0|0	1|0	0|0	0|1	0|0	0|0	1|0	0|0	0|0
+16	23345938	rs239345	T	A	100	PASS	AC=1323;AF=0.264177;AN=5008;NS=2504;DP=22474;EAS_AF=0.1994;AMR_AF=0.1888;AFR_AF=0.3775;EUR_AF=0.2734;SAS_AF=0.2219;AA=A|||;VT=SNP	GT	0|1	0|0	1|0	0|0	0|1	0|0	0|0	1|0	0|0	0|0
+16	28578164	esv3638337	T	<CN2>	100	PASS	AC=3;AF=0.000599042;AN=5008;CS=DUP_gs;END=28607576;NS=2504;SVTYPE=DUP;DP=14671;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0031;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+16	28603655	rs1059491	T	G	100	PASS	AC=1126;AF=0.22484;AN=5008;NS=2504;DP=18966;EAS_AF=0.0744;AMR_AF=0.3977;AFR_AF=0.2209;EUR_AF=0.3171;SAS_AF=0.1677;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	1|1	0|0	1|0	1|0	0|0	0|0
+16	28607196	rs10797300	G	A	100	PASS	AC=369;AF=0.0736821;AN=5008;NS=2504;DP=17319;EAS_AF=0.004;AMR_AF=0.1009;AFR_AF=0.0666;EUR_AF=0.1233;SAS_AF=0.0849;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+16	28607232	rs1136703	A	G	100	PASS	AC=1066;AF=0.212859;AN=5008;NS=2504;DP=14050;EAS_AF=0.0734;AMR_AF=0.389;AFR_AF=0.1974;EUR_AF=0.3101;SAS_AF=0.1524;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	1|1	0|0	1|0	1|0	0|0	0|0
+16	28614507	esv3638338;esv3638339;esv3638340;esv3638341;esv3638342	C	<CN0>,<CN2>,<CN3>,<CN4>,<CN5>	100	PASS	AC=73,1181,32,63,11;AF=0.0145767,0.235823,0.00638978,0.0125799,0.00219649;AN=5008;CS=DUP_gs;END=28626916;NS=2504;SVTYPE=CNV;DP=13146;EAS_AF=0.0129,0.2649,0.005,0.0317,0.004;AMR_AF=0.013,0.1254,0.0029,0.0014,0;AFR_AF=0.0061,0.4062,0.0113,0.0159,0.0023;EUR_AF=0.0249,0.1551,0.005,0.005,0;SAS_AF=0.0184,0.137,0.0051,0.0041,0.0041;VT=SV;EX_TARGET	GT	0|0	2|0	0|0	2|0	0|0	0|0	0|0	0|0	0|0	2|0
+16	31102321	rs7294	C	T	100	PASS	AC=2102;AF=0.419728;AN=5008;NS=2504;DP=19063;EAS_AF=0.1121;AMR_AF=0.402;AFR_AF=0.4539;EUR_AF=0.3658;SAS_AF=0.7587;AA=C|||;VT=SNP	GT	0|1	1|0	0|1	1|0	0|0	0|0	0|0	1|1	1|0	1|1
+16	31103796	rs2359612	A	G	100	PASS	AC=3053;AF=0.609625;AN=5008;NS=2504;DP=15749;EAS_AF=0.1151;AMR_AF=0.5749;AFR_AF=0.8215;EUR_AF=0.6123;SAS_AF=0.8548;AA=A|||;VT=SNP	GT	0|1	1|0	1|1	1|0	1|1	1|1	0|0	1|1	1|0	1|1
+16	31104509	rs8050894	C	G	100	PASS	AC=2085;AF=0.416334;AN=5008;NS=2504;DP=12820;EAS_AF=0.8849;AMR_AF=0.4424;AFR_AF=0.2564;EUR_AF=0.3996;SAS_AF=0.1483;AA=C|||;VT=SNP	GT	1|0	0|1	0|0	0|1	0|0	0|0	1|1	0|0	0|1	0|0
+16	31104878	rs9934438	G	A	100	PASS	AC=1782;AF=0.355831;AN=5008;NS=2504;DP=11569;EAS_AF=0.8849;AMR_AF=0.4121;AFR_AF=0.0545;EUR_AF=0.3877;SAS_AF=0.1452;AA=G|||;VT=SNP	GT	1|0	0|1	0|0	0|1	0|0	0|0	1|1	0|0	0|1	0|0
+16	31105353	rs17708472	G	A	100	PASS	AC=469;AF=0.0936502;AN=5008;NS=2504;DP=13194;EAS_AF=0.003;AMR_AF=0.1398;AFR_AF=0.0333;EUR_AF=0.2336;SAS_AF=0.092;AA=G|||;VT=SNP	GT	0|0	0|0	1|0	0|0	1|1	1|1	0|0	0|0	0|0	0|0
+16	31105554	rs2884737	A	C	100	PASS	AC=458;AF=0.0914537;AN=5008;NS=2504;DP=14696;EAS_AF=0.001;AMR_AF=0.1758;AFR_AF=0.0091;EUR_AF=0.2555;SAS_AF=0.0675;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|1	0|0	0|1	0|0	0|0	1|0	0|0	0|0	0|0
+16	31108709	rs17881535	C	G	100	PASS	AC=470;AF=0.0938498;AN=5008;NS=2504;DP=15621;EAS_AF=0.003;AMR_AF=0.1398;AFR_AF=0.0333;EUR_AF=0.2346;SAS_AF=0.092;AA=c|||;VT=SNP	GT	0|0	0|0	1|0	0|0	1|1	1|1	0|0	0|0	0|0	0|0
+16	31110501	rs17880887	G	T	100	PASS	AC=612;AF=0.122204;AN=5008;NS=2504;DP=16363;EAS_AF=0.003;AMR_AF=0.1758;AFR_AF=0.0393;EUR_AF=0.3211;SAS_AF=0.1145;AA=G|||;VT=SNP	GT	0|0	0|0	1|1	0|0	1|1	1|1	0|0	0|0	0|0	0|0
+16	31110981	rs7196161	G	A	100	PASS	AC=2632;AF=0.525559;AN=5008;NS=2504;DP=15771;EAS_AF=0.1151;AMR_AF=0.5706;AFR_AF=0.5129;EUR_AF=0.6074;SAS_AF=0.8497;AA=A|||;VT=SNP	GT	0|1	1|0	1|1	1|0	1|1	1|1	1|0	1|1	1|0	1|1
+17	41188342	rs9911630	A	G	100	PASS	AC=2490;AF=0.497204;AN=5008;NS=2504;DP=17645;EAS_AF=0.371;AMR_AF=0.3271;AFR_AF=0.7602;EUR_AF=0.3638;SAS_AF=0.5297;AA=G|||;VT=SNP	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41196408	rs12516	G	A	100	PASS	AC=1714;AF=0.342252;AN=5008;NS=2504;DP=20901;EAS_AF=0.373;AMR_AF=0.2911;AFR_AF=0.2179;EUR_AF=0.3588;SAS_AF=0.498;AA=G|||;VT=SNP	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41197274	rs8176318	C	A	100	PASS	AC=1625;AF=0.324481;AN=5008;NS=2504;DP=17693;EAS_AF=0.372;AMR_AF=0.2839;AFR_AF=0.1566;EUR_AF=0.3569;SAS_AF=0.498;AA=C|||;VT=SNP	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41197659	rs3092995	G	C	100	PASS	AC=78;AF=0.0155751;AN=5008;NS=2504;DP=17303;EAS_AF=0;AMR_AF=0.0072;AFR_AF=0.0552;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+17	41221932	esv3640620	T	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=-50,50;CIPOS=-50,50;CS=DEL_union;END=41227605;NS=2504;SVTYPE=DEL;DP=19777;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+17	41223094	rs1799966	T	C	100	PASS	AC=1782;AF=0.355831;AN=5008;NS=2504;DP=19602;EAS_AF=0.372;AMR_AF=0.3746;AFR_AF=0.2254;EUR_AF=0.3598;SAS_AF=0.498;AA=T|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41234470	rs1060915	A	G	100	PASS	AC=1684;AF=0.336262;AN=5008;NS=2504;DP=20402;EAS_AF=0.371;AMR_AF=0.3646;AFR_AF=0.1596;EUR_AF=0.3579;SAS_AF=0.4969;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41244000	rs16942	T	C	100	PASS	AC=1766;AF=0.352636;AN=5008;NS=2504;DP=20679;EAS_AF=0.371;AMR_AF=0.3746;AFR_AF=0.2179;EUR_AF=0.3549;SAS_AF=0.498;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41244429	rs4986852	C	T	100	PASS	AC=49;AF=0.00978435;AN=5008;NS=2504;DP=19992;EAS_AF=0;AMR_AF=0.0202;AFR_AF=0.0023;EUR_AF=0.0288;SAS_AF=0.0031;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+17	41244435	rs16941	T	C	100	PASS	AC=1681;AF=0.335663;AN=5008;NS=2504;DP=20076;EAS_AF=0.371;AMR_AF=0.3646;AFR_AF=0.1573;EUR_AF=0.3569;SAS_AF=0.498;AA=T|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41244936	rs799917	G	A	100	PASS	AC=2724;AF=0.54393;AN=5008;NS=2504;DP=21773;EAS_AF=0.371;AMR_AF=0.428;AFR_AF=0.885;EUR_AF=0.3628;SAS_AF=0.5297;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41245237	rs16940	A	G	100	PASS	AC=1679;AF=0.335264;AN=5008;NS=2504;DP=21318;EAS_AF=0.371;AMR_AF=0.3674;AFR_AF=0.1573;EUR_AF=0.3529;SAS_AF=0.498;AA=A|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41245466	rs1799949	G	A	100	PASS	AC=1685;AF=0.336462;AN=5008;NS=2504;DP=20322;EAS_AF=0.371;AMR_AF=0.353;AFR_AF=0.2103;EUR_AF=0.3002;SAS_AF=0.4969;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41245471	rs4986850	C	T	100	PASS	AC=168;AF=0.0335463;AN=5008;NS=2504;DP=20417;EAS_AF=0;AMR_AF=0.0576;AFR_AF=0.0113;EUR_AF=0.0835;SAS_AF=0.0297;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|1	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+17	41257134	rs799912	T	C	100	PASS	AC=2747;AF=0.548522;AN=5008;NS=2504;DP=19976;EAS_AF=0.371;AMR_AF=0.4308;AFR_AF=0.8979;EUR_AF=0.3658;SAS_AF=0.5307;AA=C|||;VT=SNP	GT	0|1	0|0	0|1	0|1	0|0	1|1	0|0	0|0	0|1	0|0
+17	41321910	rs9908805	C	T	100	PASS	AC=4422;AF=0.882987;AN=5008;NS=2504;DP=15975;EAS_AF=1;AMR_AF=0.9726;AFR_AF=0.5983;EUR_AF=0.995;SAS_AF=0.9683;AA=T|||;VT=SNP	GT	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1
+17	41342269	esv3640622	T	<CN0>	100	PASS	AC=1;AF=0.000199681;AN=5008;CIEND=0,500;CIPOS=-500,0;CS=DEL_union;END=41358912;NS=2504;SVTYPE=DEL;DP=17149;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+17	41353410	rs17599948	A	G	100	PASS	AC=886;AF=0.176917;AN=5008;NS=2504;DP=20617;EAS_AF=0.0853;AMR_AF=0.245;AFR_AF=0.0787;EUR_AF=0.1899;SAS_AF=0.3425;AA=A|||;VT=SNP	GT	0|0	0|0	0|0	0|1	0|0	0|1	0|0	0|0	0|1	0|0
+19	11242044	rs14158	G	A	100	PASS	AC=1170;AF=0.233626;AN=5008;NS=2504;DP=18237;EAS_AF=0.4107;AMR_AF=0.219;AFR_AF=0.1551;EUR_AF=0.2266;SAS_AF=0.1748;AA=G|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	1|0	1|0	0|0
+19	11242658	rs1433099	T	C	100	PASS	AC=3191;AF=0.637181;AN=5008;NS=2504;DP=20012;EAS_AF=0.744;AMR_AF=0.7983;AFR_AF=0.3828;EUR_AF=0.7078;SAS_AF=0.684;AA=C|||;VT=SNP	GT	1|1	0|0	1|1	1|1	1|0	1|1	1|1	1|0	1|0	0|1
+19	11243422	rs7254521	C	T	100	PASS	AC=553;AF=0.110423;AN=5008;NS=2504;DP=17219;EAS_AF=0.003;AMR_AF=0.0807;AFR_AF=0.1551;EUR_AF=0.161;SAS_AF=0.1299;AA=C|||;VT=SNP	GT	0|0	0|1	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0
+19	11243445	rs5742911	A	G	100	PASS	AC=1299;AF=0.259385;AN=5008;NS=2504;DP=17785;EAS_AF=0.4107;AMR_AF=0.2853;AFR_AF=0.1596;EUR_AF=0.2863;SAS_AF=0.1922;AA=A|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|1	1|0	1|0	0|0
+19	11243735	rs2738467	C	T	100	PASS	AC=1369;AF=0.273363;AN=5008;NS=2504;DP=17588;EAS_AF=0.2034;AMR_AF=0.4683;AFR_AF=0.028;EUR_AF=0.4473;SAS_AF=0.3599;AA=C|||;VT=SNP	GT	1|1	0|0	1|1	1|1	1|0	0|1	1|0	0|0	0|0	0|1
+19	15985061	esv3643780	T	<CN0>	100	PASS	AC=3;AF=0.000599042;AN=5008;CIEND=-50,50;CIPOS=-50,50;CS=DEL_union;END=16017411;NS=2504;SVTYPE=DEL;DP=18741;EAS_AF=0.003;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	15990431	rs2108622	C	T	100	PASS	AC=1186;AF=0.236821;AN=5008;NS=2504;DP=18423;EAS_AF=0.2143;AMR_AF=0.2378;AFR_AF=0.0825;EUR_AF=0.2903;SAS_AF=0.4131;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	1|0	0|1	0|1	0|0	0|0	1|1	0|0	0|0	1|0
+19	41332171	rs78011401	C	T	100	PASS	AC=1386;AF=0.276757;AN=5008;NS=2504;DP=13641;EAS_AF=0.3502;AMR_AF=0.4164;AFR_AF=0.0242;EUR_AF=0.3211;SAS_AF=0.3978;AA=.|||;VT=SNP;EX_TARGET	GT	1|1	0|1	1|0	1|0	1|0	0|0	0|0	0|1	0|1	0|1
+19	41349759	rs6413474	T	C	100	PASS	AC=24;AF=0.00479233;AN=5008;NS=2504;DP=20935;EAS_AF=0;AMR_AF=0.0058;AFR_AF=0;EUR_AF=0.0119;SAS_AF=0.0082;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41350587	rs28399463	T	C	100	PASS	AC=38;AF=0.00758786;AN=5008;NS=2504;DP=19306;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0265;EUR_AF=0;SAS_AF=0.001;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41350664	rs1809810	A	T	100	PASS	AC=4940;AF=0.986422;AN=5008;NS=2504;DP=17773;EAS_AF=0.9891;AMR_AF=0.9841;AFR_AF=0.9939;EUR_AF=0.9841;SAS_AF=0.9775;AA=.|||;VT=SNP;EX_TARGET	GT	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1	1|1
+19	41351267	rs28399454	C	T	100	PASS	AC=160;AF=0.0319489;AN=5008;NS=2504;DP=18417;EAS_AF=0.001;AMR_AF=0.0058;AFR_AF=0.1172;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41352463	esv3644361	T	<CN0>	100	PASS	AC=228;AF=0.0455272;AN=5008;CIEND=-500,1000;CIPOS=-1000,500;CS=DEL_union;END=41383107;MC=YL_CN_MXL_3344,YL_CN_CHS_4239,YL_CN_CHB_4110;NS=2504;SVTYPE=DEL;DP=17659;EAS_AF=0.1171;AMR_AF=0.0317;AFR_AF=0.0166;EUR_AF=0.0229;SAS_AF=0.044;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|1	0|0	1|0	0|0	0|0
+19	41352941	rs111033610	A	G	100	PASS	AC=8;AF=0.00159744;AN=5008;NS=2504;DP=19099;EAS_AF=0.0079;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41354052	esv3644362;esv3644363	A	<CN0>,<CN2>	100	PASS	AC=259,39;AF=0.0517173,0.00778754;AN=5008;CS=DUP_gs;END=41373538;NS=2504;SVTYPE=CNV;DP=16517;EAS_AF=0.1141,0.002;AMR_AF=0.036,0.0072;AFR_AF=0.0333,0.0136;EUR_AF=0.0278,0.0089;SAS_AF=0.0481,0.0051;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|1	0|0	1|0	0|0	0|0
+19	41354168	rs561452609	TG	T	100	PASS	AC=8;AF=0.00159744;AN=5008;NS=2504;DP=19381;EAS_AF=0;AMR_AF=0;AFR_AF=0.0061;EUR_AF=0;SAS_AF=0;AA=|||unknown(NO_COVERAGE);VT=INDEL;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41354171	rs56256500	G	A	100	PASS	AC=26;AF=0.00519169;AN=5008;NS=2504;DP=18960;EAS_AF=0;AMR_AF=0;AFR_AF=0.0197;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41354533	rs1801272	A	T	100	PASS	AC=46;AF=0.0091853;AN=5008;NS=2504;DP=12445;EAS_AF=0;AMR_AF=0.0072;AFR_AF=0.0008;EUR_AF=0.0338;SAS_AF=0.0061;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41354621	rs59552350	A	C	100	PASS	AC=7;AF=0.00139776;AN=5008;NS=2504;DP=14795;EAS_AF=0;AMR_AF=0;AFR_AF=0.0053;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41354629	rs4986891	C	A	100	PASS	AC=7;AF=0.00139776;AN=5008;NS=2504;DP=14565;EAS_AF=0;AMR_AF=0;AFR_AF=0.0053;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41355738	rs72549435	C	G	100	PASS	AC=16;AF=0.00319489;AN=5008;NS=2504;DP=18761;EAS_AF=0.001;AMR_AF=0.0014;AFR_AF=0.0106;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41355864	rs143690364	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=19143;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41356246	rs28399435	C	T	100	PASS	AC=70;AF=0.0139776;AN=5008;NS=2504;DP=17142;EAS_AF=0;AMR_AF=0.0173;AFR_AF=0.0023;EUR_AF=0.0328;SAS_AF=0.0225;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0	0|0
+19	41356316	rs72549432	T	G	100	PASS	AC=13;AF=0.00259585;AN=5008;NS=2504;DP=18382;EAS_AF=0;AMR_AF=0;AFR_AF=0.0098;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41356319	rs28399434	C	T	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=18526;EAS_AF=0.002;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41356379	rs28399433	A	C	100	PASS	AC=642;AF=0.128195;AN=5008;NS=2504;DP=17801;EAS_AF=0.2391;AMR_AF=0.0994;AFR_AF=0.0825;EUR_AF=0.0716;SAS_AF=0.1544;AA=.|||;VT=SNP	GT	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41449094	esv3644370	A	<CN0>	100	PASS	AC=7;AF=0.00139776;AN=5008;CIEND=-500,1000;CIPOS=-1000,500;CS=DEL_union;END=41517150;NS=2504;SVTYPE=DEL;DP=21207;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0.0045;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41496461	rs4802101	T	C	100	PASS	AC=3775;AF=0.753794;AN=5008;NS=2504;DP=15260;EAS_AF=0.6597;AMR_AF=0.7795;AFR_AF=0.9433;EUR_AF=0.5865;SAS_AF=0.7485;AA=C|||;VT=SNP	GT	1|1	1|1	1|0	1|0	0|1	1|0	0|0	1|1	1|1	1|1
+19	41497129	rs34223104	T	C	100	PASS	AC=82;AF=0.0163738;AN=5008;NS=2504;DP=20478;EAS_AF=0.002;AMR_AF=0.0072;AFR_AF=0.0363;EUR_AF=0.0089;SAS_AF=0.0184;AA=C|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41497272	rs34883432	A	T	100	PASS	AC=18;AF=0.00359425;AN=5008;NS=2504;DP=17020;EAS_AF=0.001;AMR_AF=0.013;AFR_AF=0;EUR_AF=0.007;SAS_AF=0.001;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41497274	rs8192709	C	T	100	PASS	AC=238;AF=0.047524;AN=5008;NS=2504;DP=16955;EAS_AF=0.0466;AMR_AF=0.0432;AFR_AF=0.0416;EUR_AF=0.0626;SAS_AF=0.044;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41497293	rs33980385	A	G	100	PASS	AC=19;AF=0.00379393;AN=5008;NS=2504;DP=17931;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0129;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41497295	rs33926104	C	A	100	PASS	AC=19;AF=0.00379393;AN=5008;NS=2504;DP=17115;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0129;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41497296	rs34284776	G	C	100	PASS	AC=19;AF=0.00379393;AN=5008;NS=2504;DP=16988;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0129;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41497346	rs35303484	A	G	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=18573;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0.004;SAS_AF=0.001;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41509950	rs2279341	G	C	100	PASS	AC=260;AF=0.0519169;AN=5008;NS=2504;DP=16735;EAS_AF=0.0486;AMR_AF=0.049;AFR_AF=0.0514;EUR_AF=0.0606;SAS_AF=0.0491;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41510030	rs36060847	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=15337;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41510063	rs186335453	G	T	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=13849;EAS_AF=0;AMR_AF=0;AFR_AF=0.0015;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41510127	rs2279342	A	T	100	PASS	AC=642;AF=0.128195;AN=5008;NS=2504;DP=13945;EAS_AF=0.1845;AMR_AF=0.17;AFR_AF=0.0439;EUR_AF=0.1183;SAS_AF=0.1646;AA=A|||;VT=SNP	GT	0|0	1|0	0|0	0|0	0|0	1|0	0|0	0|0	0|0	0|0
+19	41510208	rs139801276	T	C	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=16977;EAS_AF=0;AMR_AF=0;AFR_AF=0.0083;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41510282	rs12721655	A	G	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=17499;EAS_AF=0;AMR_AF=0;AFR_AF=0.0015;EUR_AF=0.001;SAS_AF=0.001;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41510286	rs35773040	G	A	100	PASS	AC=5;AF=0.000998403;AN=5008;NS=2504;DP=17589;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41510311	rs145884402	G	T	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=17797;EAS_AF=0;AMR_AF=0;AFR_AF=0.0083;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41511803	rs4803418	C	G	100	PASS	AC=1459;AF=0.291334;AN=5008;NS=2504;DP=16167;EAS_AF=0.4345;AMR_AF=0.3458;AFR_AF=0.0953;EUR_AF=0.3191;SAS_AF=0.3415;AA=C|||;VT=SNP	GT	0|1	1|1	1|0	0|0	0|1	1|0	0|1	0|0	0|0	0|0
+19	41512792	rs4803419	C	T	100	PASS	AC=1448;AF=0.289137;AN=5008;NS=2504;DP=19538;EAS_AF=0.4355;AMR_AF=0.3516;AFR_AF=0.0825;EUR_AF=0.3201;SAS_AF=0.3415;AA=c|||;VT=SNP;EX_TARGET	GT	0|1	1|1	1|0	0|0	0|1	1|0	0|1	0|0	0|0	0|0
+19	41512824	rs3826711	C	G	100	PASS	AC=5;AF=0.000998403;AN=5008;NS=2504;DP=18965;EAS_AF=0.005;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41512828	rs36056539	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=19209;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41512841	rs3745274	G	T	100	PASS	AC=1581;AF=0.315695;AN=5008;NS=2504;DP=19726;EAS_AF=0.2153;AMR_AF=0.3732;AFR_AF=0.3744;EUR_AF=0.2356;SAS_AF=0.3814;AA=g|||;VT=SNP;EX_TARGET	GT	1|0	0|0	0|0	1|0	0|0	0|0	0|0	1|1	1|1	1|1
+19	41512918	rs36079186	T	C	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=22756;EAS_AF=0;AMR_AF=0;AFR_AF=0.0023;EUR_AF=0;SAS_AF=0.001;AA=t|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41513047	rs35266616	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=21920;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=c|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41515255	rs45482602	C	A,T	100	PASS	AC=4,3;AF=0.000798722,0.000599042;AN=5008;NS=2504;DP=13493;EAS_AF=0,0;AMR_AF=0,0;AFR_AF=0.0008,0.0023;EUR_AF=0.001,0;SAS_AF=0.002,0;AA=C|||;VT=SNP;MULTI_ALLELIC;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41515483	rs2279344	G	A	100	PASS	AC=3814;AF=0.761581;AN=5008;NS=2504;DP=16812;EAS_AF=0.6944;AMR_AF=0.8098;AFR_AF=0.8707;EUR_AF=0.6252;SAS_AF=0.7894;AA=a|||;VT=SNP	GT	1|1	1|1	1|0	1|0	0|1	1|0	0|1	1|1	1|1	1|1
+19	41515837	rs12721649	G	A	100	PASS	AC=322;AF=0.0642971;AN=5008;NS=2504;DP=20647;EAS_AF=0;AMR_AF=0.0173;AFR_AF=0.2337;EUR_AF=0.001;SAS_AF=0;AA=g|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41515911	rs139029625	G	C	100	PASS	AC=16;AF=0.00319489;AN=5008;NS=2504;DP=21131;EAS_AF=0;AMR_AF=0;AFR_AF=0.0121;EUR_AF=0;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41515993	rs34698757	C	G	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=20104;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41516009	rs35468935	C	T	100	PASS	AC=30;AF=0.00599042;AN=5008;NS=2504;DP=19546;EAS_AF=0.002;AMR_AF=0.0014;AFR_AF=0.0189;EUR_AF=0.002;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41516122	rs35622401	G	C	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=17829;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=g|||;VT=SNP	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41518221	rs28399499	T	C	100	PASS	AC=116;AF=0.0231629;AN=5008;NS=2504;DP=20360;EAS_AF=0;AMR_AF=0.0101;AFR_AF=0.0825;EUR_AF=0;SAS_AF=0;AA=t|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41518244	rs34826503	C	T	100	PASS	AC=5;AF=0.000998403;AN=5008;NS=2504;DP=20181;EAS_AF=0.001;AMR_AF=0;AFR_AF=0.003;EUR_AF=0;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41518598	rs35979566	T	A	100	PASS	AC=9;AF=0.00179712;AN=5008;NS=2504;DP=18928;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0.0008;EUR_AF=0.005;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41518773	rs8192719	C	T	100	PASS	AC=1587;AF=0.316893;AN=5008;NS=2504;DP=19355;EAS_AF=0.2163;AMR_AF=0.3718;AFR_AF=0.3744;EUR_AF=0.2416;SAS_AF=0.3814;AA=C|||;VT=SNP	GT	1|0	0|0	0|0	1|0	0|0	0|0	0|0	1|1	1|1	1|1
+19	41522631	rs3211369	A	G	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=16923;EAS_AF=0.002;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41522715	rs3211371	C	T	100	PASS	AC=268;AF=0.0535144;AN=5008;NS=2504;DP=14174;EAS_AF=0.003;AMR_AF=0.072;AFR_AF=0.0113;EUR_AF=0.1123;SAS_AF=0.089;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|1	1|0	0|0	0|0	0|0	0|0	0|0
+19	41594450	rs8192784	G	A	100	PASS	AC=373;AF=0.0744808;AN=5008;NS=2504;DP=18001;EAS_AF=0.0615;AMR_AF=0.0288;AFR_AF=0.1853;EUR_AF=0.0109;SAS_AF=0.0358;AA=-|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41594954	rs72552266	C	T	100	PASS	AC=19;AF=0.00379393;AN=5008;NS=2504;DP=17843;EAS_AF=0.001;AMR_AF=0.0058;AFR_AF=0;EUR_AF=0.0119;SAS_AF=0.002;AA=N|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41596082	rs112337232	C	G	100	PASS	AC=128;AF=0.0255591;AN=5008;NS=2504;DP=12287;EAS_AF=0.0099;AMR_AF=0.0086;AFR_AF=0.0794;EUR_AF=0.002;SAS_AF=0.0051;AA=g|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41597751	rs8192789	C	T	100	PASS	AC=376;AF=0.0750799;AN=5008;NS=2504;DP=19353;EAS_AF=0.0625;AMR_AF=0.0288;AFR_AF=0.1876;EUR_AF=0.0109;SAS_AF=0.0348;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41601841	rs138870349	C	T	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=11256;EAS_AF=0.001;AMR_AF=0;AFR_AF=0.0015;EUR_AF=0;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41622107	rs79512346	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=21760;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41622107	rs3833221	G	GC	100	PASS	AC=1362;AF=0.271965;AN=5008;NS=2504;DP=21760;EAS_AF=0.251;AMR_AF=0.1873;AFR_AF=0.4251;EUR_AF=0.1799;SAS_AF=0.2413;AA=C|C|CC|insertion;VT=INDEL;EX_TARGET	GT	1|0	0|0	1|1	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41622205	rs58285195	T	C	100	PASS	AC=301;AF=0.0601038;AN=5008;NS=2504;DP=21079;EAS_AF=0.0288;AMR_AF=0.0793;AFR_AF=0.0673;EUR_AF=0.0427;SAS_AF=0.0869;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	1|1	0|0	0|0	0|0	0|0
+19	41622481	rs57670668	G	A,C	100	PASS	AC=2,25;AF=0.000399361,0.00499201;AN=5008;NS=2504;DP=18879;EAS_AF=0,0;AMR_AF=0,0.0058;AFR_AF=0.0015,0.003;EUR_AF=0,0.0149;SAS_AF=0,0.002;AA=G|||;VT=SNP;MULTI_ALLELIC;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41625361	esv3644372	T	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_gs;END=41653689;NS=2504;SVTYPE=DUP;DP=12388;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41631417	rs144315434	T	C	100	PASS	AC=283;AF=0.0565096;AN=5008;NS=2504;DP=19257;EAS_AF=0.001;AMR_AF=0.0403;AFR_AF=0.1029;EUR_AF=0.0656;SAS_AF=0.0532;AA=t|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41633980	rs7246981	C	T	100	PASS	AC=279;AF=0.0557109;AN=5008;NS=2504;DP=16107;EAS_AF=0.001;AMR_AF=0.2161;AFR_AF=0.0015;EUR_AF=0.0875;SAS_AF=0.0389;AA=c|||;VT=SNP;EX_TARGET	GT	0|1	1|0	0|0	1|1	0|0	0|0	0|0	0|0	1|0	0|1
+19	41709516	rs72547592	C	T	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=14498;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.002;SAS_AF=0;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	41712275	rs34971233	C	T	100	PASS	AC=90;AF=0.0179712;AN=5008;NS=2504;DP=19108;EAS_AF=0;AMR_AF=0.0216;AFR_AF=0.025;EUR_AF=0.0239;SAS_AF=0.0184;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	45411941	rs429358	T	C	100	PASS	AC=754;AF=0.150559;AN=5008;NS=2504;DP=8484;EAS_AF=0.0863;AMR_AF=0.1037;AFR_AF=0.2678;EUR_AF=0.1551;SAS_AF=0.0869;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|1	0|0	0|0	0|1	0|0	0|0	0|0	0|0	0|0
+19	45412079	rs7412	C	T	100	PASS	AC=376;AF=0.0750799;AN=5008;NS=2504;DP=8311;EAS_AF=0.1002;AMR_AF=0.0476;AFR_AF=0.1029;EUR_AF=0.0626;SAS_AF=0.044;AA=c|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|1	0|0	0|0	0|0	0|0
+19	48250461	esv3644559	A	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_uwash;END=48411104;NS=2504;SVTYPE=DUP;DP=19341;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	48374789	rs11569679	C	T	100	PASS	AC=204;AF=0.0407348;AN=5008;NS=2504;DP=20420;EAS_AF=0;AMR_AF=0.0144;AFR_AF=0.1467;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	48377980	rs11569680	T	C	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=18801;EAS_AF=0;AMR_AF=0;AFR_AF=0.0083;EUR_AF=0;SAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	48384787	esv3644567;esv3644568	G	<CN0>,<CN2>	100	PASS	AC=1,1;AF=0.000199681,0.000199681;AN=5008;CS=DUP_gs;END=48402244;NS=2504;SVTYPE=CNV;DP=17552;EAS_AF=0,0.001;AMR_AF=0,0;AFR_AF=0,0;EUR_AF=0,0;SAS_AF=0.001,0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+19	48386992	rs11569681	C	G	100	PASS	AC=120;AF=0.0239617;AN=5008;NS=2504;DP=20495;EAS_AF=0;AMR_AF=0.0058;AFR_AF=0.0877;EUR_AF=0;SAS_AF=0;AA=.|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	19889064	esv3647280	T	<CN2>	100	PASS	AC=1;AF=0.000199681;AN=5008;CS=DUP_uwash;END=19950337;NS=2504;SVTYPE=DUP;DP=21499;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0;VT=SV;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	19949952	rs6269	A	G	100	PASS	AC=1787;AF=0.356829;AN=5008;NS=2504;DP=17807;EAS_AF=0.3423;AMR_AF=0.3141;AFR_AF=0.3714;EUR_AF=0.4125;SAS_AF=0.3252;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|0	1|0	1|0	0|0	0|1	1|0	1|1	1|1	1|0
+22	19950235	rs4633	C	T	100	PASS	AC=1861;AF=0.371605;AN=5008;NS=2504;DP=17719;EAS_AF=0.2698;AMR_AF=0.3804;AFR_AF=0.2935;EUR_AF=0.499;SAS_AF=0.4448;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	0|1	0|1	0|0	0|1	1|0	0|1	0|0	0|0	0|1
+22	19951207	rs4818	C	G	100	PASS	AC=1487;AF=0.296925;AN=5008;NS=2504;DP=16301;EAS_AF=0.3413;AMR_AF=0.2954;AFR_AF=0.1702;EUR_AF=0.4026;SAS_AF=0.3149;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	0|0	1|0	1|0	0|0	0|1	1|0	1|1	1|1	1|0
+22	19951271	rs4680	G	A	100	PASS	AC=1849;AF=0.369209;AN=5008;NS=2504;DP=18556;EAS_AF=0.2798;AMR_AF=0.3775;AFR_AF=0.2806;EUR_AF=0.5;SAS_AF=0.4407;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	0|1	0|1	0|0	0|1	1|0	0|1	0|0	0|0	0|1
+22	42522613	rs1135840	G	C	100	PASS	AC=2009;AF=0.401158;AN=5008;NS=2504;DP=18454;EAS_AF=0.2956;AMR_AF=0.5245;AFR_AF=0.3238;EUR_AF=0.4543;SAS_AF=0.4724;AA=G|||;VT=SNP;EX_TARGET	GT	1|0	1|0	1|1	0|0	0|0	0|0	0|0	1|1	1|1	0|0
+22	42522748	rs532668079	C	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=16084;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42522916	rs149157808	C	T	100	PASS	AC=18;AF=0.00359425;AN=5008;NS=2504;DP=22218;EAS_AF=0.001;AMR_AF=0.0014;AFR_AF=0.0121;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42523475	rs75386357	C	T	100	PASS	AC=4;AF=0.000798722;AN=5008;NS=2504;DP=28006;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0;EUR_AF=0;SAS_AF=0.002;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42523610	rs59421388	C	T	100	PASS	AC=144;AF=0.028754;AN=5008;NS=2504;DP=24991;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.1074;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42523805	rs28371725	C	T	100	PASS	AC=318;AF=0.0634984;AN=5008;NS=2504;DP=19884;EAS_AF=0.0377;AMR_AF=0.062;AFR_AF=0.0182;EUR_AF=0.0934;SAS_AF=0.1217;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|1	1|0	0|0	0|0	0|0	0|0	0|0
+22	42523855	rs140513104	G	A	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=21413;EAS_AF=0.001;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42523858	rs5030867	T	G	100	PASS	AC=9;AF=0.00179712;AN=5008;NS=2504;DP=21615;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0092;AA=T|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42523943	rs16947	A	G	100	PASS	AC=3209;AF=0.640775;AN=5008;NS=2504;DP=21695;EAS_AF=0.8601;AMR_AF=0.6729;AFR_AF=0.4463;EUR_AF=0.6571;SAS_AF=0.638;AA=G|||;VT=SNP;EX_TARGET	GT	1|1	1|1	1|1	1|0	0|0	0|0	0|1	1|1	1|1	0|0
+22	42523949	esv3647809;esv3647810;esv3647811;esv3647812	T	<CN0>,<CN2>,<CN3>,<CN4>	100	PASS	AC=175,591,35,5;AF=0.0349441,0.118011,0.00698882,0.000998403;AN=5008;CS=DUP_gs;END=42533891;NS=2504;SVTYPE=CNV;DP=21610;EAS_AF=0.0268,0.3423,0.0268,0.003;AMR_AF=0.0259,0.0476,0.0014,0;AFR_AF=0.0605,0.0666,0.0038,0.0008;EUR_AF=0.0249,0.0845,0.001,0.001;SAS_AF=0.0256,0.0409,0.001,0;VT=SV;EX_TARGET	GT	0|0	0|0	1|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524175	rs5030656	CCTT	C	100	PASS	AC=36;AF=0.0071885;AN=5008;NS=2504;DP=19102;EAS_AF=0;AMR_AF=0.013;AFR_AF=0.0008;EUR_AF=0.0258;SAS_AF=0;VT=INDEL;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524183	rs201830078	A	T	100	PASS	AC=21;AF=0.00419329;AN=5008;NS=2504;DP=18431;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0;SAS_AF=0.0204;AA=A|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524187	rs548942748	C	T	100	PASS	AC=20;AF=0.00399361;AN=5008;NS=2504;DP=18562;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0204;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524219	rs148769737	G	T	100	PASS	AC=1;AF=0.000199681;AN=5008;NS=2504;DP=19235;EAS_AF=0;AMR_AF=0;AFR_AF=0.0008;EUR_AF=0;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524310	rs28371717	C	A	100	PASS	AC=11;AF=0.00219649;AN=5008;NS=2504;DP=22420;EAS_AF=0.001;AMR_AF=0.0029;AFR_AF=0;EUR_AF=0.006;SAS_AF=0.002;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524817	rs139779104	C	T	100	PASS	AC=22;AF=0.00439297;AN=5008;NS=2504;DP=20613;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.0008;EUR_AF=0.0179;SAS_AF=0.001;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524929	rs553846709	T	TGGGGCGAAAGGGGCGAAA	100	PASS	AC=12;AF=0.00239617;AN=5008;NS=2504;DP=19210;EAS_AF=0;AMR_AF=0;AFR_AF=0.0091;EUR_AF=0;SAS_AF=0;VT=INDEL;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42524947	rs3892097	C	T	100	PASS	AC=466;AF=0.0930511;AN=5008;NS=2504;DP=18076;EAS_AF=0.002;AMR_AF=0.1297;AFR_AF=0.0605;EUR_AF=0.1859;SAS_AF=0.1094;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	0|1	0|0	1|0	0|0	0|0	0|1	0|0	0|0	0|0
+22	42525035	rs5030865	C	T	100	PASS	AC=10;AF=0.00199681;AN=5008;NS=2504;DP=17351;EAS_AF=0.0099;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42525077	rs28371710	C	T	100	PASS	AC=64;AF=0.0127796;AN=5008;NS=2504;DP=16379;EAS_AF=0;AMR_AF=0.0043;AFR_AF=0.0461;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42525089	rs78482768	G	C	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=16419;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.005;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42525134	rs61736512	C	T	100	PASS	AC=147;AF=0.029353;AN=5008;NS=2504;DP=17440;EAS_AF=0;AMR_AF=0.0029;AFR_AF=0.1097;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42525176	rs1135823	C	A	100	PASS	AC=2;AF=0.000399361;AN=5008;NS=2504;DP=17374;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.001;SAS_AF=0.001;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42525772	rs28371706	G	A	100	PASS	AC=296;AF=0.0591054;AN=5008;NS=2504;DP=13746;EAS_AF=0;AMR_AF=0.0086;AFR_AF=0.2179;EUR_AF=0.002;SAS_AF=0;AA=g|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42525811	rs28371704	T	C	100	PASS	AC=347;AF=0.0692891;AN=5008;NS=2504;DP=11352;EAS_AF=0.001;AMR_AF=0.0951;AFR_AF=0.0204;EUR_AF=0.173;SAS_AF=0.0808;AA=C|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|0	1|0	0|0	0|0	0|1	0|0	0|0	0|0
+22	42525821	rs28371703	G	T	100	PASS	AC=347;AF=0.0692891;AN=5008;NS=2504;DP=11471;EAS_AF=0.001;AMR_AF=0.0951;AFR_AF=0.0204;EUR_AF=0.173;SAS_AF=0.0808;AA=g|||;VT=SNP;EX_TARGET	GT	0|1	0|0	0|0	1|0	0|0	0|0	0|1	0|0	0|0	0|0
+22	42526669	rs118203758	C	T	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=21718;EAS_AF=0.006;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42526694	rs1065852	G	A	100	PASS	AC=1192;AF=0.238019;AN=5008;NS=2504;DP=19317;EAS_AF=0.5714;AMR_AF=0.1484;AFR_AF=0.1127;EUR_AF=0.2018;SAS_AF=0.1646;AA=G|||;VT=SNP;EX_TARGET	GT	0|1	0|1	0|0	1|0	0|0	0|0	0|1	0|0	0|0	0|0
+22	42526712	rs138100349	G	A	100	PASS	AC=3;AF=0.000599042;AN=5008;NS=2504;DP=19214;EAS_AF=0;AMR_AF=0;AFR_AF=0;EUR_AF=0.003;SAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42526717	rs28371696	C	T	100	PASS	AC=49;AF=0.00978435;AN=5008;NS=2504;DP=19233;EAS_AF=0;AMR_AF=0.0072;AFR_AF=0.0234;EUR_AF=0.002;SAS_AF=0.0112;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	42526763	rs769258	C	T	100	PASS	AC=84;AF=0.0167732;AN=5008;NS=2504;DP=19497;EAS_AF=0.003;AMR_AF=0.0274;AFR_AF=0.0023;EUR_AF=0.0527;SAS_AF=0.0061;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	1|0
+22	42526775	rs72549358	C	T	100	PASS	AC=6;AF=0.00119808;AN=5008;NS=2504;DP=19268;EAS_AF=0;AMR_AF=0.0014;AFR_AF=0;EUR_AF=0.005;SAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0	0|0
+22	44227556	rs138067	A	G	100	PASS	AC=2383;AF=0.475839;AN=5008;NS=2504;DP=19670;EAS_AF=0.5397;AMR_AF=0.5274;AFR_AF=0.4259;EUR_AF=0.4195;SAS_AF=0.499;AA=G|||;VT=SNP	GT	0|1	1|0	0|1	0|0	1|1	1|1	1|0	0|0	1|1	1|1
+22	44239499	rs138079	T	C	100	PASS	AC=4676;AF=0.933706;AN=5008;NS=2504;DP=18379;EAS_AF=0.9891;AMR_AF=0.889;AFR_AF=0.9501;EUR_AF=0.8559;SAS_AF=0.9663;AA=N|||;VT=SNP	GT	1|1	1|0	1|1	1|0	1|1	1|1	1|1	1|0	1|1	1|1
+22	44248504	rs470089	G	A	100	PASS	AC=1121;AF=0.223842;AN=5008;NS=2504;DP=19007;EAS_AF=0.0694;AMR_AF=0.1571;AFR_AF=0.3442;EUR_AF=0.2197;SAS_AF=0.272;AA=c|||;VT=SNP	GT	0|0	0|0	0|1	0|0	0|1	1|1	0|0	0|0	0|0	0|1
+22	44248601	rs2285161	C	T	100	PASS	AC=1240;AF=0.247604;AN=5008;NS=2504;DP=18948;EAS_AF=0.4534;AMR_AF=0.3703;AFR_AF=0.0787;EUR_AF=0.1988;SAS_AF=0.227;AA=c|||;VT=SNP	GT	0|1	1|0	0|0	0|0	1|0	0|0	1|0	0|0	1|1	1|0
+22	44249463	rs2285162	C	A	100	PASS	AC=1351;AF=0.269768;AN=5008;NS=2504;DP=15557;EAS_AF=0.4544;AMR_AF=0.2104;AFR_AF=0.0499;EUR_AF=0.2783;SAS_AF=0.41;AA=c|||;VT=SNP	GT	0|0	0|1	1|0	1|0	0|0	0|0	0|1	1|0	0|0	0|0
+22	44249905	rs2285164	G	A	100	PASS	AC=1362;AF=0.271965;AN=5008;NS=2504;DP=20243;EAS_AF=0.4573;AMR_AF=0.2147;AFR_AF=0.0499;EUR_AF=0.2823;SAS_AF=0.411;AA=g|||;VT=SNP	GT	0|0	0|1	1|0	1|0	0|0	0|0	0|1	1|0	0|0	0|0
+22	44251189	rs2285167	G	A	100	PASS	AC=636;AF=0.126997;AN=5008;NS=2504;DP=21334;EAS_AF=0.1706;AMR_AF=0.0821;AFR_AF=0.0242;EUR_AF=0.1769;SAS_AF=0.2014;AA=g|||;VT=SNP	GT	0|0	0|0	0|0	1|0	0|0	0|0	0|0	1|0	0|0	0|0
+22	44251648	rs470091	C	T	100	PASS	AC=1134;AF=0.226438;AN=5008;NS=2504;DP=20485;EAS_AF=0.0694;AMR_AF=0.1571;AFR_AF=0.354;EUR_AF=0.2197;SAS_AF=0.272;AA=c|||;VT=SNP	GT	0|0	0|0	0|1	0|0	0|1	1|1	0|0	0|0	0|0	0|1
+22	44251852	rs138099	T	C	100	PASS	AC=1133;AF=0.226238;AN=5008;NS=2504;DP=20092;EAS_AF=0.0694;AMR_AF=0.1571;AFR_AF=0.3533;EUR_AF=0.2197;SAS_AF=0.272;AA=t|||;VT=SNP	GT	0|0	0|0	0|1	0|0	0|1	1|1	0|0	0|0	0|0	0|1
+22	44253089	rs138102	C	T	100	PASS	AC=1127;AF=0.22504;AN=5008;NS=2504;DP=18718;EAS_AF=0.0694;AMR_AF=0.1571;AFR_AF=0.3502;EUR_AF=0.2197;SAS_AF=0.2699;AA=t|||;VT=SNP	GT	0|0	0|0	0|1	0|0	0|1	1|1	0|0	0|0	0|0	0|1
+22	44259781	rs138110	A	G	100	PASS	AC=2447;AF=0.488618;AN=5008;NS=2504;DP=21641;EAS_AF=0.5397;AMR_AF=0.5303;AFR_AF=0.472;EUR_AF=0.4175;SAS_AF=0.502;AA=N|||;VT=SNP	GT	0|1	1|0	0|1	0|0	1|1	1|1	1|0	0|0	1|1	1|1
+X	113818520	rs3813929	C	T	100	PASS	AC=509;AF=0.134834;AN=3775;NS=2504;DP=12499;AMR_AF=0.0893;AFR_AF=0.0091;EUR_AF=0.1193;SAS_AF=0.2076;EAS_AF=0.1111;AA=C|||;VT=SNP	GT	0	0|0	0|1	1|0	0	0|0	0	0	0|0	0
+X	113818582	rs518147	G	C	100	PASS	AC=1180;AF=0.312583;AN=3775;NS=2504;DP=13057;AMR_AF=0.2594;AFR_AF=0.2821;EUR_AF=0.2435;SAS_AF=0.2628;EAS_AF=0.124;AA=C|||;VT=SNP	GT	0	0|0	1|1	1|0	0	1|0	0	1	1|0	0
+X	113965735	rs6318	G	C	100	PASS	AC=626;AF=0.165828;AN=3775;NS=2504;DP=13781;AMR_AF=0.0663;AFR_AF=0.2995;EUR_AF=0.1173;SAS_AF=0.0552;EAS_AF=0.0119;AA=G|||;VT=SNP;EX_TARGET	GT	0	0|0	1|0	0|0	0	1|0	0	1	1|0	0
+X	153760484	rs72554665	C	A	100	PASS	AC=6;AF=0.0015894;AN=3775;NS=2504;DP=10609;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0;EAS_AF=0.006;AA=c|||;VT=SNP;EX_TARGET	GT	0	0|0	0|0	0|0	0	0|0	0	0	0|0	0
+X	153760654	rs2230037	G	A	100	PASS	AC=815;AF=0.215894;AN=3775;NS=2504;DP=11889;AMR_AF=0.1239;AFR_AF=0.2171;EUR_AF=0.0716;SAS_AF=0.2781;EAS_AF=0.0972;AA=g|||;VT=SNP;EX_TARGET	GT	0	0|0	1|0	0|0	0	0|0	0	0	0|0	0
+X	153761240	rs76723693	A	G	100	PASS	AC=12;AF=0.00317881;AN=3775;NS=2504;DP=13812;AMR_AF=0.0029;AFR_AF=0.0076;EUR_AF=0;SAS_AF=0;EAS_AF=0;AA=A|||;VT=SNP;EX_TARGET	GT	0	0|0	0|0	0|0	0	0|0	0	0	0|0	0
+X	153761259	rs137852339	C	T	100	PASS	AC=8;AF=0.00211921;AN=3775;NS=2504;DP=14781;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0082;EAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0	0|0	0|0	0|0	0	0|0	0	0	0|0	0
+X	153762634	rs5030868	G	A	100	PASS	AC=3;AF=0.000794702;AN=3775;NS=2504;DP=14000;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.0031;EAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0	0|0	0|0	0|0	0	0|0	0	0	0|0	0
+X	153763492	rs1050829	T	C	100	PASS	AC=357;AF=0.0945695;AN=3775;NS=2504;DP=14707;AMR_AF=0.0216;AFR_AF=0.2564;EUR_AF=0.003;SAS_AF=0;EAS_AF=0;AA=T|||;VT=SNP;EX_TARGET	GT	0	0|0	0|0	0|0	0	0|0	0	0	0|0	0
+X	153764217	rs1050828	C	T	100	PASS	AC=142;AF=0.0376159;AN=3775;NS=2504;DP=14353;AMR_AF=0.0101;AFR_AF=0.1021;EUR_AF=0;SAS_AF=0;EAS_AF=0;AA=C|||;VT=SNP;EX_TARGET	GT	0	0|0	0|0	0|0	0	0|0	0	0	0|0	0
+X	153764383	rs78478128	G	C	100	PASS	AC=1;AF=0.000264901;AN=3775;NS=2504;DP=13751;AMR_AF=0;AFR_AF=0;EUR_AF=0;SAS_AF=0.001;EAS_AF=0;AA=G|||;VT=SNP;EX_TARGET	GT	0	0|0	0|0	0|0	0	0|0	0	0	0|0	0

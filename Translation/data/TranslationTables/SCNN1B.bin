@@ -1,0 +1,5 @@
+SCNN1B	Source	flag	Ref	VarA	VarB	VarC	1_1	1_2	1_3	1_4
+rs1004749	PharmGKB	y	A	C	ND	ND	0	1	0	0
+rs239345	PharmGKB	y	T	A	ND	ND	0	1	0	1
+rs886113	PharmGKB	y	G	A	ND	ND	0	1	1	1
+rs9931588	PharmGKB	y	A	T	ND	ND	0	1	0	0

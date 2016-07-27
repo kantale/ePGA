@@ -1,0 +1,9 @@
+UGT1A7	Source	flag	Ref	VarA	VarB	VarC	*1a	*2	*3	*4	*5	*9	*10	*11	*14
+rs11692021	PharmGKB	y	T	C	ND	ND	0	0	1	1	0	0	1	0	0
+rs17863778	PharmGKB	y	C	A	ND	ND	0	1	1	0	0	1	1	0	0
+rs17868323	PharmGKB	y	T	G	ND	ND	0	1	1	0	0	1	1	0	0
+rs17868324	PharmGKB	y	G	A	ND	ND	0	1	1	0	0	1	1	1	0
+rs56385016	PharmGKB	y	A	G	ND	ND	0	0	0	0	0	0	1	0	0
+rs61261057	PharmGKB	y	G	A	ND	ND	0	0	0	0	1	1	0	0	0
+rs72551332	PharmGKB	y	G	C	ND	ND	0	0	0	0	0	0	0	0	1
+rs7586110	PharmGKB	y	T	G	ND	ND	0	0	0	0	0	0	0	0	0

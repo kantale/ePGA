@@ -1,0 +1,11 @@
+CYP1A1	Source	flag	Ref	VarA	VarB	VarC	*1	*2A	*2B	*2C	*3	*4	*5	*6	*7	*8	*9	*10	*11
+rs1048943	PharmGKB	y	T	C	ND	ND	T	T	C	C	T	T	T	T	T	T	T	T	T
+rs1799814	PharmGKB	y	G	T	ND	ND	G	G	G	G	G	T	G	G	G	G	G	G	G
+rs1800031	PharmGKB	y	A	G	ND	ND	A	A	A	A	G	A	A	A	A	A	A	A	A
+rs28399430	PharmGKB	y	G	C	ND	ND	G	G	G	G	G	G	G	G	G	G	G	G	C
+rs41279188	PharmGKB	y	G	T	A	ND	G	G	G	G	G	G	T	G	G	G	A	G	G
+rs4646903	PharmGKB	y	A	G	ND	ND	A	G	G	A	A	A	A	A	A	A	A	A	A
+rs56240201	PharmGKB	y	G	A	ND	ND	G	G	G	G	G	G	G	G	G	G	G	A	G
+rs56313657	PharmGKB	y	C	A	ND	ND	C	C	C	C	C	C	C	A	C	C	C	C	C
+rs72547509	PharmGKB	y	A	T	ND	ND	A	A	A	A	A	A	A	A	A	T	A	A	A
+rs72547510	PharmGKB	y	-	A	ND	ND	-	-	-	-	-	-	-	-	A	-	-	-	-

@@ -1,0 +1,12 @@
+.shiny-progress .bar {
+background-color: #00cfca;
+
+}
+
+.shiny-progress .progress {
+height: 10px;
+}
+
+tfoot {
+    display: table-header-group;
+}

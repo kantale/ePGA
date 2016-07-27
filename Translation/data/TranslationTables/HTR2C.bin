@@ -1,0 +1,4 @@
+HTR2C	Source	flag	Ref	VarA	VarB	VarC	1--2--1	2--1--1	2--2--2
+rs3813929	PharmGKB	y	T	C	ND	ND	0	1	1
+rs518147	PharmGKB	y	C	G	ND	ND	0	1	0
+rs6318	PharmGKB	y	G	C	ND	ND	0	0	1

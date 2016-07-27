@@ -1,0 +1,6 @@
+PIK3CA	Source	flag	Ref	VarA	VarB	VarC	H1	H2	H3	H4	H5
+rs2459693	PharmGKB	y	C	T	ND	ND	0	1	1	1	1
+rs2677760	PharmGKB	y	C	T	ND	ND	0	1	1	1	0
+rs2699905	PharmGKB	y	C	T	ND	ND	0	1	0	0	0
+rs6443624	PharmGKB	y	C	A	ND	ND	0	0	1	0	0
+rs9831234	PharmGKB	y	A	G	ND	ND	0	0	1	0	0

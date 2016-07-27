@@ -1,0 +1,6 @@
+CDA	Source	flag	Ref	VarA	VarB	VarC	*1A	*1B	*1C	*1D	*1L	*1Q	*2A	*2B	*2D	*1M	*1N	*10
+rs1048977	PharmGKB	y	C	T	ND	ND	C	C	T	T	C	C	T	C	T	T	C	C
+rs2072671	PharmGKB	y	A	C	ND	ND	A	A	A	A	A	A	C	C	C	A	A	A
+rs3215400	PharmGKB	y	C	-	ND	ND	C	-	-	C	-	-	-	-	C	-	C	-
+rs532545	PharmGKB	y	C	T	ND	ND	C	C	C	C	T	C	T	T	C	T	T	T
+rs602950	PharmGKB	y	A	G	ND	ND	A	A	A	A	G	G	G	G	A	G	A	A

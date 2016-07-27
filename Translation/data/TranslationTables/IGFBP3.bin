@@ -1,0 +1,5 @@
+IGFBP3	Source	flag	Ref	VarA	VarB	VarC	1	2	3	4	5	6	7	8	9	10	11
+rs2854744	PharmGKB	y	T	G	ND	ND	0	1	0	1	1	1	1	0	0	0	1
+rs2854746	PharmGKB	y	C	G	ND	ND	0	1	1	1	0	0	0	1	0	1	0
+rs2960436	PharmGKB	y	A	G	ND	ND	0	1	0	1	1	0	1	1	0	0	0
+rs3110697	PharmGKB	y	G	A	ND	ND	0	1	0	0	1	0	0	1	1	1	1

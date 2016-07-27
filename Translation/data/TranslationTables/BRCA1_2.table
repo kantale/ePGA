@@ -1,0 +1,10 @@
+BRCA1_2	Source	flag	Ref	VarA	VarB	VarC	1	3	5	8	9	10
+rs1060915	PharmGKB	y	A	G	ND	ND	A	G	A	A	A	G
+rs16940	PharmGKB	y	A	G	ND	ND	A	A	A	A	A	A
+rs16941	PharmGKB	y	T	C	ND	ND	T	T	T	T	T	C
+rs16942	PharmGKB	y	T	C	ND	ND	T	T	T	T	C	T
+rs1799949	PharmGKB	y	G	A	ND	ND	G	G	G	G	A	G
+rs1799966	PharmGKB	y	T	C	ND	ND	T	C	T	T	C	C
+rs4986850	PharmGKB	y	C	T	ND	ND	C	C	C	C	C	C
+rs4986852	PharmGKB	y	C	T	ND	ND	C	C	T	C	C	C
+rs799917	PharmGKB	y	G	A	ND	ND	G	G	G	A	A	G

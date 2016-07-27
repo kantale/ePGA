@@ -1,0 +1,6 @@
+SLC22A1	Source	flag	Ref	VarA	VarB	VarC	*1	*2	*3	*4	*5	*6
+rs12208357	PharmGKB	y	C	T	ND	ND	C	C	T	C	C	C
+rs34059508	PharmGKB	y	G	C	ND	ND	G	G	G	G	C	G
+rs34130495	PharmGKB	y	G	A	ND	ND	G	G	G	A	G	G
+rs55918055	PharmGKB	y	T	C	ND	ND	T	T	T	T	T	C
+rs72552763	PharmGKB	y	GAT	-	ND	ND	GAT	-	GAT	GAT	-	-

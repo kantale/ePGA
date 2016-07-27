@@ -1,0 +1,4 @@
+SULT1A3	Source	flag	Ref	VarA	VarB	VarC	*1	*2	*3	*4	*5
+rs35044222	PharmGKB	y	G	T	ND	ND	G	T	G	G	G
+rs67878449	PharmGKB	y	C	T	ND	ND	C	C	C	C	T
+rs67944833	PharmGKB	y	C	T	A	ND	C	C	T	A	C

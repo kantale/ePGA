@@ -1,0 +1,12 @@
+SULT4A1	Source	flag	Ref	VarA	VarB	VarC	#1	#2	#3	#4	#5	#6
+rs138067	PharmGKB	y	A	G	ND	ND	0	0	0	0	1	1
+rs138079	PharmGKB	y	C	T	ND	ND	0	0	0	1	0	0
+rs138099	PharmGKB	y	T	C	ND	ND	0	0	0	0	1	0
+rs138102	PharmGKB	y	C	T	ND	ND	0	0	0	0	1	0
+rs138110	PharmGKB	y	A	G	ND	ND	0	0	0	0	1	1
+rs2285161	PharmGKB	y	C	T	ND	ND	0	0	0	0	0	1
+rs2285162	PharmGKB	y	A	C	ND	ND	0	1	0	1	1	1
+rs2285164	PharmGKB	y	A	G	ND	ND	0	1	0	1	1	1
+rs2285167	PharmGKB	y	G	A	ND	ND	0	0	1	0	0	0
+rs470089	PharmGKB	y	G	A	ND	ND	0	0	0	0	1	0
+rs470091	PharmGKB	y	C	T	ND	ND	0	0	0	0	1	0

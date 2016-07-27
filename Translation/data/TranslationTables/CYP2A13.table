@@ -1,0 +1,9 @@
+CYP2A13	Source	flag	Ref	VarA	VarB	VarC	*1	*4	*5	*6	*7	*8
+rs112337232	PharmGKB	y	C	G	ND	ND	C	C	C	C	C	G
+rs138870349	PharmGKB	y	C	T	ND	ND	C	C	C	T	C	C
+rs148044792	PharmGKB	y	G	A	ND	ND	G	A	G	G	G	G
+rs57082577	PharmGKB	y	-	ACC	ND	ND	-	-	-	-	-	-
+rs72547590	PharmGKB	y	T	A	ND	ND	T	T	A	T	T	T
+rs72552266	PharmGKB	y	C	T	ND	ND	C	C	C	C	T	C
+rs8192784	PharmGKB	y	G	A	ND	ND	G	G	G	G	G	G
+rs8192789	PharmGKB	y	C	T	ND	ND	C	C	C	C	C	C
