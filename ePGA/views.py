@@ -10,8 +10,7 @@ from django.db.models import Q
 
 from django import forms
 
-#from dosing2.models import Gene, RelatedDrugs, Dosing
-import dosing2.models
+import ePGA.models
 
 import re
 import itertools
@@ -68,8 +67,7 @@ def index(request, INIT_GENE='', INIT_ALLELES=''):
 		'allele_number' : len(ret['alleles_names'])-0,
 		}
 
-		return render(request, 'dosing2/explore.html', context)
-		#return render(request, 'dosing2/index.html', context)
+		return render(request, 'ePGA/explore.html', context)
 
 	elif version == 2:
 		processed_file = "''"
@@ -81,8 +79,7 @@ def index(request, INIT_GENE='', INIT_ALLELES=''):
 		else:
 			upload_form = UploadFileForm()
 
-		#return render(request, 'dosing2/index.html', {
-		return render(request, 'dosing2/explore.html', {
+		return render(request, 'ePGA/explore.html', {
 			'upload_form':upload_form, 
 #			'processed_file' : processed_file,
 			'upload_data_script' : 'var uds = %s;' % processed_file,
@@ -90,22 +87,22 @@ def index(request, INIT_GENE='', INIT_ALLELES=''):
 			})
 
 def start(request):
-	return render(request, 'dosing2/start.html', {})
+	return render(request, 'ePGA/start.html', {})
 
 def about(request):
-	return render(request, 'dosing2/about.html', {})
+	return render(request, 'ePGA/about.html', {})
 
 def studies(request):
-	return render(request, 'dosing2/studies.html', {})	
+	return render(request, 'ePGA/studies.html', {})	
 
 def events(request):
-	return render(request, 'dosing2/events.html', {})	
+	return render(request, 'ePGA/events.html', {})	
 
 def translate(request):
-	return render(request, 'dosing2/translate.html', {})	
+	return render(request, 'ePGA/translate.html', {})	
 
 def explore(request):
-	#return render(request, 'dosing2/explore.html', {})
+	#return render(request, 'ePGA/explore.html', {})
 	return index(request)
 
 #Connection with Tzennis's translation 
@@ -363,7 +360,6 @@ def do_query(request, allowed=True, add_null_tv=False, INIT_GENE=None, INIT_ALLE
 		ms = ms_GET
 		alleles = alleles_GET
 
-
 	filtered = filter_db(genes, drugs, ms, alleles, add_null_tv=add_null_tv, allowed=allowed)
 
 	#print filtered['genes_names']
@@ -419,15 +415,15 @@ def do_query(request, allowed=True, add_null_tv=False, INIT_GENE=None, INIT_ALLE
 	return ret, filtered
 
 def genes_from_list(genes):
-	return [g for gs in genes for g in dosing2.models.Gene.objects.filter(symbol=gs)]
+	return [g for gs in genes for g in ePGA.models.Gene.objects.filter(symbol=gs)]
 
 def drugs_from_list(drugs):
-	return [rd for d in drugs for rd in dosing2.models.RelatedDrugs.objects.filter(relatedDrug=d)]
+	return [rd for d in drugs for rd in ePGA.models.RelatedDrugs.objects.filter(relatedDrug=d)]
 
 def geneDrugs_from_genes(genes):
 	ret = []
 	for g in genes:
-		for gd in dosing2.models.GeneDrug.objects.filter(gene=g):
+		for gd in ePGA.models.GeneDrug.objects.filter(gene=g):
 			ret += [gd]
 
 	return ret
@@ -435,7 +431,7 @@ def geneDrugs_from_genes(genes):
 def geneDrugs_from_drugs(drugs, allowed=None):
 	ret = []
 	for d in drugs:
-		for gd in dosing2.models.GeneDrug.objects.filter(relatedDrug=d):
+		for gd in ePGA.models.GeneDrug.objects.filter(relatedDrug=d):
 			if (allowed and (gd in allowed)) or (not allowed):
 				ret += [gd]
 
@@ -594,7 +590,7 @@ def filter_db(genes, drugs, ms, alleles, add_null_tv=False, start=False, allowed
 
 	#If not selection has been done, then get everything 
 	if (not yes_genes) and (not yes_drugs) and (not yes_ms) and (not yes_alleles):
-		ret['genes'] = dosing2.models.Gene.objects.all()
+		ret['genes'] = ePGA.models.Gene.objects.all()
 		ret['check_all'] = False # DO NOT CHECK ALL RETURNED ITEMS, WHEN NO SELECTION HAS BEEN DONE
 	else:
 		ret['check_all'] = True # SELECT EVERYTHING (A selection has been performed)
@@ -629,7 +625,7 @@ def filter_db(genes, drugs, ms, alleles, add_null_tv=False, start=False, allowed
 		#print '--> 1.42 gene drugs ->--', len(ret['geneDrugs']), 'Unique:', len(set(ret['geneDrugs']))
 
 		if allowed:
-			ret['drugs'] = [dosing2.models.RelatedDrugs.objects.get(relatedDrug=x) for x in drugs if x in drug_names]
+			ret['drugs'] = [ePGA.models.RelatedDrugs.objects.get(relatedDrug=x) for x in drugs if x in drug_names]
 			#print '--->1.45 drugs->---', len(ret['drugs'])
 			ret['geneDrugs'] = geneDrugs_from_drugs(ret['drugs'], allowed=ret['geneDrugs'])
 			#print '--> 1.46 gene drugs ->--', len(ret['geneDrugs']), 'Unique:', len(set(ret['geneDrugs']))
@@ -643,7 +639,7 @@ def filter_db(genes, drugs, ms, alleles, add_null_tv=False, start=False, allowed
 			ret['genes'] = genes_from_geneDrugs(ret['geneDrugs'], allowed=ret['genes'])
 			#print '--> 1.47 genes ->--', len(ret['genes']), 'Unique:', len(set(ret['genes']))
 		else:
-			ret['drugs'] += [dosing2.models.RelatedDrugs.objects.get(relatedDrug=x) for x in drugs if x not in drug_names]
+			ret['drugs'] += [ePGA.models.RelatedDrugs.objects.get(relatedDrug=x) for x in drugs if x not in drug_names]
 			ret['geneDrugs'] = geneDrugs_from_drugs(ret['drugs'])
 			ret['genes'] = genes_from_geneDrugs(ret['geneDrugs'])
 		#ret['term'] = term_from_geneDrugs(ret['geneDrugs'])
@@ -661,7 +657,7 @@ def filter_db(genes, drugs, ms, alleles, add_null_tv=False, start=False, allowed
 		#Search is done based on alleles
 		if not ret['alleles']:
 			#Get all alleles
-			ret['alleles'] = dosing2.models.Alleles.objects.all()
+			ret['alleles'] = ePGA.models.Alleles.objects.all()
 
 
 		new_alleles = []
@@ -697,7 +693,7 @@ def filter_db(genes, drugs, ms, alleles, add_null_tv=False, start=False, allowed
 		#Search is done based on alleles
 		if not ret['alleles']:
 			#Get all alleles
-			ret['alleles'] = dosing2.models.Alleles.objects.all()
+			ret['alleles'] = ePGA.models.Alleles.objects.all()
 
 		#print '-->2.57 alleles lengths->--', len(ret['alleles'])
 		#print '--> yes alleles:', yes_alleles
@@ -727,18 +723,6 @@ def filter_db(genes, drugs, ms, alleles, add_null_tv=False, start=False, allowed
 
 	#print '-->3- len drugs>--', len(ret['drugs'])
 
-#		alleles_names = [a.alleles  for a in ret['alleles']]
-#		ret['alleles'] = []
-#		for x in alleles:
-#			if x in alleles_names:
-#				for a in dosing2.models.Alleles.objects.filter(alleles=x):
-#					ret['alleles'] += [a]
-#		#ret['alleles'] = [dosing2.models.Alleles.objects.get(alleles=x) for x in alleles if x in alleles_names]
-#		ret['termValues'] = termValues_from_alleles(ret['alleles'], allowed=ret['termValues'])
-#		ret['term'] = terms_from_termValues(ret['termValues'], allowed=ret['term'])
-#		ret['geneDrugs'] = geneDrug_from_terms(ret['term'], allowed=ret['geneDrugs'])
-#		ret['drugs'] = drugs_from_geneDrugs(ret['geneDrugs'], ret['drugs'])
-#		ret['genes'] = genes_from_geneDrugs(ret['geneDrugs'], ret['genes'])
 		
 	#Get unuque values
 	ret['genes_names'] = sorted(list(set([x.symbol for x in ret['genes']])))
@@ -832,7 +816,7 @@ curl 'http://www.epga.gr/explore/recommendations/' -H 'Host: www.epga.gr' -H 'Us
 
 	ret = {}
 
-	for gd in dosing2.models.GeneDrug.objects.all():
+	for gd in ePGA.models.GeneDrug.objects.all():
 		g = gd.gene
 		rd = gd.relatedDrug
 		g_symbol = g.symbol
@@ -899,8 +883,6 @@ curl 'http://www.epga.gr/explore/recommendations/' -H 'Host: www.epga.gr' -H 'Us
 	#with open('tzenh_7_aug_2015.txt', 'w') as f:
 	#	f.write(json + '\n')
 
-#	with open('init_data.js', 'w') as f:
-#		f.write('data=' + json) # mv init_data.js dosing2/static/dosing2/ 
 
 	return HttpResponse(json, content_type='application/json')
 

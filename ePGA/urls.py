@@ -1,14 +1,12 @@
 
 from django.conf.urls import patterns, url
 
-from dosing2 import views
+from ePGA import views
 
 # get_var = r'[\w\ \,]+'
 get_var = r'[\w\*\&\(\)\:\>\-\_\ \#\.\,]+'
 
 urlpatterns = patterns('',
-#    url(r'^$', views.index, name='index'),
-#    url(r'^start/$', views.start, name='start'),
     url(r'^$', views.start, name='start'),
     url(r'^about/$', views.about, name='about'),
     url(r'^studies/$', views.studies, name='studies'),
