@@ -25,7 +25,7 @@ python manage.py runserver 0.0.0.0:8000
 ## Translation Installation
 The Translation service of ePGA is a shiny web application. To install, make sure that the following packages are installed in R: ```shiny```, ```shinyBS```, ```rmarkdown```, ```doSNOW```, ```gdata```, ```knitr```.
 
-Alsi the followig biocLite packages are necessary: [VariantAnnotation](https://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html)
+Also the followig biocLite packages are necessary: [VariantAnnotation](https://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html)
 
 A suitable latex environment should also be installed. For example miktext in Windows, or standard latex on Linux. 
 
