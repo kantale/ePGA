@@ -2,24 +2,28 @@
 
 Working installation: [http://www.epga.gr/](http://www.epga.gr/)
 
-Use ePGA’s explore service to:
+ePGA is comprised by two different services Explore and Translate:
+
+Explore:
 * Receive personalized recommendations based on gene-drug-phenotype associations.
 * Browse the state of the art pharmacogenomics knowledge on gene-drug-phenotype associations.
 
-Use ePGA’s translate service to:
+Translate:
 * Upload individual genotypes and receive a report on their phenotypes for all known pharmacogenes.
 * Browse pharmacogenomics summary data on a set of genotypes.
 
+These are two independent web services, although in order to get full functionality both should be running. 
+
 LICENSE: [GNU GENERAL PUBLIC LICENSE, Version 3](LICENSE.md)
 
-## INSTALLATION
-The ePGA explore is a django app. This repo includes an example project called 'main'. To test the installatio run:
+## Explore Installation
+The ePGA explore service is a django app that is located on the [ePGA](ePGA/) folder. This repo includes an example project called 'main'. To test the installatio run:
 ```bash
 python manage.py runserver 0.0.0.0:8000
 ```
 
-## Translation
-Make sure that the following packages are installed in R: ```shiny```, ```shinyBS```, ```rmarkdown```.
+## Translation Installation
+The Translation service of ePGA is a shiny web application. To install, make sure that the following packages are installed in R: ```shiny```, ```shinyBS```, ```rmarkdown```.
 
 Also the followig biocLite packages are necessary: [VariantAnnotation](https://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html)
 
