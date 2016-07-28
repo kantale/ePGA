@@ -2,7 +2,7 @@
 
 Working installation: [http://www.epga.gr/](http://www.epga.gr/)
 
-ePGA is comprised by two different services Explore and Translate:
+ePGA is comprised by two different services: Explore and Translate.
 
 Explore:
 * Receive personalized recommendations based on gene-drug-phenotype associations.
