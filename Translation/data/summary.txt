@@ -1,3 +1,0 @@
-Translated Samples : 	3
-Genes (matched): 	72
-Haplotypes(matched): 	93
