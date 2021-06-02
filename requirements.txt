@@ -4,5 +4,5 @@ Django==1.10.6
 idna==2.6
 requests==2.18.4
 simplejson==3.13.2
-urllib3==1.22
+urllib3==1.26.5
 django-cors-headers==1.1.0
