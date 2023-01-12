@@ -1,0 +1,19 @@
+
+FROM ubuntu:18.04
+
+RUN apt-get update && \
+    apt-get install -y wget python2.7 python-pip apache2-dev && \
+    pip install mod_wsgi-httpd mod_wsgi && \
+    wget -O epga2_project.tar.gz "https://www.dropbox.com/s/1txwgp33311odhm/epga2_project.tgz?dl=0" && \
+    tar zxvf epga2_project.tar.gz && \
+    pip install -r epga2_project/requirements.txt
+
+
+WORKDIR "/epga2_project" 
+
+
+CMD [“python”, “manage.py”, "runserver", "0.0.0.0:8200"]
+
+# docker run -p 8200:8200 -it explore 
+
+

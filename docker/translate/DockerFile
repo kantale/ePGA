@@ -1,0 +1,29 @@
+
+FROM ubuntu:18.04
+
+RUN apt-get update && \
+    apt-get install -y wget build-essential libcurl4-gnutls-dev libssl-dev libssl-dev  gfortran lib32readline7 lib32readline-dev zlib1g-dev  libbz2-dev  liblzma-dev libpcre3 libpcre3-dev openjdk-8-jdk libxml2-dev libmariadbclient-dev git
+
+RUN wget -O "R-3.4.3.tar.gz" https://cran.r-project.org/src/base/R-3/R-3.4.3.tar.gz && \
+    tar zxvf R-3.4.3.tar.gz  
+
+WORKDIR "/R-3.4.3"
+RUN ./configure --with-readline=no --with-x=no && \
+   make && \
+   make install 
+
+WORKDIR "/"
+
+ADD s.r /s.r 
+RUN Rscript s.r
+
+
+RUN git clone https://github.com/kantale/ePGA && \
+wget -O "/ePGA/Translation/data.tgz" "https://www.dropbox.com/s/vvq2t2hdcf4fph3/data.tgz?dl=1" && \
+tar -zxvf /ePGA/Translation/data.tgz --directory /ePGA/Translation/
+
+WORKDIR "/ePGA/Translation"
+
+CMD ["R", "CMD", "BATCH", "./translation.r"]
+
+
