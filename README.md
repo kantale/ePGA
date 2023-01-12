@@ -2,6 +2,7 @@
 
 Working installation: [http://www.epga.gr/](http://www.epga.gr/)
 
+
 ePGA is comprised by two different services: Explore and Translate.
 
 Explore:
@@ -49,6 +50,9 @@ Or from R:
 ```R
 source('translation.r')
 ```
+
+## Docker 
+Docker files for [explore](docker/explore) and [translate](docker/translate) are available. 
 
 ## Contact
 Development
